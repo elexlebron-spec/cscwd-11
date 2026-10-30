@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-30",
+  "tests_passed": 20,
+  "validation": {
+    "source_blobs_verified": 10,
+    "cohorts": {
+      "ownership_case_v8_diagnostic": {
+        "cases": 64,
+        "enumerated_labels_each": 256,
+        "values_solutions_capacities_valid": true,
+        "source_snapshot_hashes_valid": true
+      },
+      "ownership_case_v8_completed": {
+        "cases": 64,
+        "enumerated_labels_each": 256,
+        "values_solutions_capacities_valid": true,
+        "source_snapshot_hashes_valid": true
+      }
+    }
+  },
+  "core_proof_byte_identical_to_v7": true,
+  "core_proof_sha256": "84459c54718a75db9cd2495e009eacb842991bd78d465eef5e7bc3d66008633f",
+  "old_raw_results_modified": false,
+  "new_case_is_runtime_benchmark": false,
+  "paper_pages": 6,
+  "paper_sha256": "d23e242f05afd3c0f44c9ae5a1c828ec7fe385b72b1c854ebd1331f7a95eec63",
+  "known_gap": "No measured operational loads, handoff costs or industrial speed benefit. Listed owners are not a live permission/skill audit."
+}

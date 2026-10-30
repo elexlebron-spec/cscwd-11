@@ -1,0 +1,10 @@
+{
+  "scripts/ownership_case_v8.py": "2c2d95fadbf28b09a403dfc7557a274e029da8f085e4cd4216e941e694122a90",
+  "configs/ownership_case_v8.json": "6f1d9c3a678e21d23c86a0551687ba16ae3b951fecc75f3b6ca193ea4478509c",
+  "barr/applicability.py": "0b734e25cb47847b3ce1eb5c8201474398efa9168b0ebb3fef263758fcf8356f",
+  "barr/core.py": "80709885be44d57d046d36eff15e69da74d214a4bffb51cf1e1e118431cf6e04",
+  "barr/cpsat.py": "bcaecd52f93270a0f73eb1a086e09f259649884f9650c620b9d1e07333cfffd9",
+  "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+  "barr/timing.py": "7804384e67ac4e458621c8e760482ecd83e3a340a294855e05824b11aac8d6f6",
+  "data/fluentui_v8/provenance.json": "a27f4ea16976c4325077211ff7f1552e4668cb3bb969cdcc890294e52bacf433"
+}

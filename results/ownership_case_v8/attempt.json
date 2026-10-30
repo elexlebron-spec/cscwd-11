@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_saving_rows",
+  "error": "StopIteration in illustration selection: no case met the non-shortcut illustration predicate",
+  "configuration": "cost-4 diagnostic, 8 anchors x 2 increases x 4 budgets",
+  "handling": "Allowed an absent illustration and regenerated the identical deterministic cost-4 configuration in ownership_case_v8_diagnostic. No timing comparison or result filtering.",
+  "later_case": "cost-1 illustration was explicitly exploratory and is separate in ownership_case_v8_completed"
+}

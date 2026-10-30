@@ -1,0 +1,192 @@
+{
+  "case_id": "a0_d12_b1",
+  "anchor": 0,
+  "increase": 12,
+  "budget": 1,
+  "region": [
+    0
+  ],
+  "old_energy": 3,
+  "new_energy_x0": 15,
+  "unrestricted_value": 4,
+  "unrestricted_recourse": 7,
+  "strict_budget_binding": true,
+  "region_optimum": 7,
+  "optimum": 7,
+  "oracle": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "capacity_pass": {
+    "certified": true,
+    "old_load": [
+      7,
+      1
+    ],
+    "available_slack": [
+      1,
+      1
+    ],
+    "max_incoming_load": [
+      1,
+      1
+    ],
+    "worst_budget_load": [
+      8,
+      2
+    ],
+    "capacities": [
+      8,
+      2
+    ],
+    "budget": 1,
+    "scope": "static additive loads; every budget-feasible binary repair"
+  },
+  "capacity_fail": {
+    "certified": false,
+    "old_load": [
+      7,
+      1
+    ],
+    "available_slack": [
+      0,
+      1
+    ],
+    "max_incoming_load": [
+      1,
+      1
+    ],
+    "worst_budget_load": [
+      8,
+      2
+    ],
+    "capacities": [
+      7,
+      2
+    ],
+    "budget": 1,
+    "scope": "static additive loads; every budget-feasible binary repair"
+  },
+  "FullCP": {
+    "status": "OPTIMAL",
+    "lower": 7,
+    "build_seconds": 0.0006302919937297702,
+    "solver_seconds": 0.0010890000000000001,
+    "branches": 25,
+    "conflicts": 0,
+    "total_seconds": 0.0018504590261727571,
+    "x": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "upper": 7,
+    "recourse_used": 1,
+    "lower_reduced": 7,
+    "old_epsilon": 0,
+    "region_n": 8,
+    "region_ratio": 1.0,
+    "fastpath": false,
+    "common_seconds": 2.4292035959661007e-05,
+    "preprocess_seconds": 1.0419171303510666e-06,
+    "capacity_audit": {
+      "certified": true,
+      "old_load": [
+        7,
+        1
+      ],
+      "available_slack": [
+        1,
+        1
+      ],
+      "max_incoming_load": [
+        1,
+        1
+      ],
+      "worst_budget_load": [
+        8,
+        2
+      ],
+      "capacities": [
+        8,
+        2
+      ],
+      "budget": 1,
+      "scope": "static additive loads; every budget-feasible binary repair"
+    },
+    "assigned_load": [
+      6,
+      2
+    ],
+    "capacity_guard_seconds": 5.249981768429279e-06
+  },
+  "BARRCP": {
+    "status": "OPTIMAL",
+    "lower": 7,
+    "build_seconds": 0.00023745896760374308,
+    "solver_seconds": 0.00014000000000000001,
+    "branches": 0,
+    "conflicts": 0,
+    "total_seconds": 0.0005205839406698942,
+    "x": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "upper": 7,
+    "recourse_used": 1,
+    "lower_reduced": 7,
+    "old_epsilon": 0,
+    "region_n": 1,
+    "region_ratio": 0.125,
+    "fastpath": false,
+    "common_seconds": 3.2125040888786316e-05,
+    "preprocess_seconds": 3.854196984320879e-05,
+    "capacity_audit": {
+      "certified": true,
+      "old_load": [
+        7,
+        1
+      ],
+      "available_slack": [
+        1,
+        1
+      ],
+      "max_incoming_load": [
+        1,
+        1
+      ],
+      "worst_budget_load": [
+        8,
+        2
+      ],
+      "capacities": [
+        8,
+        2
+      ],
+      "budget": 1,
+      "scope": "static additive loads; every budget-feasible binary repair"
+    },
+    "assigned_load": [
+      6,
+      2
+    ],
+    "capacity_guard_seconds": 9.624985978007317e-06
+  }
+}

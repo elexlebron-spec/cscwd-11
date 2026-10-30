@@ -14,7 +14,7 @@ assert 1<=len(reader.pages)<=6
 assert all(float(p.mediabox.width)==612 and float(p.mediabox.height)==792 for p in reader.pages)
 keys=set(re.findall(r'\\bibitem\{([^}]+)\}',source))
 cited={k for group in re.findall(r'\\cite\{([^}]+)\}',source) for k in group.split(',')}
-assert cited==keys and len(keys)==13
+assert cited==keys and len(keys)==15
 labels=re.findall(r'\\label\{([^}]+)\}',source)
 assert len(labels)==len(set(labels))
 assert set(re.findall(r'\\ref\{([^}]+)\}',source))<=set(labels)
@@ -46,6 +46,13 @@ routes=json.loads((root/'results/route_comparison_v5/summary.json').read_text())
 assert public['solutions_validated'] and routes['solutions_validated']
 repeats=json.loads((root/'results/core_repeats_v6_completed/summary.json').read_text())
 assert repeats['no_pause_during_logged_queries'] and repeats['clock_audit_passed'] and repeats['solutions_validated'] and repeats['calls']==400 and repeats['cases']==20
+ownership=json.loads((root/'results/ownership_case_v8_completed/summary.json').read_text())
+diagnostic=json.loads((root/'results/ownership_case_v8_diagnostic/summary.json').read_text())
+assert ownership['all_enumerated_values_match'] and ownership['cases']==64 and ownership['strict_budget_binding']==40
+assert ownership['shared_shortcuts']==8 and diagnostic['shared_shortcuts']==64
+assert ownership['capacity_guard_passes']==ownership['capacity_guard_rejections']==64
+worked=json.loads((root/'results/ownership_case_v8_completed/worked_case.json').read_text())
+assert worked['optimum']==7 and worked['new_energy_x0']==15 and worked['region']==[0]
 review=json.loads((paper/'visual_review.json').read_text())
 pdf_hash=hashlib.sha256(pdf.read_bytes()).hexdigest()
 assert review['pdf_sha256']==pdf_hash
@@ -61,6 +68,8 @@ report={'pages':len(reader.pages),'page_size':'US Letter','bibliography_items':l
         'public_new_cases':public['cases'],'public_calls':public['calls'],
         'route_reused_cases':routes['cases'],'route_calls':routes['calls'],
         'repeat_fixed_cases':repeats['cases'],'repeat_calls':repeats['calls'],
+        'ownership_illustration_cases':ownership['cases'],'ownership_diagnostic_cases':diagnostic['cases'],
+        'ownership_case_is_runtime_benchmark':False,'capacity_guard_example_verified':True,
         'artifact_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [paper/'main.tex',pdf]},
         'visual_review_matches_pdf':review['pdf_sha256']==pdf_hash,
         'limits':'Does not establish originality, model realism or acceptance.'}

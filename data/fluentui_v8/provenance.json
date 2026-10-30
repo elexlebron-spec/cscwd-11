@@ -1,0 +1,72 @@
+{
+  "repository": "microsoft/fluentui",
+  "commit": "941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2",
+  "retrieved_utc_date": "2026-10-30",
+  "license": "MIT; retain LICENSE",
+  "purpose": "Source-grounded worked responsibility-routing case, not an observed deployment or runtime benchmark.",
+  "selection": "All package roots with explicit CODEOWNERS lines listing exactly @microsoft/cxe-prg and @microsoft/teams-prg, ignoring docs/rfcs roots and deduplicating library/stories entries. Runtime dependencies only within this eight-package set.",
+  "ownership_semantics_url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners",
+  "caveat": "Listed ownership alternatives are observed. Live permission validity, technical skill, primary routing assignments, objective costs, handoff effort, event shocks and capacity reservations are not measured. Build/config/spec exceptions are outside the selected package implementation responsibility.",
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "local_path": "CODEOWNERS",
+      "git_blob_sha1": "656dcdb6d91738afcf81226f323ddeef854e8215",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/.github/CODEOWNERS"
+    },
+    {
+      "path": "LICENSE",
+      "local_path": "LICENSE",
+      "git_blob_sha1": "f097324d1b1f16528ae8c3ad32c4702c0d793ee1",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/LICENSE"
+    },
+    {
+      "path": "packages/react-components/react-positioning/library/package.json",
+      "local_path": "packages/react-components/react-positioning/library/package.json",
+      "git_blob_sha1": "d94eed1bd37fae8c03358431bf6b61ff52079372",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-positioning/library/package.json"
+    },
+    {
+      "path": "packages/react-components/react-shared-contexts/library/package.json",
+      "local_path": "packages/react-components/react-shared-contexts/library/package.json",
+      "git_blob_sha1": "1e12a1f83512d71e4f7f2b67a993007176aa0fe8",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-shared-contexts/library/package.json"
+    },
+    {
+      "path": "packages/react-components/react-utilities/package.json",
+      "local_path": "packages/react-components/react-utilities/package.json",
+      "git_blob_sha1": "af4aa4114425061d7ff68922876ca43f1fa902cf",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-utilities/package.json"
+    },
+    {
+      "path": "packages/react-components/react-combobox/library/package.json",
+      "local_path": "packages/react-components/react-combobox/library/package.json",
+      "git_blob_sha1": "a414eac7d53a1cfe4778b8a990b7c0fbd2f26d0a",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-combobox/library/package.json"
+    },
+    {
+      "path": "packages/react-components/react-table/library/package.json",
+      "local_path": "packages/react-components/react-table/library/package.json",
+      "git_blob_sha1": "62c8229a81f4e22cb7371bd037c3b1795f4864d6",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-table/library/package.json"
+    },
+    {
+      "path": "packages/react-components/react-tree/library/package.json",
+      "local_path": "packages/react-components/react-tree/library/package.json",
+      "git_blob_sha1": "ec79f5c2125a8574d0ffd59a6e424d026f5eae0d",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-tree/library/package.json"
+    },
+    {
+      "path": "packages/react-components/react-tags/library/package.json",
+      "local_path": "packages/react-components/react-tags/library/package.json",
+      "git_blob_sha1": "46ccb776671315936f9aa5098e77287b95b89d53",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/react-components/react-tags/library/package.json"
+    },
+    {
+      "path": "packages/storybook/package.json",
+      "local_path": "packages/storybook/package.json",
+      "git_blob_sha1": "fe47854eda168652d0d92207e36ba3f653d65bca",
+      "url": "https://github.com/microsoft/fluentui/blob/941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2/packages/storybook/package.json"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "purpose": "Source-grounded worked case; no operational runtime or workload-distribution claim",
+  "source_commit": "941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2",
+  "teams": [
+    "@microsoft/cxe-prg",
+    "@microsoft/teams-prg"
+  ],
+  "edge_rule": "Unit undirected edge if either package declares the other as a runtime dependency; ignore external packages; keep isolates",
+  "old_unary_rule": "Sorted package index alternates synthetic preferred team; cost 0 on preference and 1 on alternative; exact old mincut supplies x0",
+  "old_nonpreferred_cost": 1,
+  "handoff_effort": 1,
+  "all_single_anchors": true,
+  "old_label_cost_increases": [
+    4,
+    12
+  ],
+  "budgets": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "load_per_package_per_team": 1,
+  "capacity_gate": "Pass example reserves L0 + exact worst incoming budget load; fail example reduces one positive worst incoming allowance by one. Both are hypothetical reservations.",
+  "worked_case_selection": "First case in sorted anchor, increase, budget order with a budget-infeasible unconstrained cut, proper region and strict improvement over x0. Illustrative selection only; retain all 64 cases.",
+  "timing": "No performance conclusion; enumerate every binary assignment as an independent correctness oracle",
+  "exploratory_after": "The retained cost-4 diagnostic had 64/64 shortcuts. Cost 1 is a mechanism illustration selected after that diagnostic, not a prespecified operational distribution.",
+  "frozen_before_outcomes": false
+}

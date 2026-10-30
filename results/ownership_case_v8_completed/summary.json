@@ -1,0 +1,16 @@
+{
+  "case_role": "Source-grounded worked case; no operational runtime or workload-distribution claim",
+  "source_commit": "941ed35fd8973ccd899fafafc1ae7c8f58e5c1f2",
+  "n": 8,
+  "m": 12,
+  "cases": 64,
+  "calls": 128,
+  "shared_shortcuts": 8,
+  "strict_budget_binding": 40,
+  "proper_region": 64,
+  "all_enumerated_values_match": true,
+  "capacity_guard_passes": 64,
+  "capacity_guard_rejections": 64,
+  "worked_case": "a0_d12_b1",
+  "performance_claim": false
+}
