@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research code, cite this repository and the associated draft."
+type: software
+title: "Budget Anchored Region Reduction for Collaborative Responsibility Repair"
+authors:
+  - family-names: Wang
+    given-names: Zhiran
+    affiliation: Ocean University of China
+    email: 2174560006@qq.com
+url: "https://github.com/elexlebron-spec/cscwd-11"

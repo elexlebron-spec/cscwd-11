@@ -1,0 +1,87 @@
+{
+  "source_url": "https://researchdata.bath.ac.uk/621/",
+  "doi": "10.15125/BATH-00621",
+  "access_date": "2026-10-28",
+  "source_files": {
+    "Data_Description.ipynb": "51913851444eea7a8881c61cac88a4857baa6c97107432c4875008c7e5eaa839",
+    "README.md": "872e9e9205de99468c03717fafc72bc1986a59f99b49efcf74f14a452cbf8df1",
+    "anon_cad_metadata.db": "3c4fb0f96b1430ec5d04c50dd9da070b4296e2ca10b562f211c7ffeb33f4d41a"
+  },
+  "importer_sha256": "e6193c75781446f0725549a200b924841a9478c12e5ab68ce1ef239606f66a73",
+  "config_sha256": "9b94ab2eff372148789fb3a0069f5a965ec6260edeb72e0ba9efe26b1075dd31",
+  "construction": "Deduplicate file/timestamp pairs; >=5 events. For each source-file edit count each other file at most once until min(next same-file edit, t+window), inclusive start/exclusive end. Average conditional co-edit frequencies, threshold at 1/4, round 8*probability to integer. Keep every qualifying vertex, including isolates; do not fit windows/thresholds to repair outcomes.",
+  "graphs": [
+    {
+      "project": "A",
+      "hours": 1,
+      "n": 226,
+      "m": 2726,
+      "components": 3,
+      "largest_component": 224,
+      "isolates": 2,
+      "raw_events": 4609,
+      "retained_unique_events": 3795,
+      "graph_sha256": "448e6afd44d84ed3e22fb81aaa34aeef69b4bcbe798e976afb400514f87babbf"
+    },
+    {
+      "project": "A",
+      "hours": 12,
+      "n": 226,
+      "m": 8152,
+      "components": 1,
+      "largest_component": 226,
+      "isolates": 0,
+      "raw_events": 4609,
+      "retained_unique_events": 3795,
+      "graph_sha256": "26caf1c28c7ebb6b5d58cfff0c0526a2d1e2051b8e5c4ab0a44c56a53a564cc6"
+    },
+    {
+      "project": "B",
+      "hours": 1,
+      "n": 231,
+      "m": 535,
+      "components": 94,
+      "largest_component": 79,
+      "isolates": 82,
+      "raw_events": 4246,
+      "retained_unique_events": 2913,
+      "graph_sha256": "0717a6267c8a98ff491c38eabefeeb96876d890608842406f4d20e197f07a066"
+    },
+    {
+      "project": "B",
+      "hours": 12,
+      "n": 231,
+      "m": 693,
+      "components": 63,
+      "largest_component": 161,
+      "isolates": 56,
+      "raw_events": 4246,
+      "retained_unique_events": 2913,
+      "graph_sha256": "e94e89a642bc50445473c7fbd5bfe374f16b74d51b53c152ce7fc42204d6576a"
+    },
+    {
+      "project": "C",
+      "hours": 1,
+      "n": 168,
+      "m": 199,
+      "components": 78,
+      "largest_component": 45,
+      "isolates": 62,
+      "raw_events": 3172,
+      "retained_unique_events": 1839,
+      "graph_sha256": "aad620a24755cefe8ad0d37c6ead3414a6c22793c5e39e12659a244e46e4ebf5"
+    },
+    {
+      "project": "C",
+      "hours": 12,
+      "n": 168,
+      "m": 481,
+      "components": 46,
+      "largest_component": 101,
+      "isolates": 36,
+      "raw_events": 3172,
+      "retained_unique_events": 1839,
+      "graph_sha256": "8492ad64916e1cb312c0652b0a009f4cd20a09f91819f25a2f1ed6ea7b3b971e"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+test_feasible_unrestricted_cut_stops_after_one_call (test_revision.EarlyTerminationTests.test_feasible_unrestricted_cut_stops_after_one_call) ... ok
+test_classical_baselines_match_energy_and_valid_bounds (test_revision.StrongBackendTests.test_classical_baselines_match_energy_and_valid_bounds) ... ok
+test_cpsat_full_and_region_vs_oracle (test_revision.StrongBackendTests.test_cpsat_full_and_region_vs_oracle) ... ok
+test_fast_flow_against_bruteforce_including_fixed_labels (test_revision.StrongBackendTests.test_fast_flow_against_bruteforce_including_fixed_labels) ... ok
+test_large_flow_does_not_use_recursion (test_revision.StrongBackendTests.test_large_flow_does_not_use_recursion) ... ok
+test_weighted_region_is_subset_of_safe_hop_region (test_revision.StrongBackendTests.test_weighted_region_is_subset_of_safe_hop_region) ... ok
+test_boundary_absorption_exact_for_all_assignments (test_theory.TheoryTests.test_boundary_absorption_exact_for_all_assignments) ... ok
+test_epsilon_bound_for_arbitrary_old_plan (test_theory.TheoryTests.test_epsilon_bound_for_arbitrary_old_plan) ... ok
+test_exact_locality_and_solver_for_every_budget (test_theory.TheoryTests.test_exact_locality_and_solver_for_every_budget) ... ok
+test_mincut_and_conditional_lagrangian_against_enumeration (test_theory.TheoryTests.test_mincut_and_conditional_lagrangian_against_enumeration) ... ok
+test_no_shock_zero_budget_and_expensive_anchor (test_theory.TheoryTests.test_no_shock_zero_budget_and_expensive_anchor) ... ok
+test_timeout_certificate_is_valid (test_theory.TheoryTests.test_timeout_certificate_is_valid) ... ok
+test_unsafe_locality_counterexample_if_epsilon_ignored (test_theory.TheoryTests.test_unsafe_locality_counterexample_if_epsilon_ignored) ... ok
+test_weighted_path_includes_anchor_and_target (test_theory.TheoryTests.test_weighted_path_includes_anchor_and_target) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.130s
+
+OK

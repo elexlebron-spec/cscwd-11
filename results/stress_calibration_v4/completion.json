@@ -1,0 +1,64 @@
+{
+  "utc_started": "2026-10-28T05:21:00.513345+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "machine": "arm64",
+  "platform": "macOS-15.3.1-arm64-arm-64bit",
+  "ortools": "9.15.6755",
+  "config": {
+    "purpose": "exploratory_cost_balance_calibration_after_large_size_calibration_no_sample_rejection",
+    "grid": {
+      "n": [
+        1024
+      ],
+      "topology": [
+        "grid"
+      ],
+      "coupling": [
+        4
+      ],
+      "preference": [
+        8
+      ],
+      "shock_scale": [
+        64
+      ],
+      "anchors": [
+        4,
+        16
+      ],
+      "budget": [
+        32,
+        128
+      ],
+      "weighted": [
+        true
+      ],
+      "degraded": [
+        0
+      ],
+      "seed": [
+        301,
+        302
+      ]
+    },
+    "repeats": 1,
+    "seconds_per_query": 3.0,
+    "common_fastpath": true
+  },
+  "config_sha256": "ce2198c5ffb9c6b057fcf0444ca7190b01abfad0ebe53b3f78162057db49d092",
+  "source_sha256": {
+    "run_gate.py": "cd0a6e21c132939d1eb7636cfd57f44bd6364c12c4d03a3ef3b9a7a2241463ae",
+    "barr/__init__.py": "3a4369273f5e248337de56d03f19f9a9f95d45171ac9b3e01377aa2cefbf41c0",
+    "barr/baselines.py": "4a72ea502c0074cf65611e07c4f27194a74c706baeee5f15df5308717dcdd19b",
+    "barr/core.py": "34e18264f15b0c54f2d738a79f6cb2d0b1cc9bbfc9fde0a8fbdc404047dcdb81",
+    "barr/cpsat.py": "d8ea13f37aa138daed45353390253b9e449fcc37e7b0e2746bb20cf661edef5d",
+    "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+    "barr/generate.py": "d36fcbea83d78b5dc4e4a38978d39c02803fa343d33eda13700d7a370d2b9742",
+    "barr/generate_v2.py": "2de008509b0fda1687d47ecb11cad7ea840c44edb74a31834e28a3780572d178"
+  },
+  "timing": "warm common imports; all query preprocessing, model build and solver construction included; single-thread; cold old certificate charged to BARR only",
+  "scope": "exploratory_cost_balance_calibration_after_large_size_calibration_no_sample_rejection",
+  "selection": "complete Cartesian configuration; no rejection/filtering",
+  "utc_completed": "2026-10-28T05:21:07.561150+00:00",
+  "completed_cases": 8
+}

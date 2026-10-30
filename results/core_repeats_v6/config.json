@@ -1,0 +1,14 @@
+{
+  "purpose": "within-session repeatability of all saved core cases; frozen before repeat outcomes",
+  "source_folder": "results/core_holdout_v4",
+  "include_all_saved_cases": true,
+  "expected_cases": 20,
+  "methods": ["FullCP", "BARRCP"],
+  "repeats": 10,
+  "seconds_per_query": 5.0,
+  "solver_seed": "fixed at the source instance seed for every repeat",
+  "order": "repeat-major; cases shuffled by random.Random(20261030+repeat); methods alternate by repeat+case rank",
+  "shuffle_seed_base": 20261030,
+  "statistics": "per-instance completions out of 10; query-time median/IQR includes censored calls; gap median/max; repeats are not new independent instances",
+  "concurrency": "sequential queries; no concurrent document builds or other benchmarks launched by this task"
+}

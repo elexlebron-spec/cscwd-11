@@ -1,0 +1,393 @@
+{
+  "holdout_v2": {
+    "calls": 864,
+    "rows_with_internal_and_external_seconds": 864,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "holdout_extension_v2": {
+    "calls": 2016,
+    "rows_with_internal_and_external_seconds": 2016,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "ablation_weighted_v3": {
+    "calls": 2160,
+    "rows_with_internal_and_external_seconds": 2160,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "epsilon_v2": {
+    "calls": 64,
+    "rows_with_internal_and_external_seconds": 64,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "scale_holdout_v4": {
+    "calls": 240,
+    "rows_with_internal_and_external_seconds": 240,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "core_holdout_v4": {
+    "calls": 40,
+    "rows_with_internal_and_external_seconds": 40,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "public_comparison_v5": {
+    "calls": 216,
+    "rows_with_internal_and_external_seconds": 144,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "route_comparison_v5": {
+    "calls": 420,
+    "rows_with_internal_and_external_seconds": 280,
+    "internal_exceeds_external_by_0_1s": [],
+    "count": 0
+  },
+  "core_repeats_v6": {
+    "calls": 400,
+    "rows_with_internal_and_external_seconds": 400,
+    "internal_exceeds_external_by_0_1s": [
+      {
+        "case_id": "case_0005",
+        "method": "FullCP",
+        "repeat": 3,
+        "solver_seconds": 487.10206000000005,
+        "total_seconds": 2.969519875012338,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "FullCP",
+        "repeat": 3,
+        "solver_seconds": 4.967796,
+        "total_seconds": 4.139570124971215,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0019",
+        "method": "FullCP",
+        "repeat": 4,
+        "solver_seconds": 4.968221000000001,
+        "total_seconds": 4.149091458006296,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "BARRCP",
+        "repeat": 4,
+        "solver_seconds": 4.931453,
+        "total_seconds": 4.215988749987446,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0015",
+        "method": "BARRCP",
+        "repeat": 4,
+        "solver_seconds": 4.566967,
+        "total_seconds": 3.741331541968975,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0000",
+        "method": "FullCP",
+        "repeat": 4,
+        "solver_seconds": 1.16284,
+        "total_seconds": 0.42751262499950826,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0008",
+        "method": "BARRCP",
+        "repeat": 4,
+        "solver_seconds": 4.993067,
+        "total_seconds": 4.208539750019554,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0005",
+        "method": "FullCP",
+        "repeat": 4,
+        "solver_seconds": 4.821204000000001,
+        "total_seconds": 4.007943250006065,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0009",
+        "method": "BARRCP",
+        "repeat": 4,
+        "solver_seconds": 3.9344270000000003,
+        "total_seconds": 3.1530798749881797,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0009",
+        "method": "BARRCP",
+        "repeat": 5,
+        "solver_seconds": 3.8546660000000004,
+        "total_seconds": 3.104871458024718,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0014",
+        "method": "BARRCP",
+        "repeat": 5,
+        "solver_seconds": 1.065099,
+        "total_seconds": 0.3537852909648791,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "BARRCP",
+        "repeat": 5,
+        "solver_seconds": 4.9343,
+        "total_seconds": 4.250865541980602,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0016",
+        "method": "FullCP",
+        "repeat": 5,
+        "solver_seconds": 4.428621000000001,
+        "total_seconds": 3.7458942080265842,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0008",
+        "method": "FullCP",
+        "repeat": 5,
+        "solver_seconds": 4.9828,
+        "total_seconds": 4.880440375010949,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0019",
+        "method": "FullCP",
+        "repeat": 5,
+        "solver_seconds": 5.111921000000001,
+        "total_seconds": 4.425184625026304,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0006",
+        "method": "FullCP",
+        "repeat": 6,
+        "solver_seconds": 4.983316,
+        "total_seconds": 4.198517333017662,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "FullCP",
+        "repeat": 6,
+        "solver_seconds": 4.967566000000001,
+        "total_seconds": 4.2994786669733,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0009",
+        "method": "BARRCP",
+        "repeat": 6,
+        "solver_seconds": 3.8119980000000004,
+        "total_seconds": 3.0925373749923892,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0007",
+        "method": "FullCP",
+        "repeat": 6,
+        "solver_seconds": 4.689707,
+        "total_seconds": 4.011546458990779,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0008",
+        "method": "FullCP",
+        "repeat": 6,
+        "solver_seconds": 4.982531000000001,
+        "total_seconds": 4.217843291989993,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0015",
+        "method": "FullCP",
+        "repeat": 6,
+        "solver_seconds": 4.968457,
+        "total_seconds": 4.3788390420377254,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0017",
+        "method": "BARRCP",
+        "repeat": 6,
+        "solver_seconds": 4.276663,
+        "total_seconds": 3.6172844580141827,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0005",
+        "method": "BARRCP",
+        "repeat": 6,
+        "solver_seconds": 4.434654,
+        "total_seconds": 3.7831617920310237,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0017",
+        "method": "BARRCP",
+        "repeat": 7,
+        "solver_seconds": 4.253869,
+        "total_seconds": 3.563089708040934,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0010",
+        "method": "FullCP",
+        "repeat": 7,
+        "solver_seconds": 1.278126,
+        "total_seconds": 0.6481004169909284,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0008",
+        "method": "FullCP",
+        "repeat": 7,
+        "solver_seconds": 4.982746000000001,
+        "total_seconds": 4.272103208000772,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0007",
+        "method": "BARRCP",
+        "repeat": 7,
+        "solver_seconds": 4.272289000000001,
+        "total_seconds": 3.57232037500944,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0016",
+        "method": "BARRCP",
+        "repeat": 7,
+        "solver_seconds": 1006.3880300000001,
+        "total_seconds": 0.6482176249846816,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "FullCP",
+        "repeat": 7,
+        "solver_seconds": 925.9786580000001,
+        "total_seconds": 0.32962366699939594,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0005",
+        "method": "BARRCP",
+        "repeat": 7,
+        "solver_seconds": 813.255838,
+        "total_seconds": 1.1936278750072233,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0015",
+        "method": "BARRCP",
+        "repeat": 7,
+        "solver_seconds": 63.643225,
+        "total_seconds": 0.30882116698194295,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0009",
+        "method": "FullCP",
+        "repeat": 8,
+        "solver_seconds": 11.027707000000001,
+        "total_seconds": 2.9815609169891104,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0019",
+        "method": "BARRCP",
+        "repeat": 8,
+        "solver_seconds": 3.760129,
+        "total_seconds": 3.0018096669809893,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0006",
+        "method": "BARRCP",
+        "repeat": 8,
+        "solver_seconds": 2.6482390000000002,
+        "total_seconds": 1.8114173330250196,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0017",
+        "method": "BARRCP",
+        "repeat": 8,
+        "solver_seconds": 4.251219,
+        "total_seconds": 3.4619398749782704,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "FullCP",
+        "repeat": 8,
+        "solver_seconds": 4.969055,
+        "total_seconds": 4.207157625001855,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0018",
+        "method": "BARRCP",
+        "repeat": 9,
+        "solver_seconds": 5.482222,
+        "total_seconds": 4.79065104201436,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0016",
+        "method": "FullCP",
+        "repeat": 9,
+        "solver_seconds": 4.342941000000001,
+        "total_seconds": 3.6858830000273883,
+        "status": "OPTIMAL"
+      },
+      {
+        "case_id": "case_0015",
+        "method": "FullCP",
+        "repeat": 9,
+        "solver_seconds": 4.968351,
+        "total_seconds": 4.271744458004832,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0006",
+        "method": "FullCP",
+        "repeat": 9,
+        "solver_seconds": 4.453782,
+        "total_seconds": 3.7570227080141194,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0008",
+        "method": "FullCP",
+        "repeat": 9,
+        "solver_seconds": 5.487959,
+        "total_seconds": 4.874594499997329,
+        "status": "FEASIBLE"
+      },
+      {
+        "case_id": "case_0019",
+        "method": "FullCP",
+        "repeat": 9,
+        "solver_seconds": 4.970193,
+        "total_seconds": 4.303403459023684,
+        "status": "FEASIBLE"
+      }
+    ],
+    "count": 42
+  }
+}

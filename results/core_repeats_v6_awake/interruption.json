@@ -1,0 +1,7 @@
+{
+  "completed_calls": 129,
+  "completed_full_protocol": false,
+  "reason": "sleep prevention did not repair suspend-excluding timer; stopped before fixing the clock and starting a complete new protocol",
+  "clock_inconsistent_calls": 10,
+  "inference": "diagnostic only; no query discarded from the saved file"
+}

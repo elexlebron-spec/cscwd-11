@@ -1,0 +1,329 @@
+{
+  "folder": "results/calibration_v2",
+  "cases": 96,
+  "solver_runs": 192,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 96
+  },
+  "barr_statuses": {
+    "OPTIMAL": 96
+  },
+  "greedy_suboptimal_cases": 16,
+  "proven_budget_binding_cases": 63,
+  "finite_lr_gap_cases": 63,
+  "full_branching_cases": 64,
+  "nonzero_epsilon_cases": 0,
+  "actual_loss_positive_cases": 0,
+  "epsilon_range": [
+    0,
+    0
+  ],
+  "max_actual_loss": 0,
+  "median_certificate_gap": 0.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 32,
+      "nontrivial_exact_cases": 28,
+      "median_full_ms": 32.12864599481691,
+      "median_barr_ms": 29.388479510089383,
+      "median_paired_speed_ratio": 1.032355465599772,
+      "cluster_bootstrap_95_low": 1.021112972789703,
+      "cluster_bootstrap_95_high": 1.0523288939690962,
+      "median_region_ratio": 0.98828125,
+      "region_ge_70pct_cases": 26
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 32,
+      "nontrivial_exact_cases": 10,
+      "median_full_ms": 22.02958350244444,
+      "median_barr_ms": 18.395520994090475,
+      "median_paired_speed_ratio": 1.1543295466831796,
+      "cluster_bootstrap_95_low": 1.0994111734003833,
+      "cluster_bootstrap_95_high": 1.2099112096157647,
+      "median_region_ratio": 0.7578125,
+      "region_ge_70pct_cases": 14
+    },
+    {
+      "topology": "smallworld",
+      "n": 128,
+      "all_cases": 32,
+      "nontrivial_exact_cases": 26,
+      "median_full_ms": 62.928978994023055,
+      "median_barr_ms": 63.74064600095153,
+      "median_paired_speed_ratio": 0.9872640760690478,
+      "cluster_bootstrap_95_low": 0.9838825755647594,
+      "cluster_bootstrap_95_high": 0.9885715085903379,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 32
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}
+{
+  "folder": "results/holdout_v2",
+  "cases": 144,
+  "solver_runs": 864,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 144
+  },
+  "barr_statuses": {
+    "OPTIMAL": 144
+  },
+  "greedy_suboptimal_cases": 13,
+  "proven_budget_binding_cases": 100,
+  "finite_lr_gap_cases": 100,
+  "full_branching_cases": 100,
+  "nonzero_epsilon_cases": 0,
+  "actual_loss_positive_cases": 0,
+  "epsilon_range": [
+    0,
+    0
+  ],
+  "max_actual_loss": 0,
+  "median_certificate_gap": 0.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 24,
+      "nontrivial_exact_cases": 20,
+      "median_full_ms": 33.25670849881135,
+      "median_barr_ms": 27.254062515567057,
+      "median_paired_speed_ratio": 1.0554437910139618,
+      "cluster_bootstrap_95_low": 1.0360835264785888,
+      "cluster_bootstrap_95_high": 1.1875390471955267,
+      "median_region_ratio": 0.96484375,
+      "region_ge_70pct_cases": 18
+    },
+    {
+      "topology": "grid",
+      "n": 512,
+      "all_cases": 24,
+      "nontrivial_exact_cases": 18,
+      "median_full_ms": 140.42754151159897,
+      "median_barr_ms": 68.12758299929556,
+      "median_paired_speed_ratio": 1.6692671024061263,
+      "cluster_bootstrap_95_low": 1.4976070179194327,
+      "cluster_bootstrap_95_high": 2.006946158080095,
+      "median_region_ratio": 0.5712890625,
+      "region_ge_70pct_cases": 9
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 24,
+      "nontrivial_exact_cases": 9,
+      "median_full_ms": 20.474165998166427,
+      "median_barr_ms": 17.016083002090454,
+      "median_paired_speed_ratio": 1.4032571811575945,
+      "cluster_bootstrap_95_low": 1.244043210942434,
+      "cluster_bootstrap_95_high": 1.859961109625361,
+      "median_region_ratio": 0.7109375,
+      "region_ge_70pct_cases": 11
+    },
+    {
+      "topology": "modular",
+      "n": 512,
+      "all_cases": 24,
+      "nontrivial_exact_cases": 9,
+      "median_full_ms": 74.21799999428913,
+      "median_barr_ms": 24.124124989612028,
+      "median_paired_speed_ratio": 2.8851495341427293,
+      "cluster_bootstrap_95_low": 2.8526598884672802,
+      "cluster_bootstrap_95_high": 3.479560059111521,
+      "median_region_ratio": 0.26171875,
+      "region_ge_70pct_cases": 0
+    },
+    {
+      "topology": "smallworld",
+      "n": 128,
+      "all_cases": 24,
+      "nontrivial_exact_cases": 22,
+      "median_full_ms": 68.53447901085019,
+      "median_barr_ms": 69.3970834981883,
+      "median_paired_speed_ratio": 0.9849578095570097,
+      "cluster_bootstrap_95_low": 0.9828891258885799,
+      "cluster_bootstrap_95_high": 0.9887009407143501,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 24
+    },
+    {
+      "topology": "smallworld",
+      "n": 512,
+      "all_cases": 24,
+      "nontrivial_exact_cases": 22,
+      "median_full_ms": 348.49668749666307,
+      "median_barr_ms": 347.91264598607086,
+      "median_paired_speed_ratio": 0.9913456556636615,
+      "cluster_bootstrap_95_low": 0.9881548549275261,
+      "cluster_bootstrap_95_high": 0.9964645808047579,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 24
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}
+{
+  "folder": "results/holdout_extension_v2",
+  "cases": 336,
+  "solver_runs": 2016,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 336
+  },
+  "barr_statuses": {
+    "OPTIMAL": 336
+  },
+  "greedy_suboptimal_cases": 42,
+  "proven_budget_binding_cases": 214,
+  "finite_lr_gap_cases": 213,
+  "full_branching_cases": 218,
+  "nonzero_epsilon_cases": 0,
+  "actual_loss_positive_cases": 0,
+  "epsilon_range": [
+    0,
+    0
+  ],
+  "max_actual_loss": 0,
+  "median_certificate_gap": 0.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 49,
+      "median_full_ms": 34.50024998164736,
+      "median_barr_ms": 33.51158299483359,
+      "median_paired_speed_ratio": 1.003723067640951,
+      "cluster_bootstrap_95_low": 0.9892389249868414,
+      "cluster_bootstrap_95_high": 1.0305703015311654,
+      "median_region_ratio": 0.9921875,
+      "region_ge_70pct_cases": 43
+    },
+    {
+      "topology": "grid",
+      "n": 512,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 36,
+      "median_full_ms": 130.95766698825173,
+      "median_barr_ms": 63.18704150908161,
+      "median_paired_speed_ratio": 1.9255694259933975,
+      "cluster_bootstrap_95_low": 1.5406052058096518,
+      "cluster_bootstrap_95_high": 2.287692165230297,
+      "median_region_ratio": 0.513671875,
+      "region_ge_70pct_cases": 15
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 20,
+      "median_full_ms": 24.33062451018486,
+      "median_barr_ms": 20.154375000856817,
+      "median_paired_speed_ratio": 1.235258839030894,
+      "cluster_bootstrap_95_low": 1.0201259147954553,
+      "cluster_bootstrap_95_high": 1.2994278187490564,
+      "median_region_ratio": 0.80859375,
+      "region_ge_70pct_cases": 25
+    },
+    {
+      "topology": "modular",
+      "n": 512,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 21,
+      "median_full_ms": 75.87100000819191,
+      "median_barr_ms": 22.999249980784953,
+      "median_paired_speed_ratio": 3.260152353186236,
+      "cluster_bootstrap_95_low": 2.863282164546591,
+      "cluster_bootstrap_95_high": 3.8589052318278263,
+      "median_region_ratio": 0.255859375,
+      "region_ge_70pct_cases": 0
+    },
+    {
+      "topology": "smallworld",
+      "n": 128,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 50,
+      "median_full_ms": 72.60472899361048,
+      "median_barr_ms": 74.22345801023766,
+      "median_paired_speed_ratio": 0.9832420382775281,
+      "cluster_bootstrap_95_low": 0.9778214731810054,
+      "cluster_bootstrap_95_high": 0.9909535024663281,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 56
+    },
+    {
+      "topology": "smallworld",
+      "n": 512,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 42,
+      "median_full_ms": 360.9172500146087,
+      "median_barr_ms": 362.11081249348354,
+      "median_paired_speed_ratio": 0.991808700325586,
+      "cluster_bootstrap_95_low": 0.9892642181449361,
+      "cluster_bootstrap_95_high": 0.9937839448665673,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 56
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}
+{
+  "folder": "results/epsilon_v2",
+  "cases": 32,
+  "solver_runs": 64,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 32
+  },
+  "barr_statuses": {
+    "EPSILON_CERTIFIED": 32
+  },
+  "greedy_suboptimal_cases": 0,
+  "proven_budget_binding_cases": 32,
+  "finite_lr_gap_cases": 32,
+  "full_branching_cases": 32,
+  "nonzero_epsilon_cases": 32,
+  "actual_loss_positive_cases": 10,
+  "epsilon_range": [
+    24,
+    105
+  ],
+  "max_actual_loss": 67,
+  "median_certificate_gap": 58.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 16,
+      "nontrivial_exact_cases": 0,
+      "median_full_ms": null,
+      "median_barr_ms": null,
+      "median_paired_speed_ratio": null,
+      "cluster_bootstrap_95_low": null,
+      "cluster_bootstrap_95_high": null,
+      "median_region_ratio": null,
+      "region_ge_70pct_cases": 12
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 16,
+      "nontrivial_exact_cases": 0,
+      "median_full_ms": null,
+      "median_barr_ms": null,
+      "median_paired_speed_ratio": null,
+      "cluster_bootstrap_95_low": null,
+      "cluster_bootstrap_95_high": null,
+      "median_region_ratio": null,
+      "region_ge_70pct_cases": 8
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}

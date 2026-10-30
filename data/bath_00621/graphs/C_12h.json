@@ -1,0 +1,6484 @@
+{
+  "source_doi": "10.15125/BATH-00621",
+  "project": "C",
+  "window_hours": 12,
+  "minimum_unique_file_events": 5,
+  "threshold": "1/4",
+  "edge_weight_scale": 8,
+  "vertices": [
+    {
+      "id": "file-0000",
+      "type": "assembly",
+      "subsystem": "CA",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0022",
+      "type": "assembly",
+      "subsystem": "BR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0047",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0054",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 32
+    },
+    {
+      "id": "file-0066",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0084",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0229",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0256",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0263",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0306",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0349",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 26
+    },
+    {
+      "id": "file-0367",
+      "type": "assembly",
+      "subsystem": "ST",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0376",
+      "type": "part",
+      "subsystem": "ST",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0378",
+      "type": "part",
+      "subsystem": "ST",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0433",
+      "type": "part",
+      "subsystem": "ST",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0446",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 18
+    },
+    {
+      "id": "file-0447",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0460",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0466",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0481",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 20
+    },
+    {
+      "id": "file-0504",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0505",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0551",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0552",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0628",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0636",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0648",
+      "type": "assembly",
+      "subsystem": "CA",
+      "unique_events": 20
+    },
+    {
+      "id": "file-0649",
+      "type": "assembly",
+      "subsystem": "BR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0650",
+      "type": "part",
+      "subsystem": "BR",
+      "unique_events": 12
+    },
+    {
+      "id": "file-0653",
+      "type": "part",
+      "subsystem": "EL",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0654",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 28
+    },
+    {
+      "id": "file-0656",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 21
+    },
+    {
+      "id": "file-0659",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0660",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0662",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 17
+    },
+    {
+      "id": "file-0664",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0665",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0669",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 19
+    },
+    {
+      "id": "file-0670",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 37
+    },
+    {
+      "id": "file-0673",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 12
+    },
+    {
+      "id": "file-0681",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0682",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0684",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 13
+    },
+    {
+      "id": "file-0685",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0689",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0690",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0691",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0692",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0693",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0694",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 22
+    },
+    {
+      "id": "file-0702",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0711",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0722",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0728",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 18
+    },
+    {
+      "id": "file-0731",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0735",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 24
+    },
+    {
+      "id": "file-0743",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0744",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0745",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0747",
+      "type": "assembly",
+      "subsystem": "EN",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0749",
+      "type": "part",
+      "subsystem": "EN",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0751",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 24
+    },
+    {
+      "id": "file-0752",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0754",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 29
+    },
+    {
+      "id": "file-0764",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0765",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0766",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0767",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 18
+    },
+    {
+      "id": "file-0768",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0769",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0770",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0771",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0772",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0774",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 27
+    },
+    {
+      "id": "file-0775",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0776",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0777",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0778",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 15
+    },
+    {
+      "id": "file-0779",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 15
+    },
+    {
+      "id": "file-0780",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0781",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0782",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0783",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0784",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0785",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0786",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0787",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0788",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0789",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0790",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0791",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0792",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0793",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0794",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0796",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0799",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0800",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0803",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 14
+    },
+    {
+      "id": "file-0804",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0805",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0812",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0814",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0815",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0816",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0817",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0822",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 31
+    },
+    {
+      "id": "file-0823",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0824",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 33
+    },
+    {
+      "id": "file-0825",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 16
+    },
+    {
+      "id": "file-0826",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 15
+    },
+    {
+      "id": "file-0828",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 12
+    },
+    {
+      "id": "file-0832",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0854",
+      "type": "assembly",
+      "subsystem": "FR",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0858",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0859",
+      "type": "part",
+      "subsystem": "FR",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0872",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 25
+    },
+    {
+      "id": "file-0873",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 41
+    },
+    {
+      "id": "file-0877",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0881",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0886",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 20
+    },
+    {
+      "id": "file-0887",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0888",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0889",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 15
+    },
+    {
+      "id": "file-0890",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0892",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0893",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 44
+    },
+    {
+      "id": "file-0895",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0896",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 14
+    },
+    {
+      "id": "file-0898",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0899",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0900",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 15
+    },
+    {
+      "id": "file-0901",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0902",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0903",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0904",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0907",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0911",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 13
+    },
+    {
+      "id": "file-0912",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0913",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0916",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0921",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 21
+    },
+    {
+      "id": "file-0922",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0923",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 25
+    },
+    {
+      "id": "file-0946",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 17
+    },
+    {
+      "id": "file-0947",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 11
+    },
+    {
+      "id": "file-0948",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0952",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 17
+    },
+    {
+      "id": "file-0953",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0954",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0955",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 22
+    },
+    {
+      "id": "file-0956",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 23
+    },
+    {
+      "id": "file-0958",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0959",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0960",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 12
+    },
+    {
+      "id": "file-0962",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0963",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 8
+    },
+    {
+      "id": "file-0964",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 5
+    },
+    {
+      "id": "file-0973",
+      "type": "assembly",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0975",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 10
+    },
+    {
+      "id": "file-0982",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0983",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 7
+    },
+    {
+      "id": "file-0987",
+      "type": "part",
+      "subsystem": "SU",
+      "unique_events": 6
+    },
+    {
+      "id": "file-0990",
+      "type": "part",
+      "subsystem": "WT",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0994",
+      "type": "assembly",
+      "subsystem": "WT",
+      "unique_events": 9
+    },
+    {
+      "id": "file-0996",
+      "type": "part",
+      "subsystem": "WT",
+      "unique_events": 14
+    },
+    {
+      "id": "file-0997",
+      "type": "part",
+      "subsystem": "WT",
+      "unique_events": 8
+    },
+    {
+      "id": "file-1003",
+      "type": "part",
+      "subsystem": "WT",
+      "unique_events": 12
+    },
+    {
+      "id": "file-1004",
+      "type": "part",
+      "subsystem": "WT",
+      "unique_events": 8
+    }
+  ],
+  "edges": [
+    [
+      1,
+      62,
+      2
+    ],
+    [
+      6,
+      66,
+      3
+    ],
+    [
+      6,
+      68,
+      2
+    ],
+    [
+      6,
+      69,
+      2
+    ],
+    [
+      6,
+      71,
+      2
+    ],
+    [
+      6,
+      72,
+      2
+    ],
+    [
+      11,
+      12,
+      3
+    ],
+    [
+      15,
+      16,
+      2
+    ],
+    [
+      15,
+      26,
+      2
+    ],
+    [
+      15,
+      50,
+      2
+    ],
+    [
+      15,
+      116,
+      3
+    ],
+    [
+      15,
+      118,
+      4
+    ],
+    [
+      15,
+      119,
+      3
+    ],
+    [
+      15,
+      120,
+      3
+    ],
+    [
+      15,
+      121,
+      4
+    ],
+    [
+      15,
+      126,
+      2
+    ],
+    [
+      15,
+      128,
+      2
+    ],
+    [
+      16,
+      60,
+      2
+    ],
+    [
+      16,
+      116,
+      2
+    ],
+    [
+      16,
+      121,
+      2
+    ],
+    [
+      22,
+      23,
+      3
+    ],
+    [
+      22,
+      150,
+      2
+    ],
+    [
+      25,
+      119,
+      2
+    ],
+    [
+      25,
+      152,
+      2
+    ],
+    [
+      26,
+      27,
+      2
+    ],
+    [
+      26,
+      50,
+      2
+    ],
+    [
+      26,
+      79,
+      2
+    ],
+    [
+      26,
+      81,
+      2
+    ],
+    [
+      26,
+      83,
+      3
+    ],
+    [
+      26,
+      85,
+      2
+    ],
+    [
+      26,
+      119,
+      2
+    ],
+    [
+      26,
+      120,
+      3
+    ],
+    [
+      26,
+      121,
+      3
+    ],
+    [
+      26,
+      147,
+      3
+    ],
+    [
+      26,
+      148,
+      3
+    ],
+    [
+      26,
+      151,
+      2
+    ],
+    [
+      27,
+      79,
+      2
+    ],
+    [
+      30,
+      48,
+      2
+    ],
+    [
+      30,
+      49,
+      3
+    ],
+    [
+      30,
+      56,
+      3
+    ],
+    [
+      30,
+      120,
+      2
+    ],
+    [
+      30,
+      134,
+      3
+    ],
+    [
+      31,
+      32,
+      3
+    ],
+    [
+      31,
+      33,
+      3
+    ],
+    [
+      31,
+      75,
+      2
+    ],
+    [
+      31,
+      83,
+      2
+    ],
+    [
+      31,
+      84,
+      3
+    ],
+    [
+      32,
+      33,
+      4
+    ],
+    [
+      32,
+      79,
+      2
+    ],
+    [
+      33,
+      153,
+      2
+    ],
+    [
+      35,
+      44,
+      2
+    ],
+    [
+      35,
+      110,
+      3
+    ],
+    [
+      36,
+      38,
+      3
+    ],
+    [
+      38,
+      55,
+      2
+    ],
+    [
+      41,
+      47,
+      2
+    ],
+    [
+      41,
+      48,
+      3
+    ],
+    [
+      42,
+      43,
+      3
+    ],
+    [
+      44,
+      48,
+      3
+    ],
+    [
+      44,
+      107,
+      2
+    ],
+    [
+      44,
+      108,
+      2
+    ],
+    [
+      44,
+      110,
+      2
+    ],
+    [
+      45,
+      57,
+      3
+    ],
+    [
+      46,
+      48,
+      2
+    ],
+    [
+      48,
+      56,
+      2
+    ],
+    [
+      48,
+      107,
+      2
+    ],
+    [
+      48,
+      109,
+      2
+    ],
+    [
+      48,
+      112,
+      2
+    ],
+    [
+      48,
+      113,
+      2
+    ],
+    [
+      49,
+      50,
+      2
+    ],
+    [
+      49,
+      75,
+      2
+    ],
+    [
+      49,
+      76,
+      2
+    ],
+    [
+      49,
+      105,
+      2
+    ],
+    [
+      49,
+      113,
+      2
+    ],
+    [
+      49,
+      120,
+      3
+    ],
+    [
+      49,
+      134,
+      2
+    ],
+    [
+      49,
+      159,
+      2
+    ],
+    [
+      49,
+      160,
+      2
+    ],
+    [
+      50,
+      65,
+      3
+    ],
+    [
+      50,
+      66,
+      3
+    ],
+    [
+      50,
+      67,
+      3
+    ],
+    [
+      50,
+      68,
+      4
+    ],
+    [
+      50,
+      69,
+      4
+    ],
+    [
+      50,
+      70,
+      4
+    ],
+    [
+      50,
+      71,
+      4
+    ],
+    [
+      50,
+      72,
+      4
+    ],
+    [
+      50,
+      74,
+      2
+    ],
+    [
+      50,
+      79,
+      2
+    ],
+    [
+      50,
+      82,
+      2
+    ],
+    [
+      50,
+      119,
+      2
+    ],
+    [
+      50,
+      120,
+      4
+    ],
+    [
+      50,
+      121,
+      2
+    ],
+    [
+      50,
+      122,
+      2
+    ],
+    [
+      50,
+      149,
+      2
+    ],
+    [
+      50,
+      152,
+      2
+    ],
+    [
+      50,
+      153,
+      2
+    ],
+    [
+      50,
+      154,
+      2
+    ],
+    [
+      50,
+      158,
+      2
+    ],
+    [
+      50,
+      159,
+      3
+    ],
+    [
+      50,
+      160,
+      4
+    ],
+    [
+      52,
+      128,
+      3
+    ],
+    [
+      52,
+      129,
+      2
+    ],
+    [
+      54,
+      124,
+      2
+    ],
+    [
+      56,
+      57,
+      4
+    ],
+    [
+      56,
+      58,
+      3
+    ],
+    [
+      57,
+      58,
+      4
+    ],
+    [
+      59,
+      60,
+      2
+    ],
+    [
+      59,
+      77,
+      2
+    ],
+    [
+      59,
+      96,
+      3
+    ],
+    [
+      59,
+      117,
+      2
+    ],
+    [
+      59,
+      128,
+      3
+    ],
+    [
+      60,
+      118,
+      2
+    ],
+    [
+      60,
+      128,
+      2
+    ],
+    [
+      61,
+      77,
+      2
+    ],
+    [
+      61,
+      78,
+      2
+    ],
+    [
+      61,
+      80,
+      2
+    ],
+    [
+      61,
+      81,
+      2
+    ],
+    [
+      61,
+      105,
+      3
+    ],
+    [
+      61,
+      112,
+      2
+    ],
+    [
+      61,
+      113,
+      2
+    ],
+    [
+      63,
+      64,
+      4
+    ],
+    [
+      63,
+      68,
+      2
+    ],
+    [
+      63,
+      69,
+      2
+    ],
+    [
+      63,
+      71,
+      2
+    ],
+    [
+      63,
+      72,
+      2
+    ],
+    [
+      63,
+      75,
+      2
+    ],
+    [
+      65,
+      66,
+      4
+    ],
+    [
+      65,
+      67,
+      3
+    ],
+    [
+      65,
+      68,
+      3
+    ],
+    [
+      65,
+      69,
+      3
+    ],
+    [
+      65,
+      70,
+      3
+    ],
+    [
+      65,
+      71,
+      3
+    ],
+    [
+      65,
+      72,
+      3
+    ],
+    [
+      65,
+      74,
+      2
+    ],
+    [
+      65,
+      76,
+      2
+    ],
+    [
+      65,
+      120,
+      2
+    ],
+    [
+      65,
+      121,
+      2
+    ],
+    [
+      65,
+      122,
+      2
+    ],
+    [
+      65,
+      149,
+      2
+    ],
+    [
+      65,
+      152,
+      3
+    ],
+    [
+      65,
+      153,
+      2
+    ],
+    [
+      65,
+      154,
+      2
+    ],
+    [
+      65,
+      160,
+      2
+    ],
+    [
+      66,
+      67,
+      3
+    ],
+    [
+      66,
+      68,
+      3
+    ],
+    [
+      66,
+      69,
+      3
+    ],
+    [
+      66,
+      70,
+      3
+    ],
+    [
+      66,
+      71,
+      3
+    ],
+    [
+      66,
+      72,
+      3
+    ],
+    [
+      66,
+      74,
+      2
+    ],
+    [
+      66,
+      120,
+      2
+    ],
+    [
+      66,
+      121,
+      2
+    ],
+    [
+      66,
+      152,
+      2
+    ],
+    [
+      66,
+      153,
+      2
+    ],
+    [
+      66,
+      160,
+      2
+    ],
+    [
+      67,
+      68,
+      2
+    ],
+    [
+      67,
+      69,
+      2
+    ],
+    [
+      67,
+      70,
+      2
+    ],
+    [
+      67,
+      71,
+      2
+    ],
+    [
+      67,
+      72,
+      2
+    ],
+    [
+      67,
+      121,
+      2
+    ],
+    [
+      67,
+      160,
+      2
+    ],
+    [
+      68,
+      69,
+      5
+    ],
+    [
+      68,
+      70,
+      4
+    ],
+    [
+      68,
+      71,
+      5
+    ],
+    [
+      68,
+      72,
+      5
+    ],
+    [
+      68,
+      74,
+      3
+    ],
+    [
+      68,
+      75,
+      2
+    ],
+    [
+      68,
+      76,
+      2
+    ],
+    [
+      68,
+      107,
+      2
+    ],
+    [
+      68,
+      120,
+      2
+    ],
+    [
+      68,
+      121,
+      2
+    ],
+    [
+      68,
+      152,
+      2
+    ],
+    [
+      68,
+      153,
+      2
+    ],
+    [
+      68,
+      154,
+      2
+    ],
+    [
+      68,
+      160,
+      2
+    ],
+    [
+      69,
+      70,
+      4
+    ],
+    [
+      69,
+      71,
+      5
+    ],
+    [
+      69,
+      72,
+      5
+    ],
+    [
+      69,
+      74,
+      3
+    ],
+    [
+      69,
+      75,
+      2
+    ],
+    [
+      69,
+      76,
+      2
+    ],
+    [
+      69,
+      107,
+      2
+    ],
+    [
+      69,
+      120,
+      2
+    ],
+    [
+      69,
+      121,
+      2
+    ],
+    [
+      69,
+      151,
+      2
+    ],
+    [
+      69,
+      152,
+      2
+    ],
+    [
+      69,
+      153,
+      2
+    ],
+    [
+      69,
+      154,
+      2
+    ],
+    [
+      69,
+      160,
+      2
+    ],
+    [
+      70,
+      71,
+      4
+    ],
+    [
+      70,
+      72,
+      4
+    ],
+    [
+      70,
+      74,
+      2
+    ],
+    [
+      70,
+      76,
+      2
+    ],
+    [
+      70,
+      121,
+      2
+    ],
+    [
+      70,
+      154,
+      2
+    ],
+    [
+      70,
+      160,
+      2
+    ],
+    [
+      71,
+      72,
+      5
+    ],
+    [
+      71,
+      74,
+      3
+    ],
+    [
+      71,
+      75,
+      2
+    ],
+    [
+      71,
+      76,
+      2
+    ],
+    [
+      71,
+      107,
+      2
+    ],
+    [
+      71,
+      120,
+      2
+    ],
+    [
+      71,
+      121,
+      2
+    ],
+    [
+      71,
+      151,
+      2
+    ],
+    [
+      71,
+      152,
+      2
+    ],
+    [
+      71,
+      153,
+      2
+    ],
+    [
+      71,
+      154,
+      2
+    ],
+    [
+      71,
+      160,
+      3
+    ],
+    [
+      72,
+      74,
+      3
+    ],
+    [
+      72,
+      75,
+      2
+    ],
+    [
+      72,
+      76,
+      2
+    ],
+    [
+      72,
+      107,
+      2
+    ],
+    [
+      72,
+      120,
+      2
+    ],
+    [
+      72,
+      121,
+      2
+    ],
+    [
+      72,
+      151,
+      2
+    ],
+    [
+      72,
+      152,
+      2
+    ],
+    [
+      72,
+      153,
+      2
+    ],
+    [
+      72,
+      154,
+      2
+    ],
+    [
+      72,
+      159,
+      2
+    ],
+    [
+      72,
+      160,
+      3
+    ],
+    [
+      73,
+      74,
+      3
+    ],
+    [
+      73,
+      75,
+      4
+    ],
+    [
+      73,
+      76,
+      3
+    ],
+    [
+      73,
+      161,
+      2
+    ],
+    [
+      74,
+      75,
+      3
+    ],
+    [
+      74,
+      76,
+      3
+    ],
+    [
+      74,
+      160,
+      2
+    ],
+    [
+      75,
+      76,
+      4
+    ],
+    [
+      75,
+      78,
+      2
+    ],
+    [
+      75,
+      120,
+      3
+    ],
+    [
+      75,
+      121,
+      3
+    ],
+    [
+      75,
+      158,
+      3
+    ],
+    [
+      76,
+      120,
+      4
+    ],
+    [
+      76,
+      121,
+      3
+    ],
+    [
+      76,
+      158,
+      3
+    ],
+    [
+      77,
+      78,
+      3
+    ],
+    [
+      77,
+      79,
+      3
+    ],
+    [
+      77,
+      80,
+      2
+    ],
+    [
+      77,
+      81,
+      4
+    ],
+    [
+      77,
+      82,
+      3
+    ],
+    [
+      77,
+      83,
+      2
+    ],
+    [
+      77,
+      84,
+      3
+    ],
+    [
+      77,
+      85,
+      2
+    ],
+    [
+      77,
+      96,
+      3
+    ],
+    [
+      78,
+      79,
+      4
+    ],
+    [
+      78,
+      80,
+      4
+    ],
+    [
+      78,
+      81,
+      4
+    ],
+    [
+      78,
+      82,
+      3
+    ],
+    [
+      78,
+      84,
+      3
+    ],
+    [
+      78,
+      85,
+      3
+    ],
+    [
+      79,
+      80,
+      2
+    ],
+    [
+      79,
+      81,
+      3
+    ],
+    [
+      79,
+      82,
+      3
+    ],
+    [
+      79,
+      84,
+      2
+    ],
+    [
+      79,
+      85,
+      2
+    ],
+    [
+      79,
+      160,
+      2
+    ],
+    [
+      80,
+      81,
+      2
+    ],
+    [
+      80,
+      84,
+      2
+    ],
+    [
+      81,
+      82,
+      4
+    ],
+    [
+      81,
+      84,
+      3
+    ],
+    [
+      81,
+      85,
+      2
+    ],
+    [
+      82,
+      83,
+      2
+    ],
+    [
+      82,
+      84,
+      3
+    ],
+    [
+      82,
+      85,
+      2
+    ],
+    [
+      83,
+      84,
+      3
+    ],
+    [
+      83,
+      85,
+      2
+    ],
+    [
+      83,
+      115,
+      2
+    ],
+    [
+      83,
+      151,
+      2
+    ],
+    [
+      86,
+      87,
+      2
+    ],
+    [
+      89,
+      90,
+      4
+    ],
+    [
+      89,
+      91,
+      4
+    ],
+    [
+      89,
+      92,
+      3
+    ],
+    [
+      89,
+      93,
+      4
+    ],
+    [
+      89,
+      95,
+      2
+    ],
+    [
+      89,
+      101,
+      3
+    ],
+    [
+      89,
+      102,
+      3
+    ],
+    [
+      89,
+      103,
+      4
+    ],
+    [
+      89,
+      104,
+      3
+    ],
+    [
+      90,
+      91,
+      4
+    ],
+    [
+      90,
+      92,
+      3
+    ],
+    [
+      90,
+      93,
+      4
+    ],
+    [
+      90,
+      95,
+      2
+    ],
+    [
+      90,
+      101,
+      2
+    ],
+    [
+      90,
+      102,
+      3
+    ],
+    [
+      90,
+      103,
+      3
+    ],
+    [
+      90,
+      104,
+      3
+    ],
+    [
+      91,
+      92,
+      3
+    ],
+    [
+      91,
+      93,
+      4
+    ],
+    [
+      91,
+      95,
+      2
+    ],
+    [
+      91,
+      101,
+      3
+    ],
+    [
+      91,
+      102,
+      3
+    ],
+    [
+      91,
+      103,
+      3
+    ],
+    [
+      91,
+      104,
+      3
+    ],
+    [
+      92,
+      93,
+      4
+    ],
+    [
+      92,
+      95,
+      2
+    ],
+    [
+      92,
+      101,
+      2
+    ],
+    [
+      92,
+      102,
+      3
+    ],
+    [
+      92,
+      103,
+      3
+    ],
+    [
+      92,
+      104,
+      3
+    ],
+    [
+      93,
+      95,
+      2
+    ],
+    [
+      93,
+      101,
+      3
+    ],
+    [
+      93,
+      102,
+      3
+    ],
+    [
+      93,
+      103,
+      4
+    ],
+    [
+      93,
+      104,
+      3
+    ],
+    [
+      95,
+      101,
+      3
+    ],
+    [
+      95,
+      102,
+      3
+    ],
+    [
+      95,
+      103,
+      2
+    ],
+    [
+      95,
+      104,
+      3
+    ],
+    [
+      96,
+      97,
+      2
+    ],
+    [
+      96,
+      128,
+      2
+    ],
+    [
+      97,
+      99,
+      2
+    ],
+    [
+      97,
+      112,
+      2
+    ],
+    [
+      97,
+      114,
+      4
+    ],
+    [
+      98,
+      99,
+      4
+    ],
+    [
+      101,
+      102,
+      2
+    ],
+    [
+      101,
+      103,
+      3
+    ],
+    [
+      101,
+      104,
+      2
+    ],
+    [
+      102,
+      103,
+      3
+    ],
+    [
+      102,
+      104,
+      4
+    ],
+    [
+      103,
+      104,
+      3
+    ],
+    [
+      105,
+      107,
+      3
+    ],
+    [
+      105,
+      108,
+      3
+    ],
+    [
+      105,
+      110,
+      3
+    ],
+    [
+      107,
+      108,
+      3
+    ],
+    [
+      107,
+      110,
+      3
+    ],
+    [
+      108,
+      109,
+      2
+    ],
+    [
+      112,
+      113,
+      2
+    ],
+    [
+      112,
+      114,
+      4
+    ],
+    [
+      115,
+      140,
+      3
+    ],
+    [
+      115,
+      141,
+      3
+    ],
+    [
+      115,
+      142,
+      2
+    ],
+    [
+      115,
+      147,
+      2
+    ],
+    [
+      115,
+      148,
+      2
+    ],
+    [
+      115,
+      149,
+      2
+    ],
+    [
+      115,
+      150,
+      3
+    ],
+    [
+      115,
+      151,
+      3
+    ],
+    [
+      115,
+      152,
+      3
+    ],
+    [
+      115,
+      153,
+      3
+    ],
+    [
+      115,
+      157,
+      2
+    ],
+    [
+      116,
+      117,
+      3
+    ],
+    [
+      116,
+      118,
+      3
+    ],
+    [
+      116,
+      119,
+      3
+    ],
+    [
+      116,
+      120,
+      3
+    ],
+    [
+      116,
+      121,
+      3
+    ],
+    [
+      116,
+      122,
+      2
+    ],
+    [
+      116,
+      126,
+      3
+    ],
+    [
+      116,
+      127,
+      2
+    ],
+    [
+      116,
+      145,
+      3
+    ],
+    [
+      116,
+      151,
+      2
+    ],
+    [
+      117,
+      118,
+      3
+    ],
+    [
+      117,
+      128,
+      3
+    ],
+    [
+      117,
+      149,
+      3
+    ],
+    [
+      118,
+      119,
+      2
+    ],
+    [
+      118,
+      150,
+      3
+    ],
+    [
+      119,
+      120,
+      4
+    ],
+    [
+      119,
+      121,
+      5
+    ],
+    [
+      119,
+      122,
+      4
+    ],
+    [
+      119,
+      126,
+      2
+    ],
+    [
+      119,
+      127,
+      2
+    ],
+    [
+      119,
+      149,
+      2
+    ],
+    [
+      119,
+      150,
+      2
+    ],
+    [
+      119,
+      151,
+      2
+    ],
+    [
+      119,
+      152,
+      3
+    ],
+    [
+      119,
+      153,
+      2
+    ],
+    [
+      119,
+      154,
+      3
+    ],
+    [
+      120,
+      121,
+      5
+    ],
+    [
+      120,
+      122,
+      3
+    ],
+    [
+      120,
+      126,
+      3
+    ],
+    [
+      120,
+      127,
+      2
+    ],
+    [
+      120,
+      146,
+      2
+    ],
+    [
+      120,
+      149,
+      3
+    ],
+    [
+      120,
+      151,
+      2
+    ],
+    [
+      120,
+      159,
+      2
+    ],
+    [
+      121,
+      122,
+      3
+    ],
+    [
+      121,
+      126,
+      2
+    ],
+    [
+      121,
+      140,
+      3
+    ],
+    [
+      121,
+      142,
+      3
+    ],
+    [
+      121,
+      146,
+      2
+    ],
+    [
+      121,
+      149,
+      4
+    ],
+    [
+      121,
+      151,
+      2
+    ],
+    [
+      121,
+      152,
+      2
+    ],
+    [
+      121,
+      158,
+      2
+    ],
+    [
+      121,
+      159,
+      2
+    ],
+    [
+      121,
+      160,
+      2
+    ],
+    [
+      122,
+      149,
+      2
+    ],
+    [
+      122,
+      152,
+      3
+    ],
+    [
+      122,
+      153,
+      2
+    ],
+    [
+      122,
+      154,
+      3
+    ],
+    [
+      125,
+      126,
+      2
+    ],
+    [
+      126,
+      127,
+      2
+    ],
+    [
+      126,
+      140,
+      2
+    ],
+    [
+      126,
+      142,
+      2
+    ],
+    [
+      126,
+      159,
+      2
+    ],
+    [
+      127,
+      150,
+      2
+    ],
+    [
+      127,
+      152,
+      2
+    ],
+    [
+      127,
+      153,
+      2
+    ],
+    [
+      128,
+      129,
+      2
+    ],
+    [
+      129,
+      132,
+      3
+    ],
+    [
+      130,
+      161,
+      2
+    ],
+    [
+      131,
+      132,
+      2
+    ],
+    [
+      132,
+      133,
+      2
+    ],
+    [
+      132,
+      134,
+      2
+    ],
+    [
+      133,
+      134,
+      2
+    ],
+    [
+      136,
+      137,
+      3
+    ],
+    [
+      136,
+      138,
+      4
+    ],
+    [
+      137,
+      138,
+      3
+    ],
+    [
+      140,
+      141,
+      2
+    ],
+    [
+      140,
+      142,
+      5
+    ],
+    [
+      140,
+      143,
+      3
+    ],
+    [
+      140,
+      146,
+      3
+    ],
+    [
+      140,
+      147,
+      3
+    ],
+    [
+      140,
+      148,
+      3
+    ],
+    [
+      140,
+      149,
+      3
+    ],
+    [
+      140,
+      150,
+      3
+    ],
+    [
+      140,
+      151,
+      3
+    ],
+    [
+      140,
+      156,
+      3
+    ],
+    [
+      141,
+      142,
+      2
+    ],
+    [
+      141,
+      147,
+      3
+    ],
+    [
+      141,
+      148,
+      3
+    ],
+    [
+      141,
+      149,
+      2
+    ],
+    [
+      141,
+      150,
+      3
+    ],
+    [
+      141,
+      151,
+      4
+    ],
+    [
+      141,
+      153,
+      3
+    ],
+    [
+      141,
+      159,
+      2
+    ],
+    [
+      141,
+      160,
+      2
+    ],
+    [
+      142,
+      143,
+      3
+    ],
+    [
+      142,
+      146,
+      4
+    ],
+    [
+      142,
+      147,
+      4
+    ],
+    [
+      142,
+      148,
+      4
+    ],
+    [
+      142,
+      149,
+      3
+    ],
+    [
+      142,
+      150,
+      3
+    ],
+    [
+      142,
+      151,
+      4
+    ],
+    [
+      142,
+      156,
+      4
+    ],
+    [
+      143,
+      146,
+      4
+    ],
+    [
+      143,
+      147,
+      2
+    ],
+    [
+      143,
+      148,
+      2
+    ],
+    [
+      143,
+      150,
+      2
+    ],
+    [
+      143,
+      156,
+      3
+    ],
+    [
+      146,
+      147,
+      3
+    ],
+    [
+      146,
+      148,
+      3
+    ],
+    [
+      146,
+      149,
+      3
+    ],
+    [
+      146,
+      150,
+      3
+    ],
+    [
+      146,
+      151,
+      2
+    ],
+    [
+      146,
+      156,
+      4
+    ],
+    [
+      147,
+      148,
+      5
+    ],
+    [
+      147,
+      149,
+      3
+    ],
+    [
+      147,
+      151,
+      3
+    ],
+    [
+      147,
+      156,
+      2
+    ],
+    [
+      148,
+      149,
+      3
+    ],
+    [
+      148,
+      151,
+      3
+    ],
+    [
+      148,
+      156,
+      2
+    ],
+    [
+      149,
+      150,
+      3
+    ],
+    [
+      149,
+      151,
+      3
+    ],
+    [
+      149,
+      152,
+      3
+    ],
+    [
+      149,
+      153,
+      3
+    ],
+    [
+      149,
+      154,
+      2
+    ],
+    [
+      149,
+      156,
+      2
+    ],
+    [
+      149,
+      160,
+      2
+    ],
+    [
+      150,
+      151,
+      3
+    ],
+    [
+      150,
+      152,
+      3
+    ],
+    [
+      150,
+      153,
+      3
+    ],
+    [
+      150,
+      154,
+      3
+    ],
+    [
+      150,
+      156,
+      3
+    ],
+    [
+      151,
+      152,
+      2
+    ],
+    [
+      151,
+      153,
+      2
+    ],
+    [
+      151,
+      158,
+      2
+    ],
+    [
+      151,
+      159,
+      3
+    ],
+    [
+      151,
+      160,
+      2
+    ],
+    [
+      152,
+      153,
+      4
+    ],
+    [
+      152,
+      154,
+      3
+    ],
+    [
+      153,
+      154,
+      3
+    ],
+    [
+      154,
+      160,
+      2
+    ],
+    [
+      158,
+      159,
+      2
+    ],
+    [
+      158,
+      160,
+      2
+    ],
+    [
+      159,
+      160,
+      3
+    ],
+    [
+      163,
+      164,
+      3
+    ],
+    [
+      163,
+      165,
+      4
+    ],
+    [
+      164,
+      165,
+      4
+    ],
+    [
+      164,
+      167,
+      2
+    ],
+    [
+      165,
+      166,
+      2
+    ],
+    [
+      166,
+      167,
+      3
+    ]
+  ],
+  "edge_probabilities": [
+    [
+      1,
+      62,
+      4,
+      15
+    ],
+    [
+      6,
+      66,
+      19,
+      60
+    ],
+    [
+      6,
+      68,
+      1,
+      4
+    ],
+    [
+      6,
+      69,
+      1,
+      4
+    ],
+    [
+      6,
+      71,
+      1,
+      4
+    ],
+    [
+      6,
+      72,
+      1,
+      4
+    ],
+    [
+      11,
+      12,
+      23,
+      60
+    ],
+    [
+      15,
+      16,
+      23,
+      90
+    ],
+    [
+      15,
+      26,
+      13,
+      45
+    ],
+    [
+      15,
+      50,
+      23,
+      90
+    ],
+    [
+      15,
+      116,
+      263,
+      738
+    ],
+    [
+      15,
+      118,
+      5,
+      9
+    ],
+    [
+      15,
+      119,
+      47,
+      120
+    ],
+    [
+      15,
+      120,
+      5,
+      12
+    ],
+    [
+      15,
+      121,
+      41,
+      90
+    ],
+    [
+      15,
+      126,
+      11,
+      36
+    ],
+    [
+      15,
+      128,
+      1,
+      4
+    ],
+    [
+      16,
+      60,
+      1,
+      4
+    ],
+    [
+      16,
+      116,
+      49,
+      164
+    ],
+    [
+      16,
+      121,
+      1,
+      4
+    ],
+    [
+      22,
+      23,
+      1,
+      3
+    ],
+    [
+      22,
+      150,
+      25,
+      92
+    ],
+    [
+      25,
+      119,
+      3,
+      10
+    ],
+    [
+      25,
+      152,
+      21,
+      80
+    ],
+    [
+      26,
+      27,
+      1,
+      4
+    ],
+    [
+      26,
+      50,
+      1,
+      4
+    ],
+    [
+      26,
+      79,
+      49,
+      180
+    ],
+    [
+      26,
+      81,
+      109,
+      360
+    ],
+    [
+      26,
+      83,
+      43,
+      120
+    ],
+    [
+      26,
+      85,
+      87,
+      280
+    ],
+    [
+      26,
+      119,
+      11,
+      40
+    ],
+    [
+      26,
+      120,
+      13,
+      30
+    ],
+    [
+      26,
+      121,
+      3,
+      8
+    ],
+    [
+      26,
+      147,
+      43,
+      120
+    ],
+    [
+      26,
+      148,
+      43,
+      120
+    ],
+    [
+      26,
+      151,
+      3,
+      10
+    ],
+    [
+      27,
+      79,
+      1,
+      4
+    ],
+    [
+      30,
+      48,
+      65,
+      252
+    ],
+    [
+      30,
+      49,
+      57,
+      154
+    ],
+    [
+      30,
+      56,
+      9,
+      28
+    ],
+    [
+      30,
+      120,
+      2,
+      7
+    ],
+    [
+      30,
+      134,
+      89,
+      280
+    ],
+    [
+      31,
+      32,
+      181,
+      462
+    ],
+    [
+      31,
+      33,
+      85,
+      231
+    ],
+    [
+      31,
+      75,
+      23,
+      84
+    ],
+    [
+      31,
+      83,
+      1,
+      4
+    ],
+    [
+      31,
+      84,
+      1,
+      3
+    ],
+    [
+      32,
+      33,
+      5,
+      11
+    ],
+    [
+      32,
+      79,
+      17,
+      66
+    ],
+    [
+      33,
+      153,
+      23,
+      88
+    ],
+    [
+      35,
+      44,
+      1,
+      4
+    ],
+    [
+      35,
+      110,
+      1,
+      3
+    ],
+    [
+      36,
+      38,
+      131,
+      407
+    ],
+    [
+      38,
+      55,
+      29,
+      111
+    ],
+    [
+      41,
+      47,
+      37,
+      140
+    ],
+    [
+      41,
+      48,
+      23,
+      60
+    ],
+    [
+      42,
+      43,
+      19,
+      52
+    ],
+    [
+      44,
+      48,
+      13,
+      36
+    ],
+    [
+      44,
+      107,
+      35,
+      132
+    ],
+    [
+      44,
+      108,
+      9,
+      32
+    ],
+    [
+      44,
+      110,
+      7,
+      24
+    ],
+    [
+      45,
+      57,
+      57,
+      176
+    ],
+    [
+      46,
+      48,
+      23,
+      90
+    ],
+    [
+      48,
+      56,
+      16,
+      63
+    ],
+    [
+      48,
+      107,
+      25,
+      99
+    ],
+    [
+      48,
+      109,
+      13,
+      45
+    ],
+    [
+      48,
+      112,
+      7,
+      24
+    ],
+    [
+      48,
+      113,
+      14,
+      45
+    ],
+    [
+      49,
+      50,
+      59,
+      220
+    ],
+    [
+      49,
+      75,
+      13,
+      44
+    ],
+    [
+      49,
+      76,
+      87,
+      308
+    ],
+    [
+      49,
+      105,
+      179,
+      682
+    ],
+    [
+      49,
+      113,
+      59,
+      220
+    ],
+    [
+      49,
+      120,
+      7,
+      22
+    ],
+    [
+      49,
+      134,
+      3,
+      10
+    ],
+    [
+      49,
+      159,
+      13,
+      44
+    ],
+    [
+      49,
+      160,
+      20,
+      77
+    ],
+    [
+      50,
+      65,
+      11,
+      30
+    ],
+    [
+      50,
+      66,
+      7,
+      20
+    ],
+    [
+      50,
+      67,
+      23,
+      60
+    ],
+    [
+      50,
+      68,
+      11,
+      20
+    ],
+    [
+      50,
+      69,
+      11,
+      20
+    ],
+    [
+      50,
+      70,
+      18,
+      35
+    ],
+    [
+      50,
+      71,
+      11,
+      20
+    ],
+    [
+      50,
+      72,
+      11,
+      20
+    ],
+    [
+      50,
+      74,
+      4,
+      15
+    ],
+    [
+      50,
+      79,
+      23,
+      90
+    ],
+    [
+      50,
+      82,
+      23,
+      90
+    ],
+    [
+      50,
+      119,
+      11,
+      40
+    ],
+    [
+      50,
+      120,
+      9,
+      20
+    ],
+    [
+      50,
+      121,
+      3,
+      10
+    ],
+    [
+      50,
+      122,
+      3,
+      10
+    ],
+    [
+      50,
+      149,
+      59,
+      220
+    ],
+    [
+      50,
+      152,
+      3,
+      10
+    ],
+    [
+      50,
+      153,
+      17,
+      60
+    ],
+    [
+      50,
+      154,
+      19,
+      70
+    ],
+    [
+      50,
+      158,
+      1,
+      4
+    ],
+    [
+      50,
+      159,
+      7,
+      20
+    ],
+    [
+      50,
+      160,
+      17,
+      35
+    ],
+    [
+      52,
+      128,
+      1,
+      3
+    ],
+    [
+      52,
+      129,
+      17,
+      63
+    ],
+    [
+      54,
+      124,
+      17,
+      66
+    ],
+    [
+      56,
+      57,
+      34,
+      77
+    ],
+    [
+      56,
+      58,
+      27,
+      77
+    ],
+    [
+      57,
+      58,
+      1,
+      2
+    ],
+    [
+      59,
+      60,
+      3,
+      10
+    ],
+    [
+      59,
+      77,
+      4,
+      15
+    ],
+    [
+      59,
+      96,
+      12,
+      35
+    ],
+    [
+      59,
+      117,
+      3,
+      10
+    ],
+    [
+      59,
+      128,
+      37,
+      90
+    ],
+    [
+      60,
+      118,
+      3,
+      10
+    ],
+    [
+      60,
+      128,
+      14,
+      45
+    ],
+    [
+      61,
+      77,
+      17,
+      60
+    ],
+    [
+      61,
+      78,
+      71,
+      240
+    ],
+    [
+      61,
+      80,
+      1,
+      4
+    ],
+    [
+      61,
+      81,
+      41,
+      144
+    ],
+    [
+      61,
+      105,
+      481,
+      1488
+    ],
+    [
+      61,
+      112,
+      7,
+      24
+    ],
+    [
+      61,
+      113,
+      7,
+      24
+    ],
+    [
+      63,
+      64,
+      131,
+      290
+    ],
+    [
+      63,
+      68,
+      33,
+      116
+    ],
+    [
+      63,
+      69,
+      33,
+      116
+    ],
+    [
+      63,
+      71,
+      33,
+      116
+    ],
+    [
+      63,
+      72,
+      33,
+      116
+    ],
+    [
+      63,
+      75,
+      31,
+      116
+    ],
+    [
+      65,
+      66,
+      8,
+      15
+    ],
+    [
+      65,
+      67,
+      13,
+      36
+    ],
+    [
+      65,
+      68,
+      7,
+      18
+    ],
+    [
+      65,
+      69,
+      7,
+      18
+    ],
+    [
+      65,
+      70,
+      23,
+      63
+    ],
+    [
+      65,
+      71,
+      7,
+      18
+    ],
+    [
+      65,
+      72,
+      7,
+      18
+    ],
+    [
+      65,
+      74,
+      5,
+      18
+    ],
+    [
+      65,
+      76,
+      16,
+      63
+    ],
+    [
+      65,
+      120,
+      5,
+      18
+    ],
+    [
+      65,
+      121,
+      14,
+      45
+    ],
+    [
+      65,
+      122,
+      3,
+      10
+    ],
+    [
+      65,
+      149,
+      17,
+      66
+    ],
+    [
+      65,
+      152,
+      19,
+      60
+    ],
+    [
+      65,
+      153,
+      7,
+      24
+    ],
+    [
+      65,
+      154,
+      16,
+      63
+    ],
+    [
+      65,
+      160,
+      13,
+      42
+    ],
+    [
+      66,
+      67,
+      1,
+      3
+    ],
+    [
+      66,
+      68,
+      11,
+      30
+    ],
+    [
+      66,
+      69,
+      11,
+      30
+    ],
+    [
+      66,
+      70,
+      12,
+      35
+    ],
+    [
+      66,
+      71,
+      11,
+      30
+    ],
+    [
+      66,
+      72,
+      11,
+      30
+    ],
+    [
+      66,
+      74,
+      4,
+      15
+    ],
+    [
+      66,
+      120,
+      4,
+      15
+    ],
+    [
+      66,
+      121,
+      3,
+      10
+    ],
+    [
+      66,
+      152,
+      3,
+      10
+    ],
+    [
+      66,
+      153,
+      11,
+      40
+    ],
+    [
+      66,
+      160,
+      41,
+      140
+    ],
+    [
+      67,
+      68,
+      5,
+      18
+    ],
+    [
+      67,
+      69,
+      5,
+      18
+    ],
+    [
+      67,
+      70,
+      16,
+      63
+    ],
+    [
+      67,
+      71,
+      5,
+      18
+    ],
+    [
+      67,
+      72,
+      5,
+      18
+    ],
+    [
+      67,
+      121,
+      23,
+      90
+    ],
+    [
+      67,
+      160,
+      17,
+      63
+    ],
+    [
+      68,
+      69,
+      7,
+      12
+    ],
+    [
+      68,
+      70,
+      15,
+      28
+    ],
+    [
+      68,
+      71,
+      7,
+      12
+    ],
+    [
+      68,
+      72,
+      7,
+      12
+    ],
+    [
+      68,
+      74,
+      1,
+      3
+    ],
+    [
+      68,
+      75,
+      1,
+      4
+    ],
+    [
+      68,
+      76,
+      13,
+      42
+    ],
+    [
+      68,
+      107,
+      35,
+      132
+    ],
+    [
+      68,
+      120,
+      1,
+      4
+    ],
+    [
+      68,
+      121,
+      17,
+      60
+    ],
+    [
+      68,
+      152,
+      4,
+      15
+    ],
+    [
+      68,
+      153,
+      1,
+      4
+    ],
+    [
+      68,
+      154,
+      13,
+      42
+    ],
+    [
+      68,
+      160,
+      25,
+      84
+    ],
+    [
+      69,
+      70,
+      15,
+      28
+    ],
+    [
+      69,
+      71,
+      7,
+      12
+    ],
+    [
+      69,
+      72,
+      7,
+      12
+    ],
+    [
+      69,
+      74,
+      1,
+      3
+    ],
+    [
+      69,
+      75,
+      1,
+      4
+    ],
+    [
+      69,
+      76,
+      13,
+      42
+    ],
+    [
+      69,
+      107,
+      35,
+      132
+    ],
+    [
+      69,
+      120,
+      1,
+      4
+    ],
+    [
+      69,
+      121,
+      17,
+      60
+    ],
+    [
+      69,
+      151,
+      1,
+      4
+    ],
+    [
+      69,
+      152,
+      4,
+      15
+    ],
+    [
+      69,
+      153,
+      1,
+      4
+    ],
+    [
+      69,
+      154,
+      13,
+      42
+    ],
+    [
+      69,
+      160,
+      25,
+      84
+    ],
+    [
+      70,
+      71,
+      15,
+      28
+    ],
+    [
+      70,
+      72,
+      23,
+      42
+    ],
+    [
+      70,
+      74,
+      13,
+      42
+    ],
+    [
+      70,
+      76,
+      2,
+      7
+    ],
+    [
+      70,
+      121,
+      19,
+      70
+    ],
+    [
+      70,
+      154,
+      2,
+      7
+    ],
+    [
+      70,
+      160,
+      2,
+      7
+    ],
+    [
+      71,
+      72,
+      7,
+      12
+    ],
+    [
+      71,
+      74,
+      1,
+      3
+    ],
+    [
+      71,
+      75,
+      1,
+      4
+    ],
+    [
+      71,
+      76,
+      13,
+      42
+    ],
+    [
+      71,
+      107,
+      35,
+      132
+    ],
+    [
+      71,
+      120,
+      1,
+      4
+    ],
+    [
+      71,
+      121,
+      17,
+      60
+    ],
+    [
+      71,
+      151,
+      1,
+      4
+    ],
+    [
+      71,
+      152,
+      4,
+      15
+    ],
+    [
+      71,
+      153,
+      1,
+      4
+    ],
+    [
+      71,
+      154,
+      13,
+      42
+    ],
+    [
+      71,
+      160,
+      8,
+      21
+    ],
+    [
+      72,
+      74,
+      1,
+      3
+    ],
+    [
+      72,
+      75,
+      1,
+      4
+    ],
+    [
+      72,
+      76,
+      13,
+      42
+    ],
+    [
+      72,
+      107,
+      35,
+      132
+    ],
+    [
+      72,
+      120,
+      1,
+      4
+    ],
+    [
+      72,
+      121,
+      17,
+      60
+    ],
+    [
+      72,
+      151,
+      1,
+      4
+    ],
+    [
+      72,
+      152,
+      4,
+      15
+    ],
+    [
+      72,
+      153,
+      1,
+      4
+    ],
+    [
+      72,
+      154,
+      13,
+      42
+    ],
+    [
+      72,
+      159,
+      1,
+      4
+    ],
+    [
+      72,
+      160,
+      8,
+      21
+    ],
+    [
+      73,
+      74,
+      17,
+      54
+    ],
+    [
+      73,
+      75,
+      53,
+      108
+    ],
+    [
+      73,
+      76,
+      163,
+      378
+    ],
+    [
+      73,
+      161,
+      29,
+      108
+    ],
+    [
+      74,
+      75,
+      13,
+      36
+    ],
+    [
+      74,
+      76,
+      41,
+      126
+    ],
+    [
+      74,
+      160,
+      16,
+      63
+    ],
+    [
+      75,
+      76,
+      37,
+      84
+    ],
+    [
+      75,
+      78,
+      17,
+      60
+    ],
+    [
+      75,
+      120,
+      1,
+      3
+    ],
+    [
+      75,
+      121,
+      11,
+      30
+    ],
+    [
+      75,
+      158,
+      7,
+      20
+    ],
+    [
+      76,
+      120,
+      13,
+      28
+    ],
+    [
+      76,
+      121,
+      12,
+      35
+    ],
+    [
+      76,
+      158,
+      51,
+      140
+    ],
+    [
+      77,
+      78,
+      11,
+      30
+    ],
+    [
+      77,
+      79,
+      19,
+      45
+    ],
+    [
+      77,
+      80,
+      23,
+      80
+    ],
+    [
+      77,
+      81,
+      22,
+      45
+    ],
+    [
+      77,
+      82,
+      17,
+      45
+    ],
+    [
+      77,
+      83,
+      1,
+      4
+    ],
+    [
+      77,
+      84,
+      1,
+      3
+    ],
+    [
+      77,
+      85,
+      2,
+      7
+    ],
+    [
+      77,
+      96,
+      27,
+      70
+    ],
+    [
+      78,
+      79,
+      22,
+      45
+    ],
+    [
+      78,
+      80,
+      107,
+      240
+    ],
+    [
+      78,
+      81,
+      23,
+      45
+    ],
+    [
+      78,
+      82,
+      2,
+      5
+    ],
+    [
+      78,
+      84,
+      1,
+      3
+    ],
+    [
+      78,
+      85,
+      67,
+      210
+    ],
+    [
+      79,
+      80,
+      7,
+      24
+    ],
+    [
+      79,
+      81,
+      7,
+      18
+    ],
+    [
+      79,
+      82,
+      7,
+      18
+    ],
+    [
+      79,
+      84,
+      1,
+      4
+    ],
+    [
+      79,
+      85,
+      2,
+      7
+    ],
+    [
+      79,
+      160,
+      17,
+      63
+    ],
+    [
+      80,
+      81,
+      41,
+      144
+    ],
+    [
+      80,
+      84,
+      1,
+      4
+    ],
+    [
+      81,
+      82,
+      4,
+      9
+    ],
+    [
+      81,
+      84,
+      1,
+      3
+    ],
+    [
+      81,
+      85,
+      2,
+      7
+    ],
+    [
+      82,
+      83,
+      5,
+      18
+    ],
+    [
+      82,
+      84,
+      1,
+      3
+    ],
+    [
+      82,
+      85,
+      2,
+      7
+    ],
+    [
+      83,
+      84,
+      5,
+      12
+    ],
+    [
+      83,
+      85,
+      2,
+      7
+    ],
+    [
+      83,
+      115,
+      27,
+      100
+    ],
+    [
+      83,
+      151,
+      1,
+      4
+    ],
+    [
+      86,
+      87,
+      37,
+      140
+    ],
+    [
+      89,
+      90,
+      1,
+      2
+    ],
+    [
+      89,
+      91,
+      7,
+      16
+    ],
+    [
+      89,
+      92,
+      3,
+      8
+    ],
+    [
+      89,
+      93,
+      25,
+      48
+    ],
+    [
+      89,
+      95,
+      13,
+      48
+    ],
+    [
+      89,
+      101,
+      31,
+      80
+    ],
+    [
+      89,
+      102,
+      3,
+      8
+    ],
+    [
+      89,
+      103,
+      9,
+      20
+    ],
+    [
+      89,
+      104,
+      3,
+      8
+    ],
+    [
+      90,
+      91,
+      7,
+      16
+    ],
+    [
+      90,
+      92,
+      3,
+      8
+    ],
+    [
+      90,
+      93,
+      7,
+      16
+    ],
+    [
+      90,
+      95,
+      13,
+      48
+    ],
+    [
+      90,
+      101,
+      23,
+      80
+    ],
+    [
+      90,
+      102,
+      3,
+      8
+    ],
+    [
+      90,
+      103,
+      7,
+      20
+    ],
+    [
+      90,
+      104,
+      3,
+      8
+    ],
+    [
+      91,
+      92,
+      19,
+      48
+    ],
+    [
+      91,
+      93,
+      1,
+      2
+    ],
+    [
+      91,
+      95,
+      1,
+      4
+    ],
+    [
+      91,
+      101,
+      7,
+      20
+    ],
+    [
+      91,
+      102,
+      19,
+      48
+    ],
+    [
+      91,
+      103,
+      13,
+      30
+    ],
+    [
+      91,
+      104,
+      19,
+      48
+    ],
+    [
+      92,
+      93,
+      7,
+      16
+    ],
+    [
+      92,
+      95,
+      13,
+      48
+    ],
+    [
+      92,
+      101,
+      23,
+      80
+    ],
+    [
+      92,
+      102,
+      3,
+      8
+    ],
+    [
+      92,
+      103,
+      7,
+      20
+    ],
+    [
+      92,
+      104,
+      3,
+      8
+    ],
+    [
+      93,
+      95,
+      1,
+      4
+    ],
+    [
+      93,
+      101,
+      13,
+      30
+    ],
+    [
+      93,
+      102,
+      19,
+      48
+    ],
+    [
+      93,
+      103,
+      31,
+      60
+    ],
+    [
+      93,
+      104,
+      19,
+      48
+    ],
+    [
+      95,
+      101,
+      7,
+      20
+    ],
+    [
+      95,
+      102,
+      1,
+      3
+    ],
+    [
+      95,
+      103,
+      1,
+      4
+    ],
+    [
+      95,
+      104,
+      1,
+      3
+    ],
+    [
+      96,
+      97,
+      2,
+      7
+    ],
+    [
+      96,
+      128,
+      16,
+      63
+    ],
+    [
+      97,
+      99,
+      19,
+      70
+    ],
+    [
+      97,
+      112,
+      33,
+      112
+    ],
+    [
+      97,
+      114,
+      43,
+      84
+    ],
+    [
+      98,
+      99,
+      9,
+      20
+    ],
+    [
+      101,
+      102,
+      3,
+      10
+    ],
+    [
+      101,
+      103,
+      2,
+      5
+    ],
+    [
+      101,
+      104,
+      3,
+      10
+    ],
+    [
+      102,
+      103,
+      7,
+      20
+    ],
+    [
+      102,
+      104,
+      1,
+      2
+    ],
+    [
+      103,
+      104,
+      31,
+      80
+    ],
+    [
+      105,
+      107,
+      243,
+      682
+    ],
+    [
+      105,
+      108,
+      343,
+      992
+    ],
+    [
+      105,
+      110,
+      253,
+      744
+    ],
+    [
+      107,
+      108,
+      361,
+      1056
+    ],
+    [
+      107,
+      110,
+      89,
+      264
+    ],
+    [
+      108,
+      109,
+      137,
+      480
+    ],
+    [
+      112,
+      113,
+      11,
+      40
+    ],
+    [
+      112,
+      114,
+      7,
+      16
+    ],
+    [
+      115,
+      140,
+      117,
+      350
+    ],
+    [
+      115,
+      141,
+      133,
+      400
+    ],
+    [
+      115,
+      142,
+      3,
+      10
+    ],
+    [
+      115,
+      147,
+      27,
+      100
+    ],
+    [
+      115,
+      148,
+      27,
+      100
+    ],
+    [
+      115,
+      149,
+      31,
+      110
+    ],
+    [
+      115,
+      150,
+      39,
+      115
+    ],
+    [
+      115,
+      151,
+      28,
+      75
+    ],
+    [
+      115,
+      152,
+      43,
+      100
+    ],
+    [
+      115,
+      153,
+      223,
+      600
+    ],
+    [
+      115,
+      157,
+      89,
+      350
+    ],
+    [
+      116,
+      117,
+      169,
+      410
+    ],
+    [
+      116,
+      118,
+      87,
+      205
+    ],
+    [
+      116,
+      119,
+      163,
+      410
+    ],
+    [
+      116,
+      120,
+      47,
+      123
+    ],
+    [
+      116,
+      121,
+      179,
+      410
+    ],
+    [
+      116,
+      122,
+      181,
+      615
+    ],
+    [
+      116,
+      126,
+      91,
+      246
+    ],
+    [
+      116,
+      127,
+      151,
+      574
+    ],
+    [
+      116,
+      145,
+      185,
+      574
+    ],
+    [
+      116,
+      151,
+      45,
+      164
+    ],
+    [
+      117,
+      118,
+      2,
+      5
+    ],
+    [
+      117,
+      128,
+      11,
+      30
+    ],
+    [
+      117,
+      149,
+      71,
+      220
+    ],
+    [
+      118,
+      119,
+      11,
+      40
+    ],
+    [
+      118,
+      150,
+      37,
+      115
+    ],
+    [
+      119,
+      120,
+      31,
+      60
+    ],
+    [
+      119,
+      121,
+      23,
+      40
+    ],
+    [
+      119,
+      122,
+      29,
+      60
+    ],
+    [
+      119,
+      126,
+      3,
+      10
+    ],
+    [
+      119,
+      127,
+      71,
+      280
+    ],
+    [
+      119,
+      149,
+      25,
+      88
+    ],
+    [
+      119,
+      150,
+      129,
+      460
+    ],
+    [
+      119,
+      151,
+      3,
+      10
+    ],
+    [
+      119,
+      152,
+      3,
+      8
+    ],
+    [
+      119,
+      153,
+      17,
+      60
+    ],
+    [
+      119,
+      154,
+      101,
+      280
+    ],
+    [
+      120,
+      121,
+      19,
+      30
+    ],
+    [
+      120,
+      122,
+      7,
+      20
+    ],
+    [
+      120,
+      126,
+      5,
+      12
+    ],
+    [
+      120,
+      127,
+      2,
+      7
+    ],
+    [
+      120,
+      146,
+      13,
+      51
+    ],
+    [
+      120,
+      149,
+      7,
+      22
+    ],
+    [
+      120,
+      151,
+      1,
+      4
+    ],
+    [
+      120,
+      159,
+      1,
+      4
+    ],
+    [
+      121,
+      122,
+      2,
+      5
+    ],
+    [
+      121,
+      126,
+      4,
+      15
+    ],
+    [
+      121,
+      140,
+      13,
+      35
+    ],
+    [
+      121,
+      142,
+      9,
+      25
+    ],
+    [
+      121,
+      146,
+      49,
+      170
+    ],
+    [
+      121,
+      149,
+      103,
+      220
+    ],
+    [
+      121,
+      151,
+      4,
+      15
+    ],
+    [
+      121,
+      152,
+      1,
+      4
+    ],
+    [
+      121,
+      158,
+      1,
+      4
+    ],
+    [
+      121,
+      159,
+      17,
+      60
+    ],
+    [
+      121,
+      160,
+      19,
+      70
+    ],
+    [
+      122,
+      149,
+      89,
+      330
+    ],
+    [
+      122,
+      152,
+      7,
+      20
+    ],
+    [
+      122,
+      153,
+      4,
+      15
+    ],
+    [
+      122,
+      154,
+      11,
+      35
+    ],
+    [
+      125,
+      126,
+      3,
+      11
+    ],
+    [
+      126,
+      127,
+      23,
+      84
+    ],
+    [
+      126,
+      140,
+      25,
+      84
+    ],
+    [
+      126,
+      142,
+      29,
+      100
+    ],
+    [
+      126,
+      159,
+      1,
+      4
+    ],
+    [
+      127,
+      150,
+      185,
+      644
+    ],
+    [
+      127,
+      152,
+      19,
+      70
+    ],
+    [
+      127,
+      153,
+      47,
+      168
+    ],
+    [
+      128,
+      129,
+      17,
+      63
+    ],
+    [
+      129,
+      132,
+      8,
+      21
+    ],
+    [
+      130,
+      161,
+      17,
+      60
+    ],
+    [
+      131,
+      132,
+      11,
+      36
+    ],
+    [
+      132,
+      133,
+      5,
+      18
+    ],
+    [
+      132,
+      134,
+      14,
+      45
+    ],
+    [
+      133,
+      134,
+      1,
+      4
+    ],
+    [
+      136,
+      137,
+      44,
+      117
+    ],
+    [
+      136,
+      138,
+      23,
+      52
+    ],
+    [
+      137,
+      138,
+      59,
+      144
+    ],
+    [
+      140,
+      141,
+      25,
+      84
+    ],
+    [
+      140,
+      142,
+      611,
+      1050
+    ],
+    [
+      140,
+      143,
+      83,
+      238
+    ],
+    [
+      140,
+      146,
+      97,
+      238
+    ],
+    [
+      140,
+      147,
+      5,
+      14
+    ],
+    [
+      140,
+      148,
+      5,
+      14
+    ],
+    [
+      140,
+      149,
+      25,
+      77
+    ],
+    [
+      140,
+      150,
+      123,
+      322
+    ],
+    [
+      140,
+      151,
+      17,
+      42
+    ],
+    [
+      140,
+      156,
+      2,
+      5
+    ],
+    [
+      141,
+      142,
+      31,
+      100
+    ],
+    [
+      141,
+      147,
+      3,
+      8
+    ],
+    [
+      141,
+      148,
+      3,
+      8
+    ],
+    [
+      141,
+      149,
+      13,
+      44
+    ],
+    [
+      141,
+      150,
+      31,
+      92
+    ],
+    [
+      141,
+      151,
+      25,
+      48
+    ],
+    [
+      141,
+      153,
+      5,
+      16
+    ],
+    [
+      141,
+      159,
+      13,
+      48
+    ],
+    [
+      141,
+      160,
+      15,
+      56
+    ],
+    [
+      142,
+      143,
+      172,
+      425
+    ],
+    [
+      142,
+      146,
+      197,
+      425
+    ],
+    [
+      142,
+      147,
+      137,
+      300
+    ],
+    [
+      142,
+      148,
+      137,
+      300
+    ],
+    [
+      142,
+      149,
+      177,
+      550
+    ],
+    [
+      142,
+      150,
+      194,
+      575
+    ],
+    [
+      142,
+      151,
+      143,
+      300
+    ],
+    [
+      142,
+      156,
+      1,
+      2
+    ],
+    [
+      143,
+      146,
+      8,
+      17
+    ],
+    [
+      143,
+      147,
+      21,
+      68
+    ],
+    [
+      143,
+      148,
+      21,
+      68
+    ],
+    [
+      143,
+      150,
+      211,
+      782
+    ],
+    [
+      143,
+      156,
+      2,
+      5
+    ],
+    [
+      146,
+      147,
+      20,
+      51
+    ],
+    [
+      146,
+      148,
+      20,
+      51
+    ],
+    [
+      146,
+      149,
+      67,
+      187
+    ],
+    [
+      146,
+      150,
+      160,
+      391
+    ],
+    [
+      146,
+      151,
+      13,
+      51
+    ],
+    [
+      146,
+      156,
+      9,
+      17
+    ],
+    [
+      147,
+      148,
+      7,
+      12
+    ],
+    [
+      147,
+      149,
+      15,
+      44
+    ],
+    [
+      147,
+      151,
+      1,
+      3
+    ],
+    [
+      147,
+      156,
+      3,
+      10
+    ],
+    [
+      148,
+      149,
+      15,
+      44
+    ],
+    [
+      148,
+      151,
+      1,
+      3
+    ],
+    [
+      148,
+      156,
+      3,
+      10
+    ],
+    [
+      149,
+      150,
+      169,
+      506
+    ],
+    [
+      149,
+      151,
+      53,
+      132
+    ],
+    [
+      149,
+      152,
+      4,
+      11
+    ],
+    [
+      149,
+      153,
+      9,
+      22
+    ],
+    [
+      149,
+      154,
+      87,
+      308
+    ],
+    [
+      149,
+      156,
+      3,
+      10
+    ],
+    [
+      149,
+      160,
+      87,
+      308
+    ],
+    [
+      150,
+      151,
+      26,
+      69
+    ],
+    [
+      150,
+      152,
+      89,
+      230
+    ],
+    [
+      150,
+      153,
+      31,
+      92
+    ],
+    [
+      150,
+      154,
+      113,
+      322
+    ],
+    [
+      150,
+      156,
+      37,
+      115
+    ],
+    [
+      151,
+      152,
+      4,
+      15
+    ],
+    [
+      151,
+      153,
+      1,
+      4
+    ],
+    [
+      151,
+      158,
+      4,
+      15
+    ],
+    [
+      151,
+      159,
+      1,
+      3
+    ],
+    [
+      151,
+      160,
+      13,
+      42
+    ],
+    [
+      152,
+      153,
+      9,
+      20
+    ],
+    [
+      152,
+      154,
+      29,
+      70
+    ],
+    [
+      153,
+      154,
+      19,
+      56
+    ],
+    [
+      154,
+      160,
+      2,
+      7
+    ],
+    [
+      158,
+      159,
+      17,
+      60
+    ],
+    [
+      158,
+      160,
+      41,
+      140
+    ],
+    [
+      159,
+      160,
+      11,
+      28
+    ],
+    [
+      163,
+      164,
+      55,
+      126
+    ],
+    [
+      163,
+      165,
+      13,
+      24
+    ],
+    [
+      164,
+      165,
+      61,
+      112
+    ],
+    [
+      164,
+      167,
+      29,
+      112
+    ],
+    [
+      165,
+      166,
+      1,
+      4
+    ],
+    [
+      166,
+      167,
+      1,
+      3
+    ]
+  ],
+  "recourse": [
+    2,
+    2,
+    1,
+    2,
+    3,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    3,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    3,
+    2,
+    2,
+    1,
+    3,
+    2,
+    2,
+    2,
+    2,
+    1,
+    3,
+    2,
+    2,
+    2,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    3,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    3,
+    1,
+    3,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    3,
+    3,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    3,
+    3,
+    2,
+    2,
+    3,
+    1,
+    1,
+    2,
+    1,
+    2,
+    3,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    3,
+    1,
+    3,
+    3,
+    2,
+    1,
+    3,
+    1,
+    1,
+    2,
+    3,
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1
+  ],
+  "interpretation": "Symmetrized temporal co-edit association, not verified physical interface or causal dependency; responsibility pools/costs/perturbations are synthetic."
+}

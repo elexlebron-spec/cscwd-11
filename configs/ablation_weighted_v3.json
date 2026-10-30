@@ -1,0 +1,1 @@
+{"purpose":"prospective_mechanism_ablation_weighted_region_vs_safe_hop_region_new_seeds","grid":{"n":[512],"topology":["modular","grid","smallworld"],"coupling":[2,12],"preference":[2],"shock_scale":[8],"anchors":[1,4],"budget":[8,16],"weighted":[true],"degraded":[0],"seed":[200,201,202,203,204,205,206,207,208,209]},"repeats":3,"seconds_per_query":1.0,"common_fastpath":true}

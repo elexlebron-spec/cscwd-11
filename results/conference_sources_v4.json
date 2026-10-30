@@ -1,0 +1,17 @@
+{
+  "program_url": "https://cscwd2025.hds.utc.fr/files/CSCWD2025-Preliminary-Program-0326i.pdf",
+  "program_read_page": 17,
+  "source_sha256": {
+    "cscwd2025_program.pdf": "a1ee2b6e178c00e300c8f887612fad6c2f69a61a3715f40545a074f47caf10a1",
+    "11033310_crossref.json": "29667ff5d0b7799951d9a3dc44317ad5e0e4e094c0198b365f104ac209a05164",
+    "11033475_crossref.json": "164054bfe1b4f8b591607dd2ccd6c94cd05f0e544ea6163b61df02f75a3933d4",
+    "11582688_crossref.json": "6bedcea2d4e044337a25eadd30ec455b178ebc1abd9019f000f69c0d7eaed326"
+  },
+  "read_limits": "2025 titles/authors/metadata only;2026 publisher abstract and metadata; no fulltext algorithm exclusion",
+  "current_homepage": {
+    "url": "https://cscwd2027.dailyeliteevents.com.au/",
+    "access_date": "2026-10-28",
+    "saved_html_sha256": "7b0792f1f5db1d2a1aa77df8cfaeb58e48f48ab1f7c0f383c0c76bba7432629a",
+    "observed": "October 31 retained beside November 30, 2026; submission due (extended); six pages including references and figures"
+  }
+}

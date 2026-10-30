@@ -1,0 +1,105 @@
+{
+  "folder": "results/holdout_extension_v2",
+  "cases": 336,
+  "solver_runs": 2016,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 336
+  },
+  "barr_statuses": {
+    "OPTIMAL": 336
+  },
+  "greedy_suboptimal_cases": 42,
+  "proven_budget_binding_cases": 214,
+  "finite_lr_gap_cases": 213,
+  "full_branching_cases": 218,
+  "nonzero_epsilon_cases": 0,
+  "actual_loss_positive_cases": 0,
+  "epsilon_range": [
+    0,
+    0
+  ],
+  "max_actual_loss": 0,
+  "median_certificate_gap": 0.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 49,
+      "median_full_ms": 34.50024998164736,
+      "median_barr_ms": 33.51158299483359,
+      "median_paired_speed_ratio": 1.003723067640951,
+      "cluster_bootstrap_95_low": 0.9892389249868414,
+      "cluster_bootstrap_95_high": 1.0305703015311654,
+      "median_region_ratio": 0.9921875,
+      "region_ge_70pct_cases": 43
+    },
+    {
+      "topology": "grid",
+      "n": 512,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 36,
+      "median_full_ms": 130.95766698825173,
+      "median_barr_ms": 63.18704150908161,
+      "median_paired_speed_ratio": 1.9255694259933975,
+      "cluster_bootstrap_95_low": 1.5406052058096518,
+      "cluster_bootstrap_95_high": 2.287692165230297,
+      "median_region_ratio": 0.513671875,
+      "region_ge_70pct_cases": 15
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 20,
+      "median_full_ms": 24.33062451018486,
+      "median_barr_ms": 20.154375000856817,
+      "median_paired_speed_ratio": 1.235258839030894,
+      "cluster_bootstrap_95_low": 1.0201259147954553,
+      "cluster_bootstrap_95_high": 1.2994278187490564,
+      "median_region_ratio": 0.80859375,
+      "region_ge_70pct_cases": 25
+    },
+    {
+      "topology": "modular",
+      "n": 512,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 21,
+      "median_full_ms": 75.87100000819191,
+      "median_barr_ms": 22.999249980784953,
+      "median_paired_speed_ratio": 3.260152353186236,
+      "cluster_bootstrap_95_low": 2.863282164546591,
+      "cluster_bootstrap_95_high": 3.8589052318278263,
+      "median_region_ratio": 0.255859375,
+      "region_ge_70pct_cases": 0
+    },
+    {
+      "topology": "smallworld",
+      "n": 128,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 50,
+      "median_full_ms": 72.60472899361048,
+      "median_barr_ms": 74.22345801023766,
+      "median_paired_speed_ratio": 0.9832420382775281,
+      "cluster_bootstrap_95_low": 0.9778214731810054,
+      "cluster_bootstrap_95_high": 0.9909535024663281,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 56
+    },
+    {
+      "topology": "smallworld",
+      "n": 512,
+      "all_cases": 56,
+      "nontrivial_exact_cases": 42,
+      "median_full_ms": 360.9172500146087,
+      "median_barr_ms": 362.11081249348354,
+      "median_paired_speed_ratio": 0.991808700325586,
+      "cluster_bootstrap_95_low": 0.9892642181449361,
+      "cluster_bootstrap_95_high": 0.9937839448665673,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 56
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}

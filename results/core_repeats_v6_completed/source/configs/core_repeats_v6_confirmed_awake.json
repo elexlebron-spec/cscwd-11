@@ -1,0 +1,20 @@
+{
+  "purpose": "complete fixed-input repetition after operator confirms the laptop will remain awake; prior interrupted and inconsistent attempts retained",
+  "source_folder": "results/core_holdout_v4",
+  "include_all_saved_cases": true,
+  "expected_cases": 20,
+  "methods": [
+    "FullCP",
+    "BARRCP"
+  ],
+  "repeats": 10,
+  "seconds_per_query": 5.0,
+  "solver_seed": "fixed at the source instance seed for every repeat",
+  "order": "repeat-major; cases shuffled by random.Random(20261030+repeat); methods alternate by repeat+case rank",
+  "shuffle_seed_base": 20261030,
+  "statistics": "per-instance completions out of 10; query-time median/IQR includes censored calls; gap median/max; repeats are not new independent instances",
+  "concurrency": "sequential queries; no concurrent document builds or other benchmarks launched by this task",
+  "timing_validation": "macOS continuous CLOCK_MONOTONIC_RAW in all backend accounting/deadlines; process-scoped caffeinate -disu; record continuous/realtime/legacy clocks and validate all calls; no selection based on solve outcomes",
+  "abort_on_clock_interrupt": true,
+  "interrupt_gate": "stop entire run after saving the triggering call if clock_consistent is false or continuous-minus-legacy-perf elapsed exceeds 0.1 seconds"
+}

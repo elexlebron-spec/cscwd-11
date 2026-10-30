@@ -1,0 +1,18 @@
+{
+  "purpose": "full prespecified replacement of all 400 core queries after four internal/external clock discrepancies in first session; keep original results as diagnostics",
+  "source_folder": "results/core_holdout_v4",
+  "include_all_saved_cases": true,
+  "expected_cases": 20,
+  "methods": [
+    "FullCP",
+    "BARRCP"
+  ],
+  "repeats": 10,
+  "seconds_per_query": 5.0,
+  "solver_seed": "fixed at the source instance seed for every repeat",
+  "order": "repeat-major; cases shuffled by random.Random(20261030+repeat); methods alternate by repeat+case rank",
+  "shuffle_seed_base": 20261030,
+  "statistics": "per-instance completions out of 10; query-time median/IQR includes censored calls; gap median/max; repeats are not new independent instances",
+  "concurrency": "sequential queries; no concurrent document builds or other benchmarks launched by this task",
+  "timing_validation": "process-scoped caffeinate -i; record time.time and perf_counter around every query; require solver_seconds <= external_monotonic_seconds + 0.1 and abs(realtime_seconds-external_monotonic_seconds)<=0.1"
+}

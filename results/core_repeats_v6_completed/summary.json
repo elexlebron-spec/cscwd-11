@@ -1,0 +1,316 @@
+{
+  "clean_prefix_repeats": 10,
+  "clean_prefix_calls": 400,
+  "clean_prefix_definition": "post hoc first complete rounds before any detected pause; selected by clock flag, not objective or certification; does not replace the planned 10-repeat cohort",
+  "clean_prefix_groups": [
+    {
+      "n": 1024,
+      "core_size": 64,
+      "method": "BARRCP",
+      "calls": 50,
+      "closed": 50,
+      "query_seconds": {
+        "median": 0.21554645849391818,
+        "q1": 0.21102997902198695,
+        "q3": 0.23806950022117235,
+        "min": 0.1447908750269562,
+        "max": 0.27549262496177107
+      },
+      "gap_max": 0
+    },
+    {
+      "n": 1024,
+      "core_size": 64,
+      "method": "FullCP",
+      "calls": 50,
+      "closed": 50,
+      "query_seconds": {
+        "median": 0.4525317079969682,
+        "q1": 0.3108940316888038,
+        "q3": 0.6038084479805548,
+        "min": 0.29882604198064655,
+        "max": 1.2726201659534127
+      },
+      "gap_max": 0
+    },
+    {
+      "n": 1024,
+      "core_size": 128,
+      "method": "BARRCP",
+      "calls": 50,
+      "closed": 40,
+      "query_seconds": {
+        "median": 3.5173702295287512,
+        "q1": 3.0183494477532804,
+        "q3": 4.072621062252438,
+        "min": 1.7663884999928996,
+        "max": 5.001298125018366
+      },
+      "gap_max": 17
+    },
+    {
+      "n": 1024,
+      "core_size": 128,
+      "method": "FullCP",
+      "calls": 50,
+      "closed": 18,
+      "query_seconds": {
+        "median": 5.002150187443476,
+        "q1": 4.392778312030714,
+        "q3": 5.002301896282006,
+        "min": 3.8845743749989197,
+        "max": 5.005708124954253
+      },
+      "gap_max": 17
+    },
+    {
+      "n": 2048,
+      "core_size": 64,
+      "method": "BARRCP",
+      "calls": 50,
+      "closed": 50,
+      "query_seconds": {
+        "median": 0.21816772955935448,
+        "q1": 0.2141330411832314,
+        "q3": 0.24240984371863306,
+        "min": 0.14731679193209857,
+        "max": 0.2928489580517635
+      },
+      "gap_max": 0
+    },
+    {
+      "n": 2048,
+      "core_size": 64,
+      "method": "FullCP",
+      "calls": 50,
+      "closed": 50,
+      "query_seconds": {
+        "median": 0.6149223124957643,
+        "q1": 0.544766844046535,
+        "q3": 0.7827666152734309,
+        "min": 0.3852018329780549,
+        "max": 1.240176499937661
+      },
+      "gap_max": 0
+    },
+    {
+      "n": 2048,
+      "core_size": 128,
+      "method": "BARRCP",
+      "calls": 50,
+      "closed": 39,
+      "query_seconds": {
+        "median": 3.54830716655124,
+        "q1": 3.0063530307088513,
+        "q3": 3.922226791473804,
+        "min": 1.764085041009821,
+        "max": 5.0033335000043735
+      },
+      "gap_max": 17
+    },
+    {
+      "n": 2048,
+      "core_size": 128,
+      "method": "FullCP",
+      "calls": 50,
+      "closed": 15,
+      "query_seconds": {
+        "median": 5.003785770968534,
+        "q1": 4.945303187530953,
+        "q3": 5.003981854533777,
+        "min": 3.632594916038215,
+        "max": 5.011396958027035
+      },
+      "gap_max": 20
+    }
+  ],
+  "no_pause_during_logged_queries": true,
+  "execution_segments": 2,
+  "fully_uninterrupted_protocol": false,
+  "clock_audit_passed": true,
+  "clock_inconsistent_calls": [],
+  "cases": 20,
+  "calls": 400,
+  "repeats_per_case_method": 10,
+  "solutions_validated": true,
+  "input_and_source_hashes_verified": true,
+  "all_intervals_mutually_consistent_with_prior_stages": true,
+  "design": "fixed seed per instance, balanced sequential order, 2 execution segment(s) on one laptop; no independent-instance confidence intervals",
+  "quantiles": "statistics.quantiles(n=4, method=inclusive)",
+  "timing": "all query totals including censored calls; median/IQR is not uncensored time-to-optimum; no speed ratio claimed on unresolved cores",
+  "environment_control": "Background OS load, temperature and power mode not controlled; round load averages recorded; no other benchmark or heavy document build launched by this task",
+  "summary_script_sha256": "7c4637a09315409c673f3aae6cfe276fba070c603a60109b7f3c0879ab7ac1e4",
+  "continuous_clock_recorded_calls": 400,
+  "suspend_delta_above_0_1s_calls": 0,
+  "over_target_by_0_25s_calls": 0,
+  "groups": [
+    {
+      "n": 1024,
+      "core_size": 64,
+      "method": "BARRCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 50,
+      "per_instance_closed_min": 10,
+      "per_instance_closed_max": 10,
+      "median_within_case_relative_iqr_percent": 1.852485772501127,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 0.21554645849391818,
+        "q1": 0.21102997902198695,
+        "q3": 0.23806950022117235,
+        "min": 0.1447908750269562,
+        "max": 0.27549262496177107
+      },
+      "gap_median": 0.0,
+      "gap_max": 0
+    },
+    {
+      "n": 1024,
+      "core_size": 64,
+      "method": "FullCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 50,
+      "per_instance_closed_min": 10,
+      "per_instance_closed_max": 10,
+      "median_within_case_relative_iqr_percent": 2.3525452949204597,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 0.4525317079969682,
+        "q1": 0.3108940316888038,
+        "q3": 0.6038084479805548,
+        "min": 0.29882604198064655,
+        "max": 1.2726201659534127
+      },
+      "gap_median": 0.0,
+      "gap_max": 0
+    },
+    {
+      "n": 1024,
+      "core_size": 128,
+      "method": "BARRCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 40,
+      "per_instance_closed_min": 0,
+      "per_instance_closed_max": 10,
+      "median_within_case_relative_iqr_percent": 2.6272287441211426,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 3.5173702295287512,
+        "q1": 3.0183494477532804,
+        "q3": 4.072621062252438,
+        "min": 1.7663884999928996,
+        "max": 5.001298125018366
+      },
+      "gap_median": 0.0,
+      "gap_max": 17
+    },
+    {
+      "n": 1024,
+      "core_size": 128,
+      "method": "FullCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 18,
+      "per_instance_closed_min": 0,
+      "per_instance_closed_max": 9,
+      "median_within_case_relative_iqr_percent": 0.0050166728495428265,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 5.002150187443476,
+        "q1": 4.392778312030714,
+        "q3": 5.002301896282006,
+        "min": 3.8845743749989197,
+        "max": 5.005708124954253
+      },
+      "gap_median": 13.0,
+      "gap_max": 17
+    },
+    {
+      "n": 2048,
+      "core_size": 64,
+      "method": "BARRCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 50,
+      "per_instance_closed_min": 10,
+      "per_instance_closed_max": 10,
+      "median_within_case_relative_iqr_percent": 3.9708856030534485,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 0.21816772955935448,
+        "q1": 0.2141330411832314,
+        "q3": 0.24240984371863306,
+        "min": 0.14731679193209857,
+        "max": 0.2928489580517635
+      },
+      "gap_median": 0.0,
+      "gap_max": 0
+    },
+    {
+      "n": 2048,
+      "core_size": 64,
+      "method": "FullCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 50,
+      "per_instance_closed_min": 10,
+      "per_instance_closed_max": 10,
+      "median_within_case_relative_iqr_percent": 1.5039875603346797,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 0.6149223124957643,
+        "q1": 0.544766844046535,
+        "q3": 0.7827666152734309,
+        "min": 0.3852018329780549,
+        "max": 1.240176499937661
+      },
+      "gap_median": 0.0,
+      "gap_max": 0
+    },
+    {
+      "n": 2048,
+      "core_size": 128,
+      "method": "BARRCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 39,
+      "per_instance_closed_min": 0,
+      "per_instance_closed_max": 10,
+      "median_within_case_relative_iqr_percent": 1.3217773945411018,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 3.54830716655124,
+        "q1": 3.0063530307088513,
+        "q3": 3.922226791473804,
+        "min": 1.764085041009821,
+        "max": 5.0033335000043735
+      },
+      "gap_median": 0.0,
+      "gap_max": 17
+    },
+    {
+      "n": 2048,
+      "core_size": 128,
+      "method": "FullCP",
+      "unique_instances": 5,
+      "calls": 50,
+      "closed": 15,
+      "per_instance_closed_min": 0,
+      "per_instance_closed_max": 9,
+      "median_within_case_relative_iqr_percent": 0.012314040149125523,
+      "pause_affected_calls": 0,
+      "query_seconds": {
+        "median": 5.003785770968534,
+        "q1": 4.945303187530953,
+        "q3": 5.003981854533777,
+        "min": 3.632594916038215,
+        "max": 5.011396958027035
+      },
+      "gap_median": 15.0,
+      "gap_max": 20
+    }
+  ]
+}

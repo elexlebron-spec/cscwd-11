@@ -1,0 +1,15 @@
+# Mac 连续计时修复
+
+2026-10-30。首次完整重复400调用的标签/界有效，但42次solver_seconds比外部total_seconds高超过0.1秒，其中6次差额超过5秒。没有把这些调用筛掉后宣称稳定；整批只作诊断。第二次进程范围caffeinate -i仍有差异，执行129调用后停止，全部已完成行及中断说明保留。
+
+本机time.get_clock_info('perf_counter')返回mach_absolute_time。Apple文档说明该时钟不计系统睡眠，而mach_continuous_time及其CLOCK_MONOTONIC_RAW等价接口计入。故原外部统计与CP-SAT内部时间可能采用不同的休眠语义。具体每次休眠/调度原因没有被记录，不据此归因此前v4/v5认证数变化。
+
+来源：https://developer.apple.com/documentation/kernel/1646199-mach_continuous_time
+
+修复为barr/timing.py的query_clock：macOS用time.clock_gettime(time.CLOCK_MONOTONIC_RAW)，其他平台保持perf_counter。CP、LR及参考BB的外层计时/截止条件使用同一计时函数；未修改优化模型、搜索设置或定理。原源码快照和原结果不改写。新16项测试通过。
+
+随后冻结configs/core_repeats_v6_continuous.json，完整重做同20输入×2方法×10次。进程范围caffeinate -disu不修改持久系统设置；每调用记录连续、原perf与realtime三时钟，核验内部求解时间、查询总时间及连续/realtime的一致性。新结果目录results/core_repeats_v6_continuous。若仍有差异，不将其称为通过计时核验。不以最优性结果筛选或替换调用。
+
+旧阶段内部时间是否高于外部0.1秒的审计在results/clock_audit_v6_final.json；已检查旧保存文件中同时具备内部求解与外部总时间字段的CP调用，未检出同类异常；LR缺少可独立交叉的内部时间，不据此宣称其已通过此项审计。这不是其他误差完全不存在的证明。完整新实验仍只检验单机固定种子会话内表现，未控制后台负载、电源/温度，不建立一般成功率。
+
+最终完成的比较记录在results/core_repeats_v6_completed，共400条（20输入×2方法×10）。保持唤醒批次在工具中断前保存261条；进程停止后，按原冻结顺序仅补齐139条，两个原始分段分别保留于core_repeats_v6_confirmed_awake与core_repeats_v6_resume。一个未写出结果的在途调用可能中断，不据此选择结果。合并文件是派生视图，不改写原始分段；两段原始文件哈希及合并脚本哈希记录在metadata。全部完成调用无时钟不一致或超过0.1秒的查询内暂停差额；不能称为整批从未中断，也不建立跨设备/未来会话成功率。

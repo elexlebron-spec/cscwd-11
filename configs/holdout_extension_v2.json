@@ -1,0 +1,1 @@
+{"purpose":"confirmatory_extension_same_factor_levels_new_seeds_frozen_after_initial_gate","grid":{"n":[128,512],"topology":["modular","grid","smallworld"],"coupling":[2,12],"preference":[2],"shock_scale":[8],"anchors":[1,4],"budget":[8,16],"weighted":[false],"degraded":[0],"seed":[103,104,105,106,107,108,109]},"repeats":3,"seconds_per_query":1.0,"common_fastpath":true}

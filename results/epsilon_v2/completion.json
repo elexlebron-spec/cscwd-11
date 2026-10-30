@@ -1,0 +1,67 @@
+{
+  "utc_started": "2026-10-28T03:04:30.025149+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "machine": "arm64",
+  "platform": "macOS-15.3.1-arm64-arm-64bit",
+  "ortools": "9.15.6755",
+  "config": {
+    "purpose": "nonzero_old_gap_certificate_diagnostic",
+    "grid": {
+      "n": [
+        128
+      ],
+      "topology": [
+        "modular",
+        "grid"
+      ],
+      "coupling": [
+        12
+      ],
+      "preference": [
+        2
+      ],
+      "shock_scale": [
+        8
+      ],
+      "anchors": [
+        2
+      ],
+      "budget": [
+        8,
+        16
+      ],
+      "weighted": [
+        false
+      ],
+      "degraded": [
+        1,
+        3
+      ],
+      "seed": [
+        100,
+        101,
+        102,
+        103
+      ]
+    },
+    "repeats": 1,
+    "seconds_per_query": 2.0,
+    "common_fastpath": true
+  },
+  "config_sha256": "83a3e1193ed0af2275167ace1bfeb80baff140dd716421b103d6ac590b7d7ccd",
+  "source_sha256": {
+    "run_gate.py": "cd0a6e21c132939d1eb7636cfd57f44bd6364c12c4d03a3ef3b9a7a2241463ae",
+    "barr/__init__.py": "3a4369273f5e248337de56d03f19f9a9f95d45171ac9b3e01377aa2cefbf41c0",
+    "barr/baselines.py": "4a72ea502c0074cf65611e07c4f27194a74c706baeee5f15df5308717dcdd19b",
+    "barr/core.py": "7b71991107ab616f4a95493053b2e120b0e6615f7a53e62e5a81f69717c49e70",
+    "barr/cpsat.py": "7ef0a13f6ba319d26dd5a8f7787d34e667309ea1ef9776aa5ae14719d6658f04",
+    "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+    "barr/generate.py": "d36fcbea83d78b5dc4e4a38978d39c02803fa343d33eda13700d7a370d2b9742",
+    "barr/generate_v2.py": "2de008509b0fda1687d47ecb11cad7ea840c44edb74a31834e28a3780572d178"
+  },
+  "timing": "warm common imports; all query preprocessing, model build and solver construction included; single-thread; cold old certificate charged to BARR only",
+  "scope": "nonzero_old_gap_certificate_diagnostic",
+  "selection": "complete Cartesian configuration; no rejection/filtering",
+  "utc_completed": "2026-10-28T03:04:32.556997+00:00",
+  "completed_cases": 32
+}

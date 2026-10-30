@@ -1,0 +1,6 @@
+{
+  "paired_cases": 36,
+  "greedy_optimal": 35,
+  "unrestricted_returned_cut_feasible": 26,
+  "BARR_zero_search_nodes": 35
+}

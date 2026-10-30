@@ -1,0 +1,123 @@
+{
+  "sources": [
+    "results/holdout_v2",
+    "results/holdout_extension_v2"
+  ],
+  "cases": 480,
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "solver_runs": 2880,
+  "all_exact_pairs": true,
+  "greedy_suboptimal_cases": 55,
+  "proven_budget_binding_cases": 314,
+  "full_statuses": {
+    "OPTIMAL": 480
+  },
+  "barr_statuses": {
+    "OPTIMAL": 480
+  },
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 80,
+      "nontrivial_equal_optimum_cases": 69,
+      "median_ratio_all_cases": 1.0041021857203813,
+      "median_ratio_nontrivial": 1.004481303799812,
+      "cluster_bootstrap_95_low": 0.9929385148392097,
+      "cluster_bootstrap_95_high": 1.0346267572961088,
+      "median_full_ms_nontrivial": 34.50024998164736,
+      "median_barr_ms_nontrivial": 30.365292011993006,
+      "median_region_ratio_nontrivial": 0.984375,
+      "greedy_suboptimal_cases": 21,
+      "proven_budget_binding_cases": 65
+    },
+    {
+      "topology": "grid",
+      "n": 512,
+      "all_cases": 80,
+      "nontrivial_equal_optimum_cases": 54,
+      "median_ratio_all_cases": 1.3740783815980513,
+      "median_ratio_nontrivial": 1.883338785059513,
+      "cluster_bootstrap_95_low": 1.5406052058096518,
+      "cluster_bootstrap_95_high": 2.15091042961258,
+      "median_full_ms_nontrivial": 130.95766698825173,
+      "median_barr_ms_nontrivial": 64.57035400671884,
+      "median_region_ratio_nontrivial": 0.537109375,
+      "greedy_suboptimal_cases": 8,
+      "proven_budget_binding_cases": 54
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 80,
+      "nontrivial_equal_optimum_cases": 29,
+      "median_ratio_all_cases": 1.004107920668591,
+      "median_ratio_nontrivial": 1.296882017305251,
+      "cluster_bootstrap_95_low": 1.1357597646445377,
+      "cluster_bootstrap_95_high": 1.3220485129919317,
+      "median_full_ms_nontrivial": 23.15191601519473,
+      "median_barr_ms_nontrivial": 19.56120799877681,
+      "median_region_ratio_nontrivial": 0.71875,
+      "greedy_suboptimal_cases": 12,
+      "proven_budget_binding_cases": 29
+    },
+    {
+      "topology": "modular",
+      "n": 512,
+      "all_cases": 80,
+      "nontrivial_equal_optimum_cases": 30,
+      "median_ratio_all_cases": 1.009330589140388,
+      "median_ratio_nontrivial": 3.174864768914539,
+      "cluster_bootstrap_95_low": 2.863282164546591,
+      "cluster_bootstrap_95_high": 3.8589052318278263,
+      "median_full_ms_nontrivial": 74.90502050495706,
+      "median_barr_ms_nontrivial": 23.257874985574745,
+      "median_region_ratio_nontrivial": 0.2587890625,
+      "greedy_suboptimal_cases": 12,
+      "proven_budget_binding_cases": 30
+    },
+    {
+      "topology": "smallworld",
+      "n": 128,
+      "all_cases": 80,
+      "nontrivial_equal_optimum_cases": 72,
+      "median_ratio_all_cases": 0.9859993241341523,
+      "median_ratio_nontrivial": 0.9840978473123188,
+      "cluster_bootstrap_95_low": 0.9803975378173533,
+      "cluster_bootstrap_95_high": 0.9897323375502562,
+      "median_full_ms_nontrivial": 70.69160400715191,
+      "median_barr_ms_nontrivial": 72.8116245009005,
+      "median_region_ratio_nontrivial": 1.0,
+      "greedy_suboptimal_cases": 2,
+      "proven_budget_binding_cases": 72
+    },
+    {
+      "topology": "smallworld",
+      "n": 512,
+      "all_cases": 80,
+      "nontrivial_equal_optimum_cases": 64,
+      "median_ratio_all_cases": 0.9914534093930457,
+      "median_ratio_nontrivial": 0.9917852690322645,
+      "cluster_bootstrap_95_low": 0.9899493719999201,
+      "cluster_bootstrap_95_high": 0.9942555620451152,
+      "median_full_ms_nontrivial": 354.67089600570034,
+      "median_barr_ms_nontrivial": 355.6287704996066,
+      "median_region_ratio_nontrivial": 1.0,
+      "greedy_suboptimal_cases": 0,
+      "proven_budget_binding_cases": 64
+    }
+  ],
+  "design": "Initial holdout seeds 100-102 frozen before calibration analysis; extension seeds 103-109 frozen after first holdout results, with identical factor levels. Report stages separately as well as combined.",
+  "timing_estimator": "Median of per-case FullCP/BARRCP ratios after first taking the median of three timings per method; percentile bootstrap by (n,topology,seed), 2000 resamples. All easy, active and degenerate strata retained."
+}

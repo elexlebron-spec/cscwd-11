@@ -1,0 +1,6442 @@
+[
+  {
+    "case_id": "case_0000",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.041015625,
+    "global_lower": 2612,
+    "global_upper": 2612,
+    "reference_optimum": 2612,
+    "CP_pair_exact": true,
+    "CP_speed": 9.516135685314993,
+    "methods": {
+      "FullCP": {
+        "time": 0.08408933295868337,
+        "upper": 2612,
+        "lower": 2612,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.008836499997414649,
+        "upper": 2612,
+        "lower": 2612,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.0618177920114249,
+        "upper": 2612,
+        "lower": 2604,
+        "gap": 8,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0001",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.0380859375,
+    "global_lower": 2532,
+    "global_upper": 2532,
+    "reference_optimum": 2532,
+    "CP_pair_exact": true,
+    "CP_speed": 8.258602794529121,
+    "methods": {
+      "BARRCP": {
+        "time": 0.009929459018167108,
+        "upper": 2532,
+        "lower": 2532,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.05707074998645112,
+        "upper": 2532,
+        "lower": 2509,
+        "gap": 23,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.08200345799559727,
+        "upper": 2532,
+        "lower": 2532,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0002",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.037109375,
+    "global_lower": 2572,
+    "global_upper": 2572,
+    "reference_optimum": 2572,
+    "CP_pair_exact": true,
+    "CP_speed": 9.778511352688568,
+    "methods": {
+      "LRRepair": {
+        "time": 0.055693875008728355,
+        "upper": 2572,
+        "lower": 2563,
+        "gap": 9,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.08303870796225965,
+        "upper": 2572,
+        "lower": 2572,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.008491958025842905,
+        "upper": 2572,
+        "lower": 2572,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0003",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.029296875,
+    "global_lower": 2554,
+    "global_upper": 2554,
+    "reference_optimum": 2554,
+    "CP_pair_exact": true,
+    "CP_speed": 8.719942570665198,
+    "methods": {
+      "FullCP": {
+        "time": 0.07901104196207598,
+        "upper": 2554,
+        "lower": 2554,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0090609589824453,
+        "upper": 2554,
+        "lower": 2554,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.058038667018990964,
+        "upper": 2554,
+        "lower": 2542,
+        "gap": 12,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0004",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.0380859375,
+    "global_lower": 2549,
+    "global_upper": 2549,
+    "reference_optimum": 2549,
+    "CP_pair_exact": true,
+    "CP_speed": 8.719172784916168,
+    "methods": {
+      "BARRCP": {
+        "time": 0.008357749960850924,
+        "upper": 2549,
+        "lower": 2549,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.06022008298896253,
+        "upper": 2549,
+        "lower": 2539,
+        "gap": 10,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.07287266600178555,
+        "upper": 2549,
+        "lower": 2549,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0005",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": true,
+    "region_fraction": 0.15234375,
+    "global_lower": 2596,
+    "global_upper": 2596,
+    "reference_optimum": 2596,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0643428601552196,
+    "methods": {
+      "LRRepair": {
+        "time": 0.0020760410116054118,
+        "upper": 2596,
+        "lower": 2596,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.0014267080114223063,
+        "upper": 2596,
+        "lower": 2596,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0013404590426944196,
+        "upper": 2596,
+        "lower": 2596,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0006",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": true,
+    "region_fraction": 0.1650390625,
+    "global_lower": 2488,
+    "global_upper": 2488,
+    "reference_optimum": 2488,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0143435979956144,
+    "methods": {
+      "FullCP": {
+        "time": 0.0013672499917447567,
+        "upper": 2488,
+        "lower": 2488,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.001347916026134044,
+        "upper": 2488,
+        "lower": 2488,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.002103291975799948,
+        "upper": 2488,
+        "lower": 2488,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0007",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": true,
+    "region_fraction": 0.1640625,
+    "global_lower": 2555,
+    "global_upper": 2555,
+    "reference_optimum": 2555,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9845983592042662,
+    "methods": {
+      "BARRCP": {
+        "time": 0.001374332990963012,
+        "upper": 2555,
+        "lower": 2555,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.002104249957483262,
+        "upper": 2555,
+        "lower": 2555,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.0013531660079024732,
+        "upper": 2555,
+        "lower": 2555,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0008",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": true,
+    "region_fraction": 0.1689453125,
+    "global_lower": 2525,
+    "global_upper": 2525,
+    "reference_optimum": 2525,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0160124014506178,
+    "methods": {
+      "LRRepair": {
+        "time": 0.0021170409745536745,
+        "upper": 2525,
+        "lower": 2525,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.0013615419738925993,
+        "upper": 2525,
+        "lower": 2525,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0013400840107351542,
+        "upper": 2525,
+        "lower": 2525,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0009",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": true,
+    "region_fraction": 0.1572265625,
+    "global_lower": 2528,
+    "global_upper": 2528,
+    "reference_optimum": 2528,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9896869196810192,
+    "methods": {
+      "FullCP": {
+        "time": 0.0013315000105649233,
+        "upper": 2528,
+        "lower": 2528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0013453749706968665,
+        "upper": 2528,
+        "lower": 2528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.0020851660519838333,
+        "upper": 2528,
+        "lower": 2528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0010",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.126953125,
+    "global_lower": 2521,
+    "global_upper": 2521,
+    "reference_optimum": 2521,
+    "CP_pair_exact": true,
+    "CP_speed": 4.899923708931841,
+    "methods": {
+      "BARRCP": {
+        "time": 0.015624749998096377,
+        "upper": 2521,
+        "lower": 2521,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.07453658303711563,
+        "upper": 2521,
+        "lower": 2516,
+        "gap": 5,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.07656008296180516,
+        "upper": 2521,
+        "lower": 2521,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0011",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.1435546875,
+    "global_lower": 2264,
+    "global_upper": 2264,
+    "reference_optimum": 2264,
+    "CP_pair_exact": true,
+    "CP_speed": 4.619764433750908,
+    "methods": {
+      "LRRepair": {
+        "time": 0.07036508404416963,
+        "upper": 2264,
+        "lower": 2257,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.07420862501021475,
+        "upper": 2264,
+        "lower": 2264,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.016063291986938566,
+        "upper": 2264,
+        "lower": 2264,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0012",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.12890625,
+    "global_lower": 2473,
+    "global_upper": 2473,
+    "reference_optimum": 2473,
+    "CP_pair_exact": true,
+    "CP_speed": 4.544633454185868,
+    "methods": {
+      "FullCP": {
+        "time": 0.0734261249890551,
+        "upper": 2473,
+        "lower": 2473,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.01615666603902355,
+        "upper": 2473,
+        "lower": 2473,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.057191125000827014,
+        "upper": 2473,
+        "lower": 2463,
+        "gap": 10,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0013",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.13671875,
+    "global_lower": 2367,
+    "global_upper": 2367,
+    "reference_optimum": 2367,
+    "CP_pair_exact": true,
+    "CP_speed": 4.784856388013308,
+    "methods": {
+      "BARRCP": {
+        "time": 0.016056917025707662,
+        "upper": 2367,
+        "lower": 2367,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.06240400002570823,
+        "upper": 2367,
+        "lower": 2358,
+        "gap": 9,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.07683004200225696,
+        "upper": 2367,
+        "lower": 2367,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0014",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.142578125,
+    "global_lower": 2513,
+    "global_upper": 2513,
+    "reference_optimum": 2513,
+    "CP_pair_exact": true,
+    "CP_speed": 4.652759689485101,
+    "methods": {
+      "LRRepair": {
+        "time": 0.061049874988384545,
+        "upper": 2513,
+        "lower": 2511,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.06807375000789762,
+        "upper": 2513,
+        "lower": 2513,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.014630833000410348,
+        "upper": 2513,
+        "lower": 2513,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0015",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.498046875,
+    "global_lower": 2488,
+    "global_upper": 2488,
+    "reference_optimum": 2488,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0339922549437859,
+    "methods": {
+      "FullCP": {
+        "time": 0.08094229199923575,
+        "upper": 2488,
+        "lower": 2488,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.07828133297152817,
+        "upper": 2488,
+        "lower": 2488,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.05899945896817371,
+        "upper": 2488,
+        "lower": 2479,
+        "gap": 9,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0016",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.4677734375,
+    "global_lower": 2223,
+    "global_upper": 2223,
+    "reference_optimum": 2223,
+    "CP_pair_exact": true,
+    "CP_speed": 2.2518202592827943,
+    "methods": {
+      "BARRCP": {
+        "time": 0.07929250004235655,
+        "upper": 2223,
+        "lower": 2223,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.0591825419687666,
+        "upper": 2235,
+        "lower": 2209,
+        "gap": 26,
+        "certified": false,
+        "loss_to_best": 12,
+        "loss_to_optimum": 12
+      },
+      "FullCP": {
+        "time": 0.17855245800456032,
+        "upper": 2223,
+        "lower": 2223,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0017",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.6279296875,
+    "global_lower": 2420,
+    "global_upper": 2420,
+    "reference_optimum": 2420,
+    "CP_pair_exact": true,
+    "CP_speed": 1.4482364215233674,
+    "methods": {
+      "LRRepair": {
+        "time": 0.061328958021476865,
+        "upper": 2420,
+        "lower": 2420,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.06595679098973051,
+        "upper": 2420,
+        "lower": 2420,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.045542834035586566,
+        "upper": 2420,
+        "lower": 2420,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0018",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.462890625,
+    "global_lower": 2329,
+    "global_upper": 2329,
+    "reference_optimum": 2329,
+    "CP_pair_exact": true,
+    "CP_speed": 1.9059854605126114,
+    "methods": {
+      "FullCP": {
+        "time": 0.1559608340030536,
+        "upper": 2329,
+        "lower": 2329,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.08182687498629093,
+        "upper": 2329,
+        "lower": 2329,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.058935875014867634,
+        "upper": 2329,
+        "lower": 2311,
+        "gap": 18,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0019",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.5859375,
+    "global_lower": 2485,
+    "global_upper": 2485,
+    "reference_optimum": 2485,
+    "CP_pair_exact": true,
+    "CP_speed": 2.3794362159525,
+    "methods": {
+      "BARRCP": {
+        "time": 0.07994108297862113,
+        "upper": 2485,
+        "lower": 2485,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.05901125003583729,
+        "upper": 2485,
+        "lower": 2465,
+        "gap": 20,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.19021470798179507,
+        "upper": 2485,
+        "lower": 2485,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0020",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.1318359375,
+    "global_lower": 3808,
+    "global_upper": 3808,
+    "reference_optimum": 3808,
+    "CP_pair_exact": true,
+    "CP_speed": 6.446817893312554,
+    "methods": {
+      "LRRepair": {
+        "time": 0.07733675005147234,
+        "upper": 3808,
+        "lower": 3808,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.13875325000844896,
+        "upper": 3808,
+        "lower": 3808,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.02152275003027171,
+        "upper": 3808,
+        "lower": 3808,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0021",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.111328125,
+    "global_lower": 3762,
+    "global_upper": 3762,
+    "reference_optimum": 3762,
+    "CP_pair_exact": true,
+    "CP_speed": 9.222339193028828,
+    "methods": {
+      "FullCP": {
+        "time": 0.13234133302466944,
+        "upper": 3762,
+        "lower": 3762,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.014350083016324788,
+        "upper": 3762,
+        "lower": 3762,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.07917108299443498,
+        "upper": 3762,
+        "lower": 3762,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0022",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.103515625,
+    "global_lower": 3747,
+    "global_upper": 3747,
+    "reference_optimum": 3747,
+    "CP_pair_exact": true,
+    "CP_speed": 10.776750774760421,
+    "methods": {
+      "BARRCP": {
+        "time": 0.01221225003246218,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08034183399286121,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.13160837499890476,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0023",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.14453125,
+    "global_lower": 3780,
+    "global_upper": 3780,
+    "reference_optimum": 3780,
+    "CP_pair_exact": true,
+    "CP_speed": 17.931954611063126,
+    "methods": {
+      "LRRepair": {
+        "time": 0.0788377079879865,
+        "upper": 3780,
+        "lower": 3780,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.30970354098826647,
+        "upper": 3780,
+        "lower": 3780,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.01727104198653251,
+        "upper": 3780,
+        "lower": 3780,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0024",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.140625,
+    "global_lower": 3747,
+    "global_upper": 3747,
+    "reference_optimum": 3747,
+    "CP_pair_exact": true,
+    "CP_speed": 8.922444230680806,
+    "methods": {
+      "FullCP": {
+        "time": 0.16484066704288125,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.018474832992069423,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.07673075003549457,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0025",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.9794921875,
+    "global_lower": 3808,
+    "global_upper": 3808,
+    "reference_optimum": 3808,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9649722905146605,
+    "methods": {
+      "BARRCP": {
+        "time": 0.20757374999811873,
+        "upper": 3808,
+        "lower": 3808,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.07793470798060298,
+        "upper": 3808,
+        "lower": 3806,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.20030291698640212,
+        "upper": 3808,
+        "lower": 3808,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0026",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3762,
+    "global_upper": 3762,
+    "reference_optimum": 3762,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0025969106093855,
+    "methods": {
+      "LRRepair": {
+        "time": 0.08028429199475795,
+        "upper": 3762,
+        "lower": 3762,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.23642183403717354,
+        "upper": 3762,
+        "lower": 3762,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2358094579540193,
+        "upper": 3762,
+        "lower": 3762,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0027",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3747,
+    "global_upper": 3747,
+    "reference_optimum": 3747,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9586663676405986,
+    "methods": {
+      "FullCP": {
+        "time": 0.17794633301673457,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.18561862502247095,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08098687505116686,
+        "upper": 3747,
+        "lower": 3746,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0028",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3780,
+    "global_upper": 3780,
+    "reference_optimum": 3780,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0085400317971325,
+    "methods": {
+      "BARRCP": {
+        "time": 0.19779879198176786,
+        "upper": 3780,
+        "lower": 3780,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08094675000756979,
+        "upper": 3780,
+        "lower": 3779,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.19948799995472655,
+        "upper": 3780,
+        "lower": 3780,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0029",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.9765625,
+    "global_lower": 3747,
+    "global_upper": 3747,
+    "reference_optimum": 3747,
+    "CP_pair_exact": true,
+    "CP_speed": 1.8112605829717179,
+    "methods": {
+      "LRRepair": {
+        "time": 0.07797699997900054,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.3795839169761166,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.20956891600508243,
+        "upper": 3747,
+        "lower": 3747,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0030",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.4326171875,
+    "global_lower": 3800,
+    "global_upper": 3800,
+    "reference_optimum": 3800,
+    "CP_pair_exact": true,
+    "CP_speed": 2.4670147387589245,
+    "methods": {
+      "FullCP": {
+        "time": 0.10979212500387803,
+        "upper": 3800,
+        "lower": 3800,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.044504040968604386,
+        "upper": 3800,
+        "lower": 3800,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.07862120901700109,
+        "upper": 3800,
+        "lower": 3799,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0031",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.3916015625,
+    "global_lower": 3728,
+    "global_upper": 3728,
+    "reference_optimum": 3728,
+    "CP_pair_exact": true,
+    "CP_speed": 2.901751644190438,
+    "methods": {
+      "BARRCP": {
+        "time": 0.041158041974995285,
+        "upper": 3728,
+        "lower": 3728,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.09092645900091156,
+        "upper": 3728,
+        "lower": 3728,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.11943041597260162,
+        "upper": 3728,
+        "lower": 3728,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0032",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.3525390625,
+    "global_lower": 3837,
+    "global_upper": 3837,
+    "reference_optimum": 3837,
+    "CP_pair_exact": true,
+    "CP_speed": 3.104236696841571,
+    "methods": {
+      "LRRepair": {
+        "time": 0.08386283298023045,
+        "upper": 3837,
+        "lower": 3837,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.13286145799793303,
+        "upper": 3837,
+        "lower": 3837,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.04280004103202373,
+        "upper": 3837,
+        "lower": 3837,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0033",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.3544921875,
+    "global_lower": 3936,
+    "global_upper": 3936,
+    "reference_optimum": 3936,
+    "CP_pair_exact": true,
+    "CP_speed": 3.1287086648095412,
+    "methods": {
+      "FullCP": {
+        "time": 0.12343733396846801,
+        "upper": 3936,
+        "lower": 3936,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.039453124976716936,
+        "upper": 3936,
+        "lower": 3936,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08288766699843109,
+        "upper": 3936,
+        "lower": 3936,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0034",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.4013671875,
+    "global_lower": 3752,
+    "global_upper": 3752,
+    "reference_optimum": 3752,
+    "CP_pair_exact": true,
+    "CP_speed": 2.7748164962639303,
+    "methods": {
+      "BARRCP": {
+        "time": 0.04204145900439471,
+        "upper": 3752,
+        "lower": 3752,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08452020800905302,
+        "upper": 3752,
+        "lower": 3752,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.11665733397239819,
+        "upper": 3752,
+        "lower": 3752,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0035",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3800,
+    "global_upper": 3800,
+    "reference_optimum": 3800,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9780267088186005,
+    "methods": {
+      "LRRepair": {
+        "time": 0.08098583301762119,
+        "upper": 3800,
+        "lower": 3793,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2741358330240473,
+        "upper": 3800,
+        "lower": 3800,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2802948330063373,
+        "upper": 3800,
+        "lower": 3800,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0036",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3728,
+    "global_upper": 3728,
+    "reference_optimum": 3728,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9819097262126518,
+    "methods": {
+      "FullCP": {
+        "time": 0.27978662500390783,
+        "upper": 3728,
+        "lower": 3728,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2849412909708917,
+        "upper": 3728,
+        "lower": 3728,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08523949998198077,
+        "upper": 3728,
+        "lower": 3723,
+        "gap": 5,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0037",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3837,
+    "global_upper": 3837,
+    "reference_optimum": 3837,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9341302894553565,
+    "methods": {
+      "BARRCP": {
+        "time": 0.7808900420204736,
+        "upper": 3837,
+        "lower": 3837,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.11517566698603332,
+        "upper": 3837,
+        "lower": 3830,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.7294530409853905,
+        "upper": 3837,
+        "lower": 3837,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0038",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3936,
+    "global_upper": 3936,
+    "reference_optimum": 3936,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0177963043499962,
+    "methods": {
+      "LRRepair": {
+        "time": 0.0842347500147298,
+        "upper": 3936,
+        "lower": 3931,
+        "gap": 5,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2833787910058163,
+        "upper": 3936,
+        "lower": 3936,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.27842387498822063,
+        "upper": 3936,
+        "lower": 3936,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0039",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3752,
+    "global_upper": 3752,
+    "reference_optimum": 3752,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9874943443985552,
+    "methods": {
+      "FullCP": {
+        "time": 0.20755308301886544,
+        "upper": 3752,
+        "lower": 3752,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.21018154098419473,
+        "upper": 3752,
+        "lower": 3752,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.07848112500505522,
+        "upper": 3752,
+        "lower": 3746,
+        "gap": 6,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0040",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3942,
+    "global_upper": 3942,
+    "reference_optimum": 3942,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9691301144720429,
+    "methods": {
+      "BARRCP": {
+        "time": 0.21606008301023394,
+        "upper": 3942,
+        "lower": 3942,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1309575000195764,
+        "upper": 3942,
+        "lower": 3942,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2093903329805471,
+        "upper": 3942,
+        "lower": 3942,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0041",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3872,
+    "global_upper": 3872,
+    "reference_optimum": 3872,
+    "CP_pair_exact": true,
+    "CP_speed": 1.007160292342632,
+    "methods": {
+      "LRRepair": {
+        "time": 0.14202775002922863,
+        "upper": 3872,
+        "lower": 3872,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2328961659804918,
+        "upper": 3872,
+        "lower": 3872,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.23124041699338704,
+        "upper": 3872,
+        "lower": 3872,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0042",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3896,
+    "global_upper": 3896,
+    "reference_optimum": 3896,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9858038470211166,
+    "methods": {
+      "FullCP": {
+        "time": 0.2754025420290418,
+        "upper": 3896,
+        "lower": 3896,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2793684999924153,
+        "upper": 3896,
+        "lower": 3896,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.131501791998744,
+        "upper": 3896,
+        "lower": 3896,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0043",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3786,
+    "global_upper": 3786,
+    "reference_optimum": 3786,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0565607582161,
+    "methods": {
+      "BARRCP": {
+        "time": 0.20706787501694635,
+        "upper": 3786,
+        "lower": 3786,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1329519580467604,
+        "upper": 3786,
+        "lower": 3786,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.21877979103010148,
+        "upper": 3786,
+        "lower": 3786,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0044",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3943,
+    "global_upper": 3943,
+    "reference_optimum": 3943,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9848126783080449,
+    "methods": {
+      "LRRepair": {
+        "time": 0.13055170798907056,
+        "upper": 3943,
+        "lower": 3943,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.25232575001427904,
+        "upper": 3943,
+        "lower": 3943,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.25621700001647696,
+        "upper": 3943,
+        "lower": 3943,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0045",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3942,
+    "global_upper": 3942,
+    "reference_optimum": 3942,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9772068636837586,
+    "methods": {
+      "FullCP": {
+        "time": 0.23311404103878886,
+        "upper": 3942,
+        "lower": 3942,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.23855137504870072,
+        "upper": 3942,
+        "lower": 3942,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.14392708300147206,
+        "upper": 3942,
+        "lower": 3939,
+        "gap": 3,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0046",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3872,
+    "global_upper": 3872,
+    "reference_optimum": 3872,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9644364464542342,
+    "methods": {
+      "BARRCP": {
+        "time": 0.2677670830162242,
+        "upper": 3872,
+        "lower": 3872,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.15509533300064504,
+        "upper": 3872,
+        "lower": 3872,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2582443340215832,
+        "upper": 3872,
+        "lower": 3872,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0047",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3896,
+    "global_upper": 3896,
+    "reference_optimum": 3896,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9824346748794275,
+    "methods": {
+      "LRRepair": {
+        "time": 0.14309995796065778,
+        "upper": 3896,
+        "lower": 3895,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2514930840115994,
+        "upper": 3896,
+        "lower": 3896,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2559896250022575,
+        "upper": 3896,
+        "lower": 3896,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0048",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3786,
+    "global_upper": 3786,
+    "reference_optimum": 3786,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9983892064832108,
+    "methods": {
+      "FullCP": {
+        "time": 0.5839924999745563,
+        "upper": 3786,
+        "lower": 3786,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.5849347090115771,
+        "upper": 3786,
+        "lower": 3786,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.15776649996405467,
+        "upper": 3786,
+        "lower": 3785,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0049",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3943,
+    "global_upper": 3943,
+    "reference_optimum": 3943,
+    "CP_pair_exact": true,
+    "CP_speed": 0.981735260885845,
+    "methods": {
+      "BARRCP": {
+        "time": 0.9702118330169469,
+        "upper": 3943,
+        "lower": 3943,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1621328750043176,
+        "upper": 3943,
+        "lower": 3939,
+        "gap": 4,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.9524911670014262,
+        "upper": 3943,
+        "lower": 3943,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0050",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3994,
+    "global_upper": 3994,
+    "reference_optimum": 3994,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9496788616207343,
+    "methods": {
+      "LRRepair": {
+        "time": 0.13382720795925707,
+        "upper": 3994,
+        "lower": 3992,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2538584580179304,
+        "upper": 3994,
+        "lower": 3994,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2673097910010256,
+        "upper": 3994,
+        "lower": 3994,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0051",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4142,
+    "global_upper": 4142,
+    "reference_optimum": 4142,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9829143921759309,
+    "methods": {
+      "FullCP": {
+        "time": 0.288458916998934,
+        "upper": 4142,
+        "lower": 4142,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2934730830020271,
+        "upper": 4142,
+        "lower": 4142,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.13566024997271597,
+        "upper": 4142,
+        "lower": 4140,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0052",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4218,
+    "global_upper": 4218,
+    "reference_optimum": 4218,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9421567435643092,
+    "methods": {
+      "BARRCP": {
+        "time": 0.23585650004679337,
+        "upper": 4218,
+        "lower": 4218,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.13485058303922415,
+        "upper": 4218,
+        "lower": 4216,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2222137920325622,
+        "upper": 4218,
+        "lower": 4218,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0053",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4003,
+    "global_upper": 4003,
+    "reference_optimum": 4003,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9881941037973656,
+    "methods": {
+      "LRRepair": {
+        "time": 0.1301386670093052,
+        "upper": 4003,
+        "lower": 4002,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.19138791697332636,
+        "upper": 4003,
+        "lower": 4003,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.1936744170379825,
+        "upper": 4003,
+        "lower": 4003,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0054",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4065,
+    "global_upper": 4065,
+    "reference_optimum": 4065,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9643129414624616,
+    "methods": {
+      "FullCP": {
+        "time": 0.2076557920081541,
+        "upper": 4065,
+        "lower": 4065,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.21534066699678078,
+        "upper": 4065,
+        "lower": 4065,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.136494834034238,
+        "upper": 4065,
+        "lower": 4064,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0055",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 3994,
+    "global_upper": 3994,
+    "reference_optimum": 3994,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9978092428295344,
+    "methods": {
+      "BARRCP": {
+        "time": 0.7646899580140598,
+        "upper": 3994,
+        "lower": 3994,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.15218691603513435,
+        "upper": 3994,
+        "lower": 3978,
+        "gap": 16,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.7630147080053575,
+        "upper": 3994,
+        "lower": 3994,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0056",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4142,
+    "global_upper": 4142,
+    "reference_optimum": 4142,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9771881309809256,
+    "methods": {
+      "LRRepair": {
+        "time": 0.1457196249975823,
+        "upper": 4142,
+        "lower": 4128,
+        "gap": 14,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 1.021795833017677,
+        "upper": 4142,
+        "lower": 4142,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 1.045649042003788,
+        "upper": 4142,
+        "lower": 4142,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0057",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4218,
+    "global_upper": 4218,
+    "reference_optimum": 4218,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9962644627440514,
+    "methods": {
+      "FullCP": {
+        "time": 1.008344792004209,
+        "upper": 4218,
+        "lower": 4218,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 1.0121256249840371,
+        "upper": 4218,
+        "lower": 4218,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.15505441703135148,
+        "upper": 4218,
+        "lower": 4201,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0058",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4003,
+    "global_upper": 4003,
+    "reference_optimum": 4003,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0081290341199642,
+    "methods": {
+      "BARRCP": {
+        "time": 0.9057656669756398,
+        "upper": 4003,
+        "lower": 4003,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.15285470901289955,
+        "upper": 4003,
+        "lower": 3991,
+        "gap": 12,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.913128666987177,
+        "upper": 4003,
+        "lower": 4003,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0059",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 4065,
+    "global_upper": 4065,
+    "reference_optimum": 4065,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9988469710183036,
+    "methods": {
+      "LRRepair": {
+        "time": 0.1495297090150416,
+        "upper": 4065,
+        "lower": 4052,
+        "gap": 13,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.9703073329874314,
+        "upper": 4065,
+        "lower": 4065,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.9714274169527926,
+        "upper": 4065,
+        "lower": 4065,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0060",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.01611328125,
+    "global_lower": 5330,
+    "global_upper": 5330,
+    "reference_optimum": 5330,
+    "CP_pair_exact": true,
+    "CP_speed": 14.626350861014036,
+    "methods": {
+      "FullCP": {
+        "time": 0.19878124998649582,
+        "upper": 5330,
+        "lower": 5330,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.013590625021606684,
+        "upper": 5330,
+        "lower": 5330,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1558898749644868,
+        "upper": 5330,
+        "lower": 5315,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0061",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.02001953125,
+    "global_lower": 5322,
+    "global_upper": 5322,
+    "reference_optimum": 5322,
+    "CP_pair_exact": true,
+    "CP_speed": 12.539281115927679,
+    "methods": {
+      "BARRCP": {
+        "time": 0.010624250047840178,
+        "upper": 5322,
+        "lower": 5322,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.13333095802227035,
+        "upper": 5322,
+        "lower": 5315,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.1332204579957761,
+        "upper": 5322,
+        "lower": 5322,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0062",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": true,
+    "region_fraction": 0.01708984375,
+    "global_lower": 5169,
+    "global_upper": 5169,
+    "reference_optimum": 5169,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9902581725315838,
+    "methods": {
+      "LRRepair": {
+        "time": 0.004704874998424202,
+        "upper": 5169,
+        "lower": 5169,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.0027995420387014747,
+        "upper": 5169,
+        "lower": 5169,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0028270829934626818,
+        "upper": 5169,
+        "lower": 5169,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0063",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.0224609375,
+    "global_lower": 5222,
+    "global_upper": 5222,
+    "reference_optimum": 5222,
+    "CP_pair_exact": true,
+    "CP_speed": 11.638825656642911,
+    "methods": {
+      "FullCP": {
+        "time": 0.1829167500254698,
+        "upper": 5222,
+        "lower": 5222,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.01571608299855143,
+        "upper": 5222,
+        "lower": 5222,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.2400313329999335,
+        "upper": 5222,
+        "lower": 5207,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0064",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.01171875,
+    "global_lower": 5082,
+    "global_upper": 5082,
+    "reference_optimum": 5082,
+    "CP_pair_exact": true,
+    "CP_speed": 10.439779091284443,
+    "methods": {
+      "BARRCP": {
+        "time": 0.013191375008318573,
+        "upper": 5082,
+        "lower": 5082,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1566948340041563,
+        "upper": 5082,
+        "lower": 5081,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.13771504099713638,
+        "upper": 5082,
+        "lower": 5082,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0065",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": true,
+    "region_fraction": 0.07373046875,
+    "global_lower": 5291,
+    "global_upper": 5291,
+    "reference_optimum": 5291,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0040375490480444,
+    "methods": {
+      "LRRepair": {
+        "time": 0.004330999974627048,
+        "upper": 5291,
+        "lower": 5291,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.002735416986979544,
+        "upper": 5291,
+        "lower": 5291,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.002724417019635439,
+        "upper": 5291,
+        "lower": 5291,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0066",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": true,
+    "region_fraction": 0.0869140625,
+    "global_lower": 5303,
+    "global_upper": 5303,
+    "reference_optimum": 5303,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0685987019597196,
+    "methods": {
+      "FullCP": {
+        "time": 0.0028734170482493937,
+        "upper": 5303,
+        "lower": 5303,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.002688958018552512,
+        "upper": 5303,
+        "lower": 5303,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.011666457983665168,
+        "upper": 5303,
+        "lower": 5303,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0067",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": true,
+    "region_fraction": 0.08837890625,
+    "global_lower": 5169,
+    "global_upper": 5169,
+    "reference_optimum": 5169,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0046628336134633,
+    "methods": {
+      "BARRCP": {
+        "time": 0.0027075829566456378,
+        "upper": 5169,
+        "lower": 5169,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.004209833976346999,
+        "upper": 5169,
+        "lower": 5169,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.002720207965467125,
+        "upper": 5169,
+        "lower": 5169,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0068",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": true,
+    "region_fraction": 0.09033203125,
+    "global_lower": 5191,
+    "global_upper": 5191,
+    "reference_optimum": 5191,
+    "CP_pair_exact": true,
+    "CP_speed": 0.99378288429799,
+    "methods": {
+      "LRRepair": {
+        "time": 0.0042233330314047635,
+        "upper": 5191,
+        "lower": 5191,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.002744083001744002,
+        "upper": 5191,
+        "lower": 5191,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0027612500125542283,
+        "upper": 5191,
+        "lower": 5191,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0069",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": true,
+    "region_fraction": 0.07958984375,
+    "global_lower": 5078,
+    "global_upper": 5078,
+    "reference_optimum": 5078,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0149328022562527,
+    "methods": {
+      "FullCP": {
+        "time": 0.0028743749717250466,
+        "upper": 5078,
+        "lower": 5078,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.002832084021065384,
+        "upper": 5078,
+        "lower": 5078,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.004181625030469149,
+        "upper": 5078,
+        "lower": 5078,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0070",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.0693359375,
+    "global_lower": 5180,
+    "global_upper": 5180,
+    "reference_optimum": 5180,
+    "CP_pair_exact": true,
+    "CP_speed": 9.363627008931024,
+    "methods": {
+      "BARRCP": {
+        "time": 0.016593707958236337,
+        "upper": 5180,
+        "lower": 5180,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1494086249731481,
+        "upper": 5180,
+        "lower": 5174,
+        "gap": 6,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.15537729201605543,
+        "upper": 5180,
+        "lower": 5180,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0071",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.078125,
+    "global_lower": 5242,
+    "global_upper": 5242,
+    "reference_optimum": 5242,
+    "CP_pair_exact": true,
+    "CP_speed": 5.451378892385372,
+    "methods": {
+      "LRRepair": {
+        "time": 0.13735849998192862,
+        "upper": 5243,
+        "lower": 5236,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 1,
+        "loss_to_optimum": 1
+      },
+      "FullCP": {
+        "time": 0.14063558296766132,
+        "upper": 5242,
+        "lower": 5242,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.02579816698562354,
+        "upper": 5242,
+        "lower": 5242,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0072",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.0625,
+    "global_lower": 5218,
+    "global_upper": 5218,
+    "reference_optimum": 5218,
+    "CP_pair_exact": true,
+    "CP_speed": 7.981999429662577,
+    "methods": {
+      "FullCP": {
+        "time": 0.15653099998598918,
+        "upper": 5218,
+        "lower": 5218,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.01961050002137199,
+        "upper": 5218,
+        "lower": 5218,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.13009395799599588,
+        "upper": 5218,
+        "lower": 5215,
+        "gap": 3,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0073",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.06689453125,
+    "global_lower": 5160,
+    "global_upper": 5160,
+    "reference_optimum": 5160,
+    "CP_pair_exact": true,
+    "CP_speed": 7.730755993999454,
+    "methods": {
+      "BARRCP": {
+        "time": 0.017456750036217272,
+        "upper": 5160,
+        "lower": 5160,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.11980133299948648,
+        "upper": 5160,
+        "lower": 5156,
+        "gap": 4,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.13495387497823685,
+        "upper": 5160,
+        "lower": 5160,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0074",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.072265625,
+    "global_lower": 4986,
+    "global_upper": 4986,
+    "reference_optimum": 4986,
+    "CP_pair_exact": true,
+    "CP_speed": 6.877436446726324,
+    "methods": {
+      "LRRepair": {
+        "time": 0.12143450003350154,
+        "upper": 4986,
+        "lower": 4981,
+        "gap": 5,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.19331500004045665,
+        "upper": 4986,
+        "lower": 4986,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.02810858399607241,
+        "upper": 4986,
+        "lower": 4986,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0075",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.29052734375,
+    "global_lower": 5149,
+    "global_upper": 5149,
+    "reference_optimum": 5149,
+    "CP_pair_exact": true,
+    "CP_speed": 3.364827115067528,
+    "methods": {
+      "FullCP": {
+        "time": 0.2109843340003863,
+        "upper": 5149,
+        "lower": 5149,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.06270287500228733,
+        "upper": 5149,
+        "lower": 5149,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1319336669985205,
+        "upper": 5149,
+        "lower": 5140,
+        "gap": 9,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0076",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.333984375,
+    "global_lower": 5190,
+    "global_upper": 5190,
+    "reference_optimum": 5190,
+    "CP_pair_exact": true,
+    "CP_speed": 6.202434244623303,
+    "methods": {
+      "BARRCP": {
+        "time": 0.10200987500138581,
+        "upper": 5190,
+        "lower": 5190,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.12985470797866583,
+        "upper": 5190,
+        "lower": 5166,
+        "gap": 24,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.632709541998338,
+        "upper": 5190,
+        "lower": 5190,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0077",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.28955078125,
+    "global_lower": 5184,
+    "global_upper": 5184,
+    "reference_optimum": 5184,
+    "CP_pair_exact": true,
+    "CP_speed": 2.5419497463185112,
+    "methods": {
+      "LRRepair": {
+        "time": 0.12681112496647984,
+        "upper": 5184,
+        "lower": 5169,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.317951415956486,
+        "upper": 5184,
+        "lower": 5184,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.12508170801447704,
+        "upper": 5184,
+        "lower": 5184,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0078",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.3291015625,
+    "global_lower": 5135,
+    "global_upper": 5135,
+    "reference_optimum": 5135,
+    "CP_pair_exact": true,
+    "CP_speed": 1.6657302316314004,
+    "methods": {
+      "FullCP": {
+        "time": 0.2001891250256449,
+        "upper": 5135,
+        "lower": 5135,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.12018100003479049,
+        "upper": 5135,
+        "lower": 5135,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.12450116703985259,
+        "upper": 5135,
+        "lower": 5128,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0079",
+    "suite": "scale",
+    "family": "modular",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.33447265625,
+    "global_lower": 4926,
+    "global_upper": 4926,
+    "reference_optimum": 4926,
+    "CP_pair_exact": true,
+    "CP_speed": 2.7985816309576084,
+    "methods": {
+      "BARRCP": {
+        "time": 0.11968495801556855,
+        "upper": 4926,
+        "lower": 4926,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.12589254201157019,
+        "upper": 4937,
+        "lower": 4914,
+        "gap": 23,
+        "certified": false,
+        "loss_to_best": 11,
+        "loss_to_optimum": 11
+      },
+      "FullCP": {
+        "time": 0.3349481250043027,
+        "upper": 4926,
+        "lower": 4926,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0080",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.09130859375,
+    "global_lower": 7608,
+    "global_upper": 7608,
+    "reference_optimum": 7608,
+    "CP_pair_exact": true,
+    "CP_speed": 9.19867684188447,
+    "methods": {
+      "LRRepair": {
+        "time": 0.1928137080394663,
+        "upper": 7608,
+        "lower": 7608,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.251560042030178,
+        "upper": 7608,
+        "lower": 7608,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.02734741597669199,
+        "upper": 7608,
+        "lower": 7608,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0081",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": true,
+    "region_fraction": 0.087890625,
+    "global_lower": 7530,
+    "global_upper": 7530,
+    "reference_optimum": 7530,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0004808393952855,
+    "methods": {
+      "FullCP": {
+        "time": 0.003903333970811218,
+        "upper": 7530,
+        "lower": 7530,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.003901457996107638,
+        "upper": 7530,
+        "lower": 7530,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.005617750051897019,
+        "upper": 7530,
+        "lower": 7530,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0082",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.05712890625,
+    "global_lower": 7713,
+    "global_upper": 7713,
+    "reference_optimum": 7713,
+    "CP_pair_exact": true,
+    "CP_speed": 11.915702971636499,
+    "methods": {
+      "BARRCP": {
+        "time": 0.020612666965462267,
+        "upper": 7713,
+        "lower": 7713,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.17890879197511822,
+        "upper": 7713,
+        "lower": 7713,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.24561441701371223,
+        "upper": 7713,
+        "lower": 7713,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0083",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": true,
+    "region_fraction": 0.0712890625,
+    "global_lower": 7716,
+    "global_upper": 7716,
+    "reference_optimum": 7716,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0938188932297257,
+    "methods": {
+      "LRRepair": {
+        "time": 0.012361083005089313,
+        "upper": 7716,
+        "lower": 7716,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.0038770410465076566,
+        "upper": 7716,
+        "lower": 7716,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.0035444999812170863,
+        "upper": 7716,
+        "lower": 7716,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0084",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.08349609375,
+    "global_lower": 7594,
+    "global_upper": 7594,
+    "reference_optimum": 7594,
+    "CP_pair_exact": true,
+    "CP_speed": 11.215087838615139,
+    "methods": {
+      "FullCP": {
+        "time": 0.28852308401837945,
+        "upper": 7594,
+        "lower": 7594,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.02572633296949789,
+        "upper": 7594,
+        "lower": 7594,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.18624729197472334,
+        "upper": 7594,
+        "lower": 7594,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0085",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.88134765625,
+    "global_lower": 7608,
+    "global_upper": 7608,
+    "reference_optimum": 7608,
+    "CP_pair_exact": true,
+    "CP_speed": 1.185231568638068,
+    "methods": {
+      "BARRCP": {
+        "time": 0.3546675410470925,
+        "upper": 7608,
+        "lower": 7608,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.18341887497808784,
+        "upper": 7608,
+        "lower": 7608,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.4203631660202518,
+        "upper": 7608,
+        "lower": 7608,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0086",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": true,
+    "region_fraction": 0.98046875,
+    "global_lower": 7530,
+    "global_upper": 7530,
+    "reference_optimum": 7530,
+    "CP_pair_exact": true,
+    "CP_speed": 0.32375157786377695,
+    "methods": {
+      "LRRepair": {
+        "time": 0.005595042021013796,
+        "upper": 7530,
+        "lower": 7530,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.003691375022754073,
+        "upper": 7530,
+        "lower": 7530,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.011401875002775341,
+        "upper": 7530,
+        "lower": 7530,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0087",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.69921875,
+    "global_lower": 7713,
+    "global_upper": 7713,
+    "reference_optimum": 7713,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9013015505549103,
+    "methods": {
+      "FullCP": {
+        "time": 0.4203921669977717,
+        "upper": 7713,
+        "lower": 7713,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.46642787504242733,
+        "upper": 7713,
+        "lower": 7713,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.18677120801294222,
+        "upper": 7713,
+        "lower": 7713,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0088",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": true,
+    "region_fraction": 0.96875,
+    "global_lower": 7716,
+    "global_upper": 7716,
+    "reference_optimum": 7716,
+    "CP_pair_exact": true,
+    "CP_speed": 0.980868999703418,
+    "methods": {
+      "BARRCP": {
+        "time": 0.0036241669440642,
+        "upper": 7716,
+        "lower": 7716,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.005138334003277123,
+        "upper": 7716,
+        "lower": 7716,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.003554833005182445,
+        "upper": 7716,
+        "lower": 7716,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0089",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.85498046875,
+    "global_lower": 7594,
+    "global_upper": 7594,
+    "reference_optimum": 7594,
+    "CP_pair_exact": true,
+    "CP_speed": 1.5457640209740822,
+    "methods": {
+      "LRRepair": {
+        "time": 0.18774912500521168,
+        "upper": 7594,
+        "lower": 7594,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.42539258301258087,
+        "upper": 7594,
+        "lower": 7594,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.27519891603151336,
+        "upper": 7594,
+        "lower": 7594,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0090",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.24853515625,
+    "global_lower": 7528,
+    "global_upper": 7528,
+    "reference_optimum": 7528,
+    "CP_pair_exact": true,
+    "CP_speed": 4.553399573974007,
+    "methods": {
+      "FullCP": {
+        "time": 0.29016974999103695,
+        "upper": 7528,
+        "lower": 7528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.06372595799621195,
+        "upper": 7528,
+        "lower": 7528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.1851662919507362,
+        "upper": 7528,
+        "lower": 7528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0091",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 0.26220703125,
+    "global_lower": 7654,
+    "global_upper": 7654,
+    "reference_optimum": 7654,
+    "CP_pair_exact": true,
+    "CP_speed": 4.08217515267139,
+    "methods": {
+      "BARRCP": {
+        "time": 0.062215167039539665,
+        "upper": 7654,
+        "lower": 7654,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.19693629199173301,
+        "upper": 7654,
+        "lower": 7654,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2539732090081088,
+        "upper": 7654,
+        "lower": 7654,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0092",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.2138671875,
+    "global_lower": 7565,
+    "global_upper": 7565,
+    "reference_optimum": 7565,
+    "CP_pair_exact": true,
+    "CP_speed": 5.978348742772357,
+    "methods": {
+      "LRRepair": {
+        "time": 0.19296575000043958,
+        "upper": 7565,
+        "lower": 7565,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.2993020419962704,
+        "upper": 7565,
+        "lower": 7565,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.05006433295784518,
+        "upper": 7565,
+        "lower": 7565,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0093",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 0.26611328125,
+    "global_lower": 7725,
+    "global_upper": 7725,
+    "reference_optimum": 7725,
+    "CP_pair_exact": true,
+    "CP_speed": 3.654121094191078,
+    "methods": {
+      "FullCP": {
+        "time": 0.2664093329804018,
+        "upper": 7725,
+        "lower": 7725,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.07290654198732227,
+        "upper": 7725,
+        "lower": 7725,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.194730666000396,
+        "upper": 7725,
+        "lower": 7725,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0094",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.30908203125,
+    "global_lower": 7663,
+    "global_upper": 7663,
+    "reference_optimum": 7663,
+    "CP_pair_exact": true,
+    "CP_speed": 4.077694414836773,
+    "methods": {
+      "BARRCP": {
+        "time": 0.07081375003326684,
+        "upper": 7663,
+        "lower": 7663,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.19362391700269654,
+        "upper": 7663,
+        "lower": 7663,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.28875683300429955,
+        "upper": 7663,
+        "lower": 7663,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0095",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 0.994140625,
+    "global_lower": 7528,
+    "global_upper": 7528,
+    "reference_optimum": 7528,
+    "CP_pair_exact": true,
+    "CP_speed": 0.7234952320034095,
+    "methods": {
+      "LRRepair": {
+        "time": 0.18632204097229987,
+        "upper": 7528,
+        "lower": 7525,
+        "gap": 3,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.9137215420487337,
+        "upper": 7528,
+        "lower": 7528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 1.262926833005622,
+        "upper": 7528,
+        "lower": 7528,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0096",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7654,
+    "global_upper": 7654,
+    "reference_optimum": 7654,
+    "CP_pair_exact": true,
+    "CP_speed": 1.009028632401151,
+    "methods": {
+      "FullCP": {
+        "time": 0.6574115419643931,
+        "upper": 7654,
+        "lower": 7654,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.6515291249961592,
+        "upper": 7654,
+        "lower": 7654,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.19595908297924325,
+        "upper": 7654,
+        "lower": 7652,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0097",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 0.9912109375,
+    "global_lower": 7565,
+    "global_upper": 7565,
+    "reference_optimum": 7565,
+    "CP_pair_exact": true,
+    "CP_speed": 1.232756465584921,
+    "methods": {
+      "BARRCP": {
+        "time": 0.7915309999953024,
+        "upper": 7565,
+        "lower": 7565,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.19710620900150388,
+        "upper": 7565,
+        "lower": 7562,
+        "gap": 3,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.9757649579551071,
+        "upper": 7565,
+        "lower": 7565,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0098",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7725,
+    "global_upper": 7725,
+    "reference_optimum": 7725,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9394524099116938,
+    "methods": {
+      "LRRepair": {
+        "time": 0.18330037500709295,
+        "upper": 7725,
+        "lower": 7723,
+        "gap": 2,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.6928278330015019,
+        "upper": 7725,
+        "lower": 7725,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.7374805000144988,
+        "upper": 7725,
+        "lower": 7725,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0099",
+    "suite": "scale",
+    "family": "grid",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 0.97802734375,
+    "global_lower": 7663,
+    "global_upper": 7663,
+    "reference_optimum": 7663,
+    "CP_pair_exact": true,
+    "CP_speed": 0.6847154248301148,
+    "methods": {
+      "FullCP": {
+        "time": 0.5778213330195285,
+        "upper": 7663,
+        "lower": 7663,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.8438853749539703,
+        "upper": 7663,
+        "lower": 7663,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.20401641697390005,
+        "upper": 7663,
+        "lower": 7660,
+        "gap": 3,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0100",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7853,
+    "global_upper": 7853,
+    "reference_optimum": 7853,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9564567152104316,
+    "methods": {
+      "BARRCP": {
+        "time": 0.40614375000586733,
+        "upper": 7853,
+        "lower": 7853,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.28843895898899063,
+        "upper": 7853,
+        "lower": 7853,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.3884589170338586,
+        "upper": 7853,
+        "lower": 7853,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0101",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7517,
+    "global_upper": 7517,
+    "reference_optimum": 7517,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9585325358812724,
+    "methods": {
+      "LRRepair": {
+        "time": 0.27984920801827684,
+        "upper": 7517,
+        "lower": 7517,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.4234394159866497,
+        "upper": 7517,
+        "lower": 7517,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.44175800000084564,
+        "upper": 7517,
+        "lower": 7517,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0102",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7758,
+    "global_upper": 7758,
+    "reference_optimum": 7758,
+    "CP_pair_exact": true,
+    "CP_speed": 0.960755699454231,
+    "methods": {
+      "FullCP": {
+        "time": 0.45365883404156193,
+        "upper": 7758,
+        "lower": 7758,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.47218958399025723,
+        "upper": 7758,
+        "lower": 7758,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.2938832499785349,
+        "upper": 7758,
+        "lower": 7758,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0103",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7749,
+    "global_upper": 7749,
+    "reference_optimum": 7749,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9719908982757403,
+    "methods": {
+      "BARRCP": {
+        "time": 0.5642927500302903,
+        "upper": 7749,
+        "lower": 7749,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.2834196250187233,
+        "upper": 7749,
+        "lower": 7749,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.5484874169924296,
+        "upper": 7749,
+        "lower": 7749,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0104",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7816,
+    "global_upper": 7816,
+    "reference_optimum": 7816,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9671650835311961,
+    "methods": {
+      "LRRepair": {
+        "time": 0.2712197090149857,
+        "upper": 7816,
+        "lower": 7816,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.46564179100096226,
+        "upper": 7816,
+        "lower": 7816,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.4814501670189202,
+        "upper": 7816,
+        "lower": 7816,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0105",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7852,
+    "global_upper": 7853,
+    "reference_optimum": null,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "FullCP": {
+        "time": 3.0101977920276113,
+        "upper": 8131,
+        "lower": 7852,
+        "gap": 279,
+        "certified": false,
+        "loss_to_best": 278,
+        "loss_to_optimum": null
+      },
+      "BARRCP": {
+        "time": 3.0120420830207877,
+        "upper": 8131,
+        "lower": 7852,
+        "gap": 279,
+        "certified": false,
+        "loss_to_best": 278,
+        "loss_to_optimum": null
+      },
+      "LRRepair": {
+        "time": 0.32257924997247756,
+        "upper": 7853,
+        "lower": 7852,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      }
+    }
+  },
+  {
+    "case_id": "case_0106",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7517,
+    "global_upper": 7517,
+    "reference_optimum": 7517,
+    "CP_pair_exact": true,
+    "CP_speed": 0.978931257437148,
+    "methods": {
+      "BARRCP": {
+        "time": 0.6507309580338188,
+        "upper": 7517,
+        "lower": 7517,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.32253745797788724,
+        "upper": 7517,
+        "lower": 7517,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.6370208750013262,
+        "upper": 7517,
+        "lower": 7517,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0107",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7758,
+    "global_upper": 7758,
+    "reference_optimum": 7758,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9757514663762181,
+    "methods": {
+      "LRRepair": {
+        "time": 0.3531151249771938,
+        "upper": 7758,
+        "lower": 7757,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 1.1700839579571038,
+        "upper": 7758,
+        "lower": 7758,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 1.1991618750034831,
+        "upper": 7758,
+        "lower": 7758,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0108",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7748,
+    "global_upper": 7749,
+    "reference_optimum": null,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "FullCP": {
+        "time": 3.0104202919756062,
+        "upper": 8166,
+        "lower": 7748,
+        "gap": 418,
+        "certified": false,
+        "loss_to_best": 417,
+        "loss_to_optimum": null
+      },
+      "BARRCP": {
+        "time": 3.010757834010292,
+        "upper": 8166,
+        "lower": 7748,
+        "gap": 418,
+        "certified": false,
+        "loss_to_best": 417,
+        "loss_to_optimum": null
+      },
+      "LRRepair": {
+        "time": 0.4080591670353897,
+        "upper": 7749,
+        "lower": 7748,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      }
+    }
+  },
+  {
+    "case_id": "case_0109",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7816,
+    "global_upper": 7816,
+    "reference_optimum": 7816,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9842705522074994,
+    "methods": {
+      "BARRCP": {
+        "time": 0.5689620000193827,
+        "upper": 7816,
+        "lower": 7816,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.33769370801746845,
+        "upper": 7816,
+        "lower": 7815,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.5600125419441611,
+        "upper": 7816,
+        "lower": 7816,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0110",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7904,
+    "global_upper": 7904,
+    "reference_optimum": 7904,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9714886799156318,
+    "methods": {
+      "LRRepair": {
+        "time": 0.3145516670192592,
+        "upper": 7904,
+        "lower": 7904,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.39830837497720495,
+        "upper": 7904,
+        "lower": 7904,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.4099979579914361,
+        "upper": 7904,
+        "lower": 7904,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0111",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7514,
+    "global_upper": 7514,
+    "reference_optimum": 7514,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9826075658738052,
+    "methods": {
+      "FullCP": {
+        "time": 0.5904895829735324,
+        "upper": 7514,
+        "lower": 7514,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.6009414169820957,
+        "upper": 7514,
+        "lower": 7514,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.3243346249801107,
+        "upper": 7514,
+        "lower": 7514,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0112",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7888,
+    "global_upper": 7888,
+    "reference_optimum": 7888,
+    "CP_pair_exact": true,
+    "CP_speed": 1.1974443741126062,
+    "methods": {
+      "BARRCP": {
+        "time": 0.5098389580380172,
+        "upper": 7888,
+        "lower": 7888,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.6077949579921551,
+        "upper": 7888,
+        "lower": 7888,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.6105037920060568,
+        "upper": 7888,
+        "lower": 7888,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0113",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7800,
+    "global_upper": 7800,
+    "reference_optimum": 7800,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9689818436063211,
+    "methods": {
+      "LRRepair": {
+        "time": 0.29851424996741116,
+        "upper": 7800,
+        "lower": 7799,
+        "gap": 1,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 1.0122028340119869,
+        "upper": 7800,
+        "lower": 7800,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 1.044604541035369,
+        "upper": 7800,
+        "lower": 7800,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0114",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 16,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 8096,
+    "global_upper": 8096,
+    "reference_optimum": 8096,
+    "CP_pair_exact": true,
+    "CP_speed": 1.0618102079236098,
+    "methods": {
+      "FullCP": {
+        "time": 0.6412626670207828,
+        "upper": 8096,
+        "lower": 8096,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.6039334169472568,
+        "upper": 8096,
+        "lower": 8096,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.3133586659678258,
+        "upper": 8096,
+        "lower": 8096,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0115",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 400,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7904,
+    "global_upper": 7904,
+    "reference_optimum": 7904,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9854652362471544,
+    "methods": {
+      "BARRCP": {
+        "time": 0.6629765830002725,
+        "upper": 7904,
+        "lower": 7904,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.32543358398834243,
+        "upper": 7904,
+        "lower": 7898,
+        "gap": 6,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.6533403749926947,
+        "upper": 7904,
+        "lower": 7904,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0116",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 401,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7514,
+    "global_upper": 7514,
+    "reference_optimum": 7514,
+    "CP_pair_exact": true,
+    "CP_speed": 0.9702522804834643,
+    "methods": {
+      "LRRepair": {
+        "time": 0.31740141700720415,
+        "upper": 7514,
+        "lower": 7509,
+        "gap": 5,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "FullCP": {
+        "time": 0.6731919589801691,
+        "upper": 7514,
+        "lower": 7514,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.6938318749889731,
+        "upper": 7514,
+        "lower": 7514,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0117",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 402,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7888,
+    "global_upper": 7888,
+    "reference_optimum": 7888,
+    "CP_pair_exact": true,
+    "CP_speed": 0.8886694449247621,
+    "methods": {
+      "FullCP": {
+        "time": 1.0734895840287209,
+        "upper": 7888,
+        "lower": 7888,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 1.2079739999608137,
+        "upper": 7888,
+        "lower": 7888,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.4516707919538021,
+        "upper": 7888,
+        "lower": 7882,
+        "gap": 6,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0118",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 403,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 7793,
+    "global_upper": 7800,
+    "reference_optimum": null,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "BARRCP": {
+        "time": 3.014719041995704,
+        "upper": 7978,
+        "lower": 7793,
+        "gap": 185,
+        "certified": false,
+        "loss_to_best": 178,
+        "loss_to_optimum": null
+      },
+      "LRRepair": {
+        "time": 0.381491250009276,
+        "upper": 7800,
+        "lower": 7793,
+        "gap": 7,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      },
+      "FullCP": {
+        "time": 3.011159542016685,
+        "upper": 7978,
+        "lower": 7793,
+        "gap": 185,
+        "certified": false,
+        "loss_to_best": 178,
+        "loss_to_optimum": null
+      }
+    }
+  },
+  {
+    "case_id": "case_0119",
+    "suite": "scale",
+    "family": "smallworld",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 64,
+    "seed": 404,
+    "fastpath": false,
+    "region_fraction": 1.0,
+    "global_lower": 8088,
+    "global_upper": 8096,
+    "reference_optimum": null,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "LRRepair": {
+        "time": 0.308587167004589,
+        "upper": 8096,
+        "lower": 8088,
+        "gap": 8,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      },
+      "FullCP": {
+        "time": 3.0108788330107927,
+        "upper": 8211,
+        "lower": 8087,
+        "gap": 124,
+        "certified": false,
+        "loss_to_best": 115,
+        "loss_to_optimum": null
+      },
+      "BARRCP": {
+        "time": 3.0114220830146223,
+        "upper": 8211,
+        "lower": 8087,
+        "gap": 124,
+        "certified": false,
+        "loss_to_best": 115,
+        "loss_to_optimum": null
+      }
+    }
+  },
+  {
+    "case_id": "case_0120",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 33,
+    "seed": 600,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -184,
+    "global_upper": -184,
+    "reference_optimum": -184,
+    "CP_pair_exact": true,
+    "CP_speed": 2.104274432593506,
+    "methods": {
+      "FullCP": {
+        "time": 0.31068699999013916,
+        "upper": -184,
+        "lower": -184,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.14764566597295925,
+        "upper": -184,
+        "lower": -184,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08254808298079297,
+        "upper": -174,
+        "lower": -191,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 10,
+        "loss_to_optimum": 10
+      }
+    }
+  },
+  {
+    "case_id": "case_0121",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 33,
+    "seed": 601,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 2.0684710543477265,
+    "methods": {
+      "BARRCP": {
+        "time": 0.2126640829956159,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08193262503482401,
+        "upper": -176,
+        "lower": -191,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 6,
+        "loss_to_optimum": 6
+      },
+      "FullCP": {
+        "time": 0.43988949997583404,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0122",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 33,
+    "seed": 602,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 1.4035141354576457,
+    "methods": {
+      "LRRepair": {
+        "time": 0.08192683302331716,
+        "upper": -170,
+        "lower": -191,
+        "gap": 21,
+        "certified": false,
+        "loss_to_best": 12,
+        "loss_to_optimum": 12
+      },
+      "FullCP": {
+        "time": 0.30159670900320634,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.21488683397183195,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0123",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 33,
+    "seed": 603,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 2.513948947190091,
+    "methods": {
+      "FullCP": {
+        "time": 0.5399461659835652,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.21478008397389203,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08195870800409466,
+        "upper": -176,
+        "lower": -191,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 6,
+        "loss_to_optimum": 6
+      }
+    }
+  },
+  {
+    "case_id": "case_0124",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 33,
+    "seed": 604,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 2.531376806884619,
+    "methods": {
+      "BARRCP": {
+        "time": 0.24429799994686618,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.08194537495728582,
+        "upper": -174,
+        "lower": -191,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 8,
+        "loss_to_optimum": 8
+      },
+      "FullCP": {
+        "time": 0.618410291033797,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0125",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 65,
+    "seed": 600,
+    "fastpath": false,
+    "region_fraction": 0.1875,
+    "global_lower": -366,
+    "global_upper": -366,
+    "reference_optimum": -366,
+    "CP_pair_exact": true,
+    "CP_speed": 1.2054010674689986,
+    "methods": {
+      "LRRepair": {
+        "time": 0.1219423750299029,
+        "upper": -352,
+        "lower": -383,
+        "gap": 31,
+        "certified": false,
+        "loss_to_best": 14,
+        "loss_to_optimum": 14
+      },
+      "FullCP": {
+        "time": 4.451625999994576,
+        "upper": -366,
+        "lower": -366,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 3.6930662500089966,
+        "upper": -366,
+        "lower": -366,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0126",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 65,
+    "seed": 601,
+    "fastpath": false,
+    "region_fraction": 0.1875,
+    "global_lower": -368,
+    "global_upper": -368,
+    "reference_optimum": -368,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "FullCP": {
+        "time": 5.0029925419948995,
+        "upper": -367,
+        "lower": -381,
+        "gap": 14,
+        "certified": false,
+        "loss_to_best": 1,
+        "loss_to_optimum": 1
+      },
+      "BARRCP": {
+        "time": 1.9197783750132658,
+        "upper": -368,
+        "lower": -368,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.13673262496013194,
+        "upper": -348,
+        "lower": -383,
+        "gap": 35,
+        "certified": false,
+        "loss_to_best": 20,
+        "loss_to_optimum": 20
+      }
+    }
+  },
+  {
+    "case_id": "case_0127",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 65,
+    "seed": 602,
+    "fastpath": false,
+    "region_fraction": 0.1875,
+    "global_lower": -366,
+    "global_upper": -366,
+    "reference_optimum": -366,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "BARRCP": {
+        "time": 3.548045583011117,
+        "upper": -366,
+        "lower": -366,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.11981866700807586,
+        "upper": -340,
+        "lower": -383,
+        "gap": 43,
+        "certified": false,
+        "loss_to_best": 26,
+        "loss_to_optimum": 26
+      },
+      "FullCP": {
+        "time": 5.002643832995091,
+        "upper": -366,
+        "lower": -381,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0128",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 65,
+    "seed": 603,
+    "fastpath": false,
+    "region_fraction": 0.1875,
+    "global_lower": -380,
+    "global_upper": -366,
+    "reference_optimum": null,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "LRRepair": {
+        "time": 0.11430537502747029,
+        "upper": -348,
+        "lower": -383,
+        "gap": 35,
+        "certified": false,
+        "loss_to_best": 18,
+        "loss_to_optimum": null
+      },
+      "FullCP": {
+        "time": 5.002069957961794,
+        "upper": -366,
+        "lower": -380,
+        "gap": 14,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      },
+      "BARRCP": {
+        "time": 5.001344749995042,
+        "upper": -364,
+        "lower": -381,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 2,
+        "loss_to_optimum": null
+      }
+    }
+  },
+  {
+    "case_id": "case_0129",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 1024,
+    "budget": 65,
+    "seed": 604,
+    "fastpath": false,
+    "region_fraction": 0.1875,
+    "global_lower": -367,
+    "global_upper": -367,
+    "reference_optimum": -367,
+    "CP_pair_exact": true,
+    "CP_speed": 1.1469638254167347,
+    "methods": {
+      "FullCP": {
+        "time": 4.031956582970452,
+        "upper": -367,
+        "lower": -367,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 3.5153302079997957,
+        "upper": -367,
+        "lower": -367,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.11514750000787899,
+        "upper": -352,
+        "lower": -383,
+        "gap": 31,
+        "certified": false,
+        "loss_to_best": 15,
+        "loss_to_optimum": 15
+      }
+    }
+  },
+  {
+    "case_id": "case_0130",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 33,
+    "seed": 600,
+    "fastpath": false,
+    "region_fraction": 0.046875,
+    "global_lower": -184,
+    "global_upper": -184,
+    "reference_optimum": -184,
+    "CP_pair_exact": true,
+    "CP_speed": 3.6982212099851126,
+    "methods": {
+      "BARRCP": {
+        "time": 0.1485449160099961,
+        "upper": -184,
+        "lower": -184,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.16497320804046467,
+        "upper": -174,
+        "lower": -191,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 10,
+        "loss_to_optimum": 10
+      },
+      "FullCP": {
+        "time": 0.5493519590236247,
+        "upper": -184,
+        "lower": -184,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0131",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 33,
+    "seed": 601,
+    "fastpath": false,
+    "region_fraction": 0.046875,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 1.7758173699169706,
+    "methods": {
+      "LRRepair": {
+        "time": 0.16825154097750783,
+        "upper": -176,
+        "lower": -191,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 6,
+        "loss_to_optimum": 6
+      },
+      "FullCP": {
+        "time": 0.39293104101670906,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2212677089846693,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0132",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 33,
+    "seed": 602,
+    "fastpath": false,
+    "region_fraction": 0.046875,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 2.947003867182103,
+    "methods": {
+      "FullCP": {
+        "time": 0.6407327919732779,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.2174183750175871,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.17288312502205372,
+        "upper": -170,
+        "lower": -191,
+        "gap": 21,
+        "certified": false,
+        "loss_to_best": 12,
+        "loss_to_optimum": 12
+      }
+    }
+  },
+  {
+    "case_id": "case_0133",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 33,
+    "seed": 603,
+    "fastpath": false,
+    "region_fraction": 0.046875,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 3.2391157387952485,
+    "methods": {
+      "BARRCP": {
+        "time": 0.22707100003026426,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.18423704098677263,
+        "upper": -176,
+        "lower": -191,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 6,
+        "loss_to_optimum": 6
+      },
+      "FullCP": {
+        "time": 0.7355092500220053,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0134",
+    "suite": "core",
+    "family": "core64",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 33,
+    "seed": 604,
+    "fastpath": false,
+    "region_fraction": 0.046875,
+    "global_lower": -182,
+    "global_upper": -182,
+    "reference_optimum": -182,
+    "CP_pair_exact": true,
+    "CP_speed": 4.318194992466997,
+    "methods": {
+      "LRRepair": {
+        "time": 0.19769900001119822,
+        "upper": -174,
+        "lower": -191,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 8,
+        "loss_to_optimum": 8
+      },
+      "FullCP": {
+        "time": 1.1775386669905856,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 0.27269233303377405,
+        "upper": -182,
+        "lower": -182,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0135",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 65,
+    "seed": 600,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -366,
+    "global_upper": -366,
+    "reference_optimum": -366,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "FullCP": {
+        "time": 5.0044627920142375,
+        "upper": -366,
+        "lower": -381,
+        "gap": 15,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "BARRCP": {
+        "time": 3.7560755829908885,
+        "upper": -366,
+        "lower": -366,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.23674845800269395,
+        "upper": -352,
+        "lower": -383,
+        "gap": 31,
+        "certified": false,
+        "loss_to_best": 14,
+        "loss_to_optimum": 14
+      }
+    }
+  },
+  {
+    "case_id": "case_0136",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 65,
+    "seed": 601,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -368,
+    "global_upper": -368,
+    "reference_optimum": -368,
+    "CP_pair_exact": true,
+    "CP_speed": 2.009209686595414,
+    "methods": {
+      "BARRCP": {
+        "time": 1.826831000042148,
+        "upper": -368,
+        "lower": -368,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.23508324997965246,
+        "upper": -348,
+        "lower": -383,
+        "gap": 35,
+        "certified": false,
+        "loss_to_best": 20,
+        "loss_to_optimum": 20
+      },
+      "FullCP": {
+        "time": 3.670486541057471,
+        "upper": -368,
+        "lower": -368,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0137",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 65,
+    "seed": 602,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -366,
+    "global_upper": -366,
+    "reference_optimum": -366,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "LRRepair": {
+        "time": 0.23233154194895178,
+        "upper": -340,
+        "lower": -383,
+        "gap": 43,
+        "certified": false,
+        "loss_to_best": 26,
+        "loss_to_optimum": 26
+      },
+      "FullCP": {
+        "time": 5.004311333002988,
+        "upper": -361,
+        "lower": -381,
+        "gap": 20,
+        "certified": false,
+        "loss_to_best": 5,
+        "loss_to_optimum": 5
+      },
+      "BARRCP": {
+        "time": 3.8402240829891525,
+        "upper": -366,
+        "lower": -366,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  },
+  {
+    "case_id": "case_0138",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 65,
+    "seed": 603,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -381,
+    "global_upper": -364,
+    "reference_optimum": null,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "FullCP": {
+        "time": 5.00604754203232,
+        "upper": -364,
+        "lower": -381,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      },
+      "BARRCP": {
+        "time": 5.000583458982874,
+        "upper": -364,
+        "lower": -381,
+        "gap": 17,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": null
+      },
+      "LRRepair": {
+        "time": 0.23455683299107477,
+        "upper": -348,
+        "lower": -383,
+        "gap": 35,
+        "certified": false,
+        "loss_to_best": 16,
+        "loss_to_optimum": null
+      }
+    }
+  },
+  {
+    "case_id": "case_0139",
+    "suite": "core",
+    "family": "core128",
+    "project": null,
+    "hours": null,
+    "n": 2048,
+    "budget": 65,
+    "seed": 604,
+    "fastpath": false,
+    "region_fraction": 0.09375,
+    "global_lower": -367,
+    "global_upper": -367,
+    "reference_optimum": -367,
+    "CP_pair_exact": false,
+    "CP_speed": null,
+    "methods": {
+      "BARRCP": {
+        "time": 3.1260926669929177,
+        "upper": -367,
+        "lower": -367,
+        "gap": 0,
+        "certified": true,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      },
+      "LRRepair": {
+        "time": 0.27683408302254975,
+        "upper": -352,
+        "lower": -383,
+        "gap": 31,
+        "certified": false,
+        "loss_to_best": 15,
+        "loss_to_optimum": 15
+      },
+      "FullCP": {
+        "time": 5.004645959008485,
+        "upper": -367,
+        "lower": -377,
+        "gap": 10,
+        "certified": false,
+        "loss_to_best": 0,
+        "loss_to_optimum": 0
+      }
+    }
+  }
+]

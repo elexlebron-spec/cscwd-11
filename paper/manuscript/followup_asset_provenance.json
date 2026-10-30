@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "results/design_case_v4/case.json": "3475e8d284591a4b998484866e7518aa1492edaf6f21d81f19cec94bd665b8ba",
+    "results/scale_holdout_v4/summary.json": "0cebcbf906b9223a94b31989fd94f59bf16da4d99b113d9aecb425c3731fc31d",
+    "results/core_holdout_v4/summary.json": "39e31a0f1d1487c72f2fadccddbd37983969199e5079f17be8484ac0cbc2c4aa"
+  },
+  "builder_sha256": "21bff428dc72deb6fc9b041f0cbfc9f0fde50e7fa19b5fac6fc1768673747137",
+  "case_scope": "fully synthetic example, not semi-synthetic or measured industry data"
+}

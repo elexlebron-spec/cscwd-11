@@ -1,0 +1,450 @@
+{
+  "cases": 140,
+  "calls": 420,
+  "solutions_validated": true,
+  "all_certificate_intersections_valid": true,
+  "jointly_certified_optima_agree": true,
+  "groups": [
+    {
+      "key": [
+        "core128",
+        1024
+      ],
+      "cases": 5,
+      "n": 1024,
+      "CP_required": 5,
+      "CP_region_fraction": 0.1875,
+      "CP_exact_speed": 1.1761824464428665,
+      "CP_exact_pairs": 2,
+      "methods": {
+        "FullCP": {
+          "certified": 2,
+          "median_s": 5.002069957961794,
+          "max_gap": 15,
+          "median_gap": 14,
+          "max_loss_to_best": 1,
+          "reference_cases": 4,
+          "max_loss_to_optimum": 1,
+          "matches_proven_optimum": 3
+        },
+        "BARRCP": {
+          "certified": 4,
+          "median_s": 3.548045583011117,
+          "max_gap": 17,
+          "median_gap": 0,
+          "max_loss_to_best": 2,
+          "reference_cases": 4,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 4
+        },
+        "LRRepair": {
+          "certified": 0,
+          "median_s": 0.11981866700807586,
+          "max_gap": 43,
+          "median_gap": 35,
+          "max_loss_to_best": 26,
+          "reference_cases": 4,
+          "max_loss_to_optimum": 26,
+          "matches_proven_optimum": 0
+        }
+      }
+    },
+    {
+      "key": [
+        "core128",
+        2048
+      ],
+      "cases": 5,
+      "n": 2048,
+      "CP_required": 5,
+      "CP_region_fraction": 0.09375,
+      "CP_exact_speed": 2.009209686595414,
+      "CP_exact_pairs": 1,
+      "methods": {
+        "FullCP": {
+          "certified": 1,
+          "median_s": 5.0044627920142375,
+          "max_gap": 20,
+          "median_gap": 15,
+          "max_loss_to_best": 5,
+          "reference_cases": 4,
+          "max_loss_to_optimum": 5,
+          "matches_proven_optimum": 3
+        },
+        "BARRCP": {
+          "certified": 4,
+          "median_s": 3.7560755829908885,
+          "max_gap": 17,
+          "median_gap": 0,
+          "max_loss_to_best": 0,
+          "reference_cases": 4,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 4
+        },
+        "LRRepair": {
+          "certified": 0,
+          "median_s": 0.23508324997965246,
+          "max_gap": 43,
+          "median_gap": 35,
+          "max_loss_to_best": 26,
+          "reference_cases": 4,
+          "max_loss_to_optimum": 26,
+          "matches_proven_optimum": 0
+        }
+      }
+    },
+    {
+      "key": [
+        "core64",
+        1024
+      ],
+      "cases": 5,
+      "n": 1024,
+      "CP_required": 5,
+      "CP_region_fraction": 0.09375,
+      "CP_exact_speed": 2.104274432593506,
+      "CP_exact_pairs": 5,
+      "methods": {
+        "FullCP": {
+          "certified": 5,
+          "median_s": 0.43988949997583404,
+          "max_gap": 0,
+          "median_gap": 0,
+          "max_loss_to_best": 0,
+          "reference_cases": 5,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 5
+        },
+        "BARRCP": {
+          "certified": 5,
+          "median_s": 0.21478008397389203,
+          "max_gap": 0,
+          "median_gap": 0,
+          "max_loss_to_best": 0,
+          "reference_cases": 5,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 5
+        },
+        "LRRepair": {
+          "certified": 0,
+          "median_s": 0.08194537495728582,
+          "max_gap": 21,
+          "median_gap": 17,
+          "max_loss_to_best": 12,
+          "reference_cases": 5,
+          "max_loss_to_optimum": 12,
+          "matches_proven_optimum": 0
+        }
+      }
+    },
+    {
+      "key": [
+        "core64",
+        2048
+      ],
+      "cases": 5,
+      "n": 2048,
+      "CP_required": 5,
+      "CP_region_fraction": 0.046875,
+      "CP_exact_speed": 3.2391157387952485,
+      "CP_exact_pairs": 5,
+      "methods": {
+        "FullCP": {
+          "certified": 5,
+          "median_s": 0.6407327919732779,
+          "max_gap": 0,
+          "median_gap": 0,
+          "max_loss_to_best": 0,
+          "reference_cases": 5,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 5
+        },
+        "BARRCP": {
+          "certified": 5,
+          "median_s": 0.2212677089846693,
+          "max_gap": 0,
+          "median_gap": 0,
+          "max_loss_to_best": 0,
+          "reference_cases": 5,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 5
+        },
+        "LRRepair": {
+          "certified": 0,
+          "median_s": 0.17288312502205372,
+          "max_gap": 21,
+          "median_gap": 17,
+          "max_loss_to_best": 12,
+          "reference_cases": 5,
+          "max_loss_to_optimum": 12,
+          "matches_proven_optimum": 0
+        }
+      }
+    },
+    {
+      "key": [
+        "grid",
+        1024
+      ],
+      "cases": 20,
+      "n": 1024,
+      "CP_required": 20,
+      "CP_region_fraction": 0.70458984375,
+      "CP_exact_speed": 2.1391376608653214,
+      "CP_exact_pairs": 20,
+      "methods": {
+        "FullCP": {
+          "certified": 20,
+          "median_s": 0.18871716648573056,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "BARRCP": {
+          "certified": 20,
+          "median_s": 0.11506133299553767,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "LRRepair": {
+          "certified": 11,
+          "median_s": 0.0806442920002155,
+          "max_gap": 7,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        }
+      }
+    },
+    {
+      "key": [
+        "grid",
+        2048
+      ],
+      "cases": 20,
+      "n": 2048,
+      "CP_required": 16,
+      "CP_region_fraction": 0.504150390625,
+      "CP_exact_speed": 2.59994255758258,
+      "CP_exact_pairs": 16,
+      "methods": {
+        "FullCP": {
+          "certified": 20,
+          "median_s": 0.28946329149766825,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "BARRCP": {
+          "certified": 20,
+          "median_s": 0.0672698540147394,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "LRRepair": {
+          "certified": 15,
+          "median_s": 0.18654662449262105,
+          "max_gap": 3,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        }
+      }
+    },
+    {
+      "key": [
+        "modular",
+        1024
+      ],
+      "cases": 20,
+      "n": 1024,
+      "CP_required": 15,
+      "CP_region_fraction": 0.13671875,
+      "CP_exact_speed": 4.652759689485101,
+      "CP_exact_pairs": 15,
+      "methods": {
+        "FullCP": {
+          "certified": 20,
+          "median_s": 0.07538435398600996,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "BARRCP": {
+          "certified": 20,
+          "median_s": 0.012280146009288728,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "LRRepair": {
+          "certified": 6,
+          "median_s": 0.05896766699152067,
+          "max_gap": 26,
+          "median_gap": 8.5,
+          "max_loss_to_best": 12,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 12,
+          "matches_proven_optimum": 19
+        }
+      }
+    },
+    {
+      "key": [
+        "modular",
+        2048
+      ],
+      "cases": 20,
+      "n": 2048,
+      "CP_required": 14,
+      "CP_region_fraction": 0.07080078125,
+      "CP_exact_speed": 7.304096220362888,
+      "CP_exact_pairs": 14,
+      "methods": {
+        "FullCP": {
+          "certified": 20,
+          "median_s": 0.14800643749185838,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "BARRCP": {
+          "certified": 20,
+          "median_s": 0.016154895478393883,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "LRRepair": {
+          "certified": 6,
+          "median_s": 0.126351833489025,
+          "max_gap": 24,
+          "median_gap": 5.5,
+          "max_loss_to_best": 11,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 11,
+          "matches_proven_optimum": 18
+        }
+      }
+    },
+    {
+      "key": [
+        "smallworld",
+        1024
+      ],
+      "cases": 20,
+      "n": 1024,
+      "CP_required": 20,
+      "CP_region_fraction": 1.0,
+      "CP_exact_speed": 0.9838635352419879,
+      "CP_exact_pairs": 20,
+      "methods": {
+        "FullCP": {
+          "certified": 20,
+          "median_s": 0.2560513960197568,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "BARRCP": {
+          "certified": 20,
+          "median_s": 0.2675384370086249,
+          "max_gap": 0,
+          "median_gap": 0.0,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        },
+        "LRRepair": {
+          "certified": 6,
+          "median_s": 0.1425638539949432,
+          "max_gap": 17,
+          "median_gap": 1.5,
+          "max_loss_to_best": 0,
+          "reference_cases": 20,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 20
+        }
+      }
+    },
+    {
+      "key": [
+        "smallworld",
+        2048
+      ],
+      "cases": 20,
+      "n": 2048,
+      "CP_required": 20,
+      "CP_region_fraction": 1.0,
+      "CP_exact_speed": 0.971739789095686,
+      "CP_exact_pairs": 16,
+      "methods": {
+        "FullCP": {
+          "certified": 16,
+          "median_s": 0.6391417710110545,
+          "max_gap": 418,
+          "median_gap": 0.0,
+          "max_loss_to_best": 417,
+          "reference_cases": 16,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 16
+        },
+        "BARRCP": {
+          "certified": 16,
+          "median_s": 0.6273321874905378,
+          "max_gap": 418,
+          "median_gap": 0.0,
+          "max_loss_to_best": 417,
+          "reference_cases": 16,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 16
+        },
+        "LRRepair": {
+          "certified": 10,
+          "median_s": 0.3199694374925457,
+          "max_gap": 8,
+          "median_gap": 0.5,
+          "max_loss_to_best": 0,
+          "reference_cases": 16,
+          "max_loss_to_optimum": 0,
+          "matches_proven_optimum": 16
+        }
+      }
+    }
+  ],
+  "scope": "New single timing per method per case, rotating method order. Descriptive only; retain all incomplete calls. LR feasible quality is not compared to exact CP quality as equal."
+}

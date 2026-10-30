@@ -1,0 +1,20 @@
+{
+  "frozen_before_repair_outcomes": true,
+  "source_doi": "10.15125/BATH-00621",
+  "projects": ["A", "B", "C"],
+  "windows_hours": [1, 12],
+  "minimum_file_events": 5,
+  "edge_probability_threshold": "1/4",
+  "edge_weight_scale": 8,
+  "anchors": [1, 4],
+  "budgets": [8, 16],
+  "seeds": [900, 901, 902],
+  "seconds_per_query": 3,
+  "methods": ["FullCP", "BARRCP", "LRRepair"],
+  "repeats": 1,
+  "old_unary_penalty": [4, 8],
+  "anchor_old_label_increase": [32, 40],
+  "anchor_other_label_decrease": [0, 8],
+  "recourse": "1 + indicator(file has at least 10 events) + indicator(assembly)",
+  "note": "All project/window graphs and Cartesian cases retained; A/B/C are source projects, distinct from the two synthetic responsibility pools."
+}

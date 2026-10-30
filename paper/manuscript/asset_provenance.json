@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "results/gate_combined_v2/summary.json": "d59d0d287a678ce03e12c5cccba476c44271caf6545192134177317c652f5407",
+    "results/ablation_weighted_v3/summary.json": "64fb950c7c0d32abe90d1c685f5b20a05083e782ae42201b5240276363c4549a",
+    "results/ablation_weighted_v3/case_summary.json": "1cdcd3c323d7b861ff3cf9e8b321a562532fda06acdbbf885ede688676f8dca7",
+    "results/epsilon_v2/case_summary.json": "bf504d886c26b214e80841b7693e40276ab3fd1081b69848d44baa4b503475c1"
+  },
+  "builder_sha256": "e4226b79f2e298c80df6cfafdd44ca2aa31d85d8b7e14e0f6b4c5f1353577d24",
+  "note": "Tables/plots derive from saved validated results. Active stratum excludes only the shared proven-optimal shortcut; all-case timing estimates reported separately."
+}

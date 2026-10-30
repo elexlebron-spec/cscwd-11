@@ -1,0 +1,66 @@
+{
+  "folder": "results/calibration_v2",
+  "cases": 96,
+  "solver_runs": 192,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 96
+  },
+  "barr_statuses": {
+    "OPTIMAL": 96
+  },
+  "greedy_suboptimal_cases": 16,
+  "proven_budget_binding_cases": 63,
+  "finite_lr_gap_cases": 63,
+  "full_branching_cases": 64,
+  "nonzero_epsilon_cases": 0,
+  "actual_loss_positive_cases": 0,
+  "epsilon_range": [
+    0,
+    0
+  ],
+  "max_actual_loss": 0,
+  "median_certificate_gap": 0.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 32,
+      "nontrivial_exact_cases": 28,
+      "median_full_ms": 32.12864599481691,
+      "median_barr_ms": 29.388479510089383,
+      "median_paired_speed_ratio": 1.032355465599772,
+      "cluster_bootstrap_95_low": 1.021112972789703,
+      "cluster_bootstrap_95_high": 1.0523288939690962,
+      "median_region_ratio": 0.98828125,
+      "region_ge_70pct_cases": 26
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 32,
+      "nontrivial_exact_cases": 10,
+      "median_full_ms": 22.02958350244444,
+      "median_barr_ms": 18.395520994090475,
+      "median_paired_speed_ratio": 1.1543295466831796,
+      "cluster_bootstrap_95_low": 1.0994111734003833,
+      "cluster_bootstrap_95_high": 1.2099112096157647,
+      "median_region_ratio": 0.7578125,
+      "region_ge_70pct_cases": 14
+    },
+    {
+      "topology": "smallworld",
+      "n": 128,
+      "all_cases": 32,
+      "nontrivial_exact_cases": 26,
+      "median_full_ms": 62.928978994023055,
+      "median_barr_ms": 63.74064600095153,
+      "median_paired_speed_ratio": 0.9872640760690478,
+      "cluster_bootstrap_95_low": 0.9838825755647594,
+      "cluster_bootstrap_95_high": 0.9885715085903379,
+      "median_region_ratio": 1.0,
+      "region_ge_70pct_cases": 32
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}

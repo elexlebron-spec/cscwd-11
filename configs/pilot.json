@@ -1,0 +1,1 @@
+{"sizes":[80,160],"topologies":["chain","grid","smallworld"],"seeds":[0,1,2],"budgets":[4,8],"shock_count":1,"weighted":true,"seconds_per_solver":3}

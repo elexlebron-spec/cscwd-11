@@ -1,0 +1,53 @@
+{
+  "folder": "results/epsilon_v2",
+  "cases": 32,
+  "solver_runs": 64,
+  "all_solutions_validated": true,
+  "full_statuses": {
+    "OPTIMAL": 32
+  },
+  "barr_statuses": {
+    "EPSILON_CERTIFIED": 32
+  },
+  "greedy_suboptimal_cases": 0,
+  "proven_budget_binding_cases": 32,
+  "finite_lr_gap_cases": 32,
+  "full_branching_cases": 32,
+  "nonzero_epsilon_cases": 32,
+  "actual_loss_positive_cases": 10,
+  "epsilon_range": [
+    24,
+    105
+  ],
+  "max_actual_loss": 67,
+  "median_certificate_gap": 58.0,
+  "groups": [
+    {
+      "topology": "grid",
+      "n": 128,
+      "all_cases": 16,
+      "nontrivial_exact_cases": 0,
+      "median_full_ms": null,
+      "median_barr_ms": null,
+      "median_paired_speed_ratio": null,
+      "cluster_bootstrap_95_low": null,
+      "cluster_bootstrap_95_high": null,
+      "median_region_ratio": null,
+      "region_ge_70pct_cases": 12
+    },
+    {
+      "topology": "modular",
+      "n": 128,
+      "all_cases": 16,
+      "nontrivial_exact_cases": 0,
+      "median_full_ms": null,
+      "median_barr_ms": null,
+      "median_paired_speed_ratio": null,
+      "cluster_bootstrap_95_low": null,
+      "cluster_bootstrap_95_high": null,
+      "median_region_ratio": null,
+      "region_ge_70pct_cases": 8
+    }
+  ],
+  "caveat": "CIs resample (n, topology, seed) clusters, keeping all factor levels, budgets and timing repeats together. Three timing repetitions are not three independent instances. Nontrivial equal-optimum strata are reported separately; all easy/censored/approximate cases retained."
+}

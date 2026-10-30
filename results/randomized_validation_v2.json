@@ -1,0 +1,10 @@
+{
+  "cases": 1200,
+  "epsilon_zero": 650,
+  "epsilon_positive": 550,
+  "strict_region_loss_cases": 227,
+  "violations": 0,
+  "seed": 20261028,
+  "max_observed_loss": 31,
+  "scope": "independent brute-force comparison for full/restricted problems; n=2..8, weighted budgets, bidirectional unary changes, multiple anchors and nonoptimal baselines"
+}

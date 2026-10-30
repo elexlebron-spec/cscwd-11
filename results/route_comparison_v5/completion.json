@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-28T12:31:07.897202+00:00",
+  "source_sha256": {
+    "run_comparison_v5.py": "1966776465a65f3070584488d2d9645e14db2240b55b068f97a60df04e02192e",
+    "barr/__init__.py": "3a4369273f5e248337de56d03f19f9a9f95d45171ac9b3e01377aa2cefbf41c0",
+    "barr/baselines.py": "4a72ea502c0074cf65611e07c4f27194a74c706baeee5f15df5308717dcdd19b",
+    "barr/core.py": "34e18264f15b0c54f2d738a79f6cb2d0b1cc9bbfc9fde0a8fbdc404047dcdb81",
+    "barr/cpsat.py": "d8ea13f37aa138daed45353390253b9e449fcc37e7b0e2746bb20cf661edef5d",
+    "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+    "barr/generate.py": "d36fcbea83d78b5dc4e4a38978d39c02803fa343d33eda13700d7a370d2b9742",
+    "barr/generate_v2.py": "2de008509b0fda1687d47ecb11cad7ea840c44edb74a31834e28a3780572d178",
+    "barr/lagrangian.py": "9fba1357715715f0cbe95302265255481c50dbb4cf41e4ecaed0d2ae79d2a6c3",
+    "barr/stress.py": "2c660ac23ace55c9cfd28dba8cd83de223b301e8e17ce4368faf63dd2ae9d102"
+  },
+  "config_sha256": "d967d491827cff4dc2edd61027e81dedae86e7001ec57dcbde76ac91bb73df72",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-15.3.1-arm64-arm-64bit",
+  "ortools": "9.15.6755",
+  "design": "All saved V4 cases, or every new public Cartesian case; fresh single timings with rotating method order; no outcome-based rejection.",
+  "timing": "Same query cap and new-mincut shortcut; BARR includes cold old certification. LR has rational adaptive cut bounds plus feasible primal repair, no CP calls. All stages/preparation timed; soft limits.",
+  "completed_cases": 140,
+  "completed_utc": "2026-10-28T12:34:32.541908+00:00"
+}

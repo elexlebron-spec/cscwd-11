@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-10-28T05:27:52.277990+00:00",
+  "config": {
+    "purpose": "controlled_hard_search_stress_not_an_industrial_workflow_frozen_before_results",
+    "generator": "core",
+    "grid": {
+      "n": [
+        1024,
+        2048
+      ],
+      "core_size": [
+        64,
+        128
+      ],
+      "seed": [
+        600,
+        601,
+        602,
+        603,
+        604
+      ]
+    },
+    "repeats": 1,
+    "seconds_per_query": 5.0
+  },
+  "config_sha256": "e02af8a4ceeaa9df2940a7a7529668e854b613af680c13d895992ae3ddafe932",
+  "source_sha256": {
+    "run_followup.py": "0738651b61bcdf1c305bcc2d9c51ed686bd22665636d24813ed61ae85195a9f0",
+    "barr/__init__.py": "3a4369273f5e248337de56d03f19f9a9f95d45171ac9b3e01377aa2cefbf41c0",
+    "barr/baselines.py": "4a72ea502c0074cf65611e07c4f27194a74c706baeee5f15df5308717dcdd19b",
+    "barr/core.py": "34e18264f15b0c54f2d738a79f6cb2d0b1cc9bbfc9fde0a8fbdc404047dcdb81",
+    "barr/cpsat.py": "d8ea13f37aa138daed45353390253b9e449fcc37e7b0e2746bb20cf661edef5d",
+    "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+    "barr/generate.py": "d36fcbea83d78b5dc4e4a38978d39c02803fa343d33eda13700d7a370d2b9742",
+    "barr/generate_v2.py": "2de008509b0fda1687d47ecb11cad7ea840c44edb74a31834e28a3780572d178",
+    "barr/stress.py": "2c660ac23ace55c9cfd28dba8cd83de223b301e8e17ce4368faf63dd2ae9d102"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-15.3.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "ortools": "9.15.6755",
+  "timing": "one worker, equal query target, common mincut shortcut, cold old certificate charged only to BARR, all query preparation/modeling included; soft time limits",
+  "selection": "complete Cartesian grid, no outcome rejection; new holdout seeds; censored calls retained",
+  "completed_cases": 20,
+  "completed_utc": "2026-10-28T05:29:46.167755+00:00"
+}

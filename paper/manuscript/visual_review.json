@@ -1,0 +1,21 @@
+{
+  "pdf_sha256": "942c133da20bd1b02218f541d85b50dbd4ac6fc672bff1a80b2be1e5f70b39e7",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "date": "2026-10-30",
+  "checks": "All six authored pages inspected; author/affiliation/email match supplied metadata; theorem block identical to v6 anonymous source; no clipping.",
+  "render_sha256": {
+    "page-1.png": "1f24b5ddca2155f0d57816e3d25f82513504b351d22887268768dcfdf1c9a545",
+    "page-3.png": "8018ef32697ba8b886df28b9cb61f9adc52bf527f43bfdd0f01146d5986e2f0f",
+    "page-2.png": "4fd82866162dfa30aaa5eb501611db1a582c6b39329940aac72cbc9af9e5e8a1",
+    "page-6.png": "78b74008f3b939d63e2e1cb01bee305ce9fb4d159c8f9c35eb1bcbc4c48f4730",
+    "page-5.png": "d24418e86bf1cdcbe402cd4e0d13262dcfe19b9e890a65d6d755fd3b5310b078",
+    "page-4.png": "5b5fccd654f9f98899c5fad62e6790f1a0de46aa0cd2dbd327a62e708be0ce9c"
+  }
+}

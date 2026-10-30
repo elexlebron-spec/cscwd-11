@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-30T07:55:44.662080+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "ortools": "9.15.6755",
+  "platform": "macOS-15.3.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "logical_cpus": 10,
+  "load_average_start": [
+    2.76318359375,
+    2.935546875,
+    2.81591796875
+  ],
+  "source_sha256": {
+    "run_core_repeats_v6.py": "3e5bbe01a63b3f5c3fb2c42fd870b5b5adb91b37f44b3926194a00a6ab9983ee",
+    "configs/core_repeats_v6.json": "71fda3d42d0acc599eb5675124e66ccea1181d034c3038606c7426670746a287",
+    "barr/__init__.py": "3a4369273f5e248337de56d03f19f9a9f95d45171ac9b3e01377aa2cefbf41c0",
+    "barr/baselines.py": "4a72ea502c0074cf65611e07c4f27194a74c706baeee5f15df5308717dcdd19b",
+    "barr/core.py": "34e18264f15b0c54f2d738a79f6cb2d0b1cc9bbfc9fde0a8fbdc404047dcdb81",
+    "barr/cpsat.py": "d8ea13f37aa138daed45353390253b9e449fcc37e7b0e2746bb20cf661edef5d",
+    "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+    "barr/generate.py": "d36fcbea83d78b5dc4e4a38978d39c02803fa343d33eda13700d7a370d2b9742",
+    "barr/generate_v2.py": "2de008509b0fda1687d47ecb11cad7ea840c44edb74a31834e28a3780572d178",
+    "barr/lagrangian.py": "9fba1357715715f0cbe95302265255481c50dbb4cf41e4ecaed0d2ae79d2a6c3",
+    "barr/stress.py": "2c660ac23ace55c9cfd28dba8cd83de223b301e8e17ce4368faf63dd2ae9d102"
+  },
+  "config_sha256": "71fda3d42d0acc599eb5675124e66ccea1181d034c3038606c7426670746a287",
+  "scope": "within-session descriptive repeatability; fixed solver seeds; repeated queries are not new independent instances; no attribution of old session differences",
+  "completed_calls": 400,
+  "completed_utc": "2026-10-30T09:05:24.605581+00:00",
+  "load_average_end": [
+    5.80078125,
+    3.5966796875,
+    3.21630859375
+  ]
+}

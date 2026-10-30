@@ -1,0 +1,11 @@
+{
+  "purpose": "feasibility_only",
+  "solver_runs": 72,
+  "paired_cases": 36,
+  "all_runs_optimal": true,
+  "not_yet_demonstrated": [
+    "novelty",
+    "strong_solver_speedup",
+    "public_workflow_results"
+  ]
+}

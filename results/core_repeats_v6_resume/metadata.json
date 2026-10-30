@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-30T13:06:12.050643+00:00",
+  "completed_prior_calls": 261,
+  "planned_remaining": 139,
+  "source_sha256": {
+    "resume_core_repeats_v6.py": "1bfe65b48b785bc755a345b5c47854af3eb9b61020c2d4654d9c302fac10925f",
+    "barr/__init__.py": "3a4369273f5e248337de56d03f19f9a9f95d45171ac9b3e01377aa2cefbf41c0",
+    "barr/baselines.py": "4a72ea502c0074cf65611e07c4f27194a74c706baeee5f15df5308717dcdd19b",
+    "barr/core.py": "80709885be44d57d046d36eff15e69da74d214a4bffb51cf1e1e118431cf6e04",
+    "barr/cpsat.py": "bcaecd52f93270a0f73eb1a086e09f259649884f9650c620b9d1e07333cfffd9",
+    "barr/flow.py": "c66ff253afa74c18d77ab9af61970b766db48c340444d1f1bc56b59fab7c660a",
+    "barr/generate.py": "d36fcbea83d78b5dc4e4a38978d39c02803fa343d33eda13700d7a370d2b9742",
+    "barr/generate_v2.py": "2de008509b0fda1687d47ecb11cad7ea840c44edb74a31834e28a3780572d178",
+    "barr/lagrangian.py": "ddb2670aa3ec1c7861435eb4344eca381ca138d25df2761b4c35c12aaf8c17cc",
+    "barr/stress.py": "2c660ac23ace55c9cfd28dba8cd83de223b301e8e17ce4368faf63dd2ae9d102",
+    "barr/timing.py": "7804384e67ac4e458621c8e760482ecd83e3a340a294855e05824b11aac8d6f6"
+  },
+  "query_clock": "clock_gettime(CLOCK_MONOTONIC_RAW); includes suspend on macOS",
+  "reason": "tool turn interrupted; prior process no longer active; completed rows retained; any unlogged in-flight call is executed as missing, not selected by outcome"
+}

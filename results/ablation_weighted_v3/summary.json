@@ -1,0 +1,111 @@
+{
+  "cases": 240,
+  "solver_runs": 2160,
+  "all_solutions_validated": true,
+  "all_three_way_exact": true,
+  "statuses": {
+    "OPTIMAL": 2160
+  },
+  "groups": [
+    {
+      "topology": "grid",
+      "cases": 80,
+      "active_exact": 56,
+      "median_weighted_region_ratio": 0.2001953125,
+      "median_hop_region_ratio": 0.5673828125,
+      "estimates": {
+        "hop_over_barr": {
+          "all_median": 2.130446002327649,
+          "active_median": 2.585611996162206,
+          "active_cluster_bootstrap_95": [
+            2.411506087158584,
+            2.7519850065470073
+          ]
+        },
+        "full_over_barr": {
+          "all_median": 2.993171178662086,
+          "active_median": 4.992524047841313,
+          "active_cluster_bootstrap_95": [
+            4.394888183367073,
+            5.1845439373116085
+          ]
+        },
+        "full_over_hop": {
+          "all_median": 1.3513959967028384,
+          "active_median": 1.8412490587178159,
+          "active_cluster_bootstrap_95": [
+            1.7732308229887173,
+            1.8564250155092716
+          ]
+        }
+      }
+    },
+    {
+      "topology": "modular",
+      "cases": 80,
+      "active_exact": 40,
+      "median_weighted_region_ratio": 0.09765625,
+      "median_hop_region_ratio": 0.2197265625,
+      "estimates": {
+        "hop_over_barr": {
+          "all_median": 1.03085622851756,
+          "active_median": 1.5614310906720013,
+          "active_cluster_bootstrap_95": [
+            1.4744756016515126,
+            1.6794362706592298
+          ]
+        },
+        "full_over_barr": {
+          "all_median": 1.6340735663311836,
+          "active_median": 5.781239251840347,
+          "active_cluster_bootstrap_95": [
+            5.391231409799537,
+            6.161794517844528
+          ]
+        },
+        "full_over_hop": {
+          "all_median": 1.3113142418704884,
+          "active_median": 3.4411684385614416,
+          "active_cluster_bootstrap_95": [
+            3.31557670051337,
+            3.7393717933162107
+          ]
+        }
+      }
+    },
+    {
+      "topology": "smallworld",
+      "cases": 80,
+      "active_exact": 66,
+      "median_weighted_region_ratio": 0.9951171875,
+      "median_hop_region_ratio": 1.0,
+      "estimates": {
+        "hop_over_barr": {
+          "all_median": 1.0081743346309986,
+          "active_median": 1.0081743346309986,
+          "active_cluster_bootstrap_95": [
+            1.0068279743228583,
+            1.0674845921556357
+          ]
+        },
+        "full_over_barr": {
+          "all_median": 0.9980568773096987,
+          "active_median": 0.9939005456484933,
+          "active_cluster_bootstrap_95": [
+            0.9858540370382665,
+            1.003581680022928
+          ]
+        },
+        "full_over_hop": {
+          "all_median": 0.9774330294386251,
+          "active_median": 0.9764447780046851,
+          "active_cluster_bootstrap_95": [
+            0.974693805548115,
+            0.9789623491758865
+          ]
+        }
+      }
+    }
+  ],
+  "statistics": "median of per-case paired ratios after three timing repetitions; bootstrap clusters (n,topology,seed), 2000 resamples; all cases and non-fastpath stratum both retained"
+}
