@@ -3,6 +3,11 @@ from math import ceil
 from .timing import query_clock as perf_counter
 
 
+def merge_global_lower_bound(unconstrained_value, restricted_lower, epsilon, full_region):
+    """Combine valid full-objective bounds; restricted_lower includes the offset."""
+    return max(unconstrained_value, restricted_lower - (0 if full_region else epsilon))
+
+
 def solve_cpsat(p, budget, seconds=10, seed=0):
     from ortools.sat.python import cp_model
     start = perf_counter()
@@ -35,7 +40,8 @@ def solve_cpsat(p, budget, seconds=10, seed=0):
     elif status == cp_model.UNKNOWN:
         from .flow import mincut_fast
         lower, _ = mincut_fast(p)
-        result.update(x=p.x0, upper=p.energy(p.x0), recourse_used=0, lower=lower)
+        result.update(x=p.x0, upper=p.energy(p.x0), recourse_used=0, lower=lower,
+                      incumbent_source="old_plan_fallback")
     else:
         raise RuntimeError(f"Unexpected CP-SAT status for a model with feasible x0: {result['status']}")
     result["total_seconds"] = perf_counter() - start
@@ -49,6 +55,7 @@ def solve_repair_cpsat(old, new, budget, seconds=5, regional=False,
 
     old_certificate is an optional cached exact old optimum (generated offline).
     None means recompute and charge it only to the regional method.
+    common_fastpath=False disables early return, not the cut used as a lower bound.
     """
     from .core import anchored_region, hop_region, restrict
     from .flow import mincut_fast
@@ -56,12 +63,11 @@ def solve_repair_cpsat(old, new, budget, seconds=5, regional=False,
     if region_mode not in ("weighted", "hop"):
         raise ValueError("region_mode must be weighted or hop")
     start = perf_counter()
-    common_seconds = 0.0
-    if common_fastpath:
-        value, x = mincut_fast(new)
-        common_seconds = perf_counter() - start
-        if new.resource(x) <= budget:
-            return {"x": x, "upper": value, "lower": value, "lower_reduced": value,
+    value, x = mincut_fast(new)
+    common_seconds = perf_counter() - start
+    if common_fastpath and new.resource(x) <= budget:
+        return {"x": x, "upper": value, "lower": value, "lower_reduced": value,
+                    "unconstrained_value": value, "region_constructed": False,
                     "status": "OPTIMAL", "region_n": new.n, "region_ratio": 1.0,
                     "old_epsilon": None, "recourse_used": new.resource(x),
                     "fastpath": True, "common_seconds": common_seconds,
@@ -89,12 +95,15 @@ def solve_repair_cpsat(old, new, budget, seconds=5, regional=False,
         x[i] = result["x"][k]
     upper = result["upper"] + constant
     lower_reduced = result["lower"] + constant
-    lower = lower_reduced - epsilon
+    full_region = len(ids) == new.n
+    lower = merge_global_lower_bound(value, lower_reduced, epsilon, full_region)
     assert new.energy(x) == upper and new.resource(x) <= budget
+    assert lower <= upper
     status = "OPTIMAL" if lower == upper else (
         "EPSILON_CERTIFIED" if result["status"] == "OPTIMAL" else result["status"])
     return {**result, "x": tuple(x), "upper": upper, "lower": lower,
             "lower_reduced": lower_reduced, "status": status, "old_epsilon": epsilon,
+            "unconstrained_value": value, "region_constructed": regional,
             "region_n": p.n, "region_ratio": p.n / max(1, new.n),
             "recourse_used": new.resource(x), "fastpath": False, "common_seconds": common_seconds,
             "preprocess_seconds": prep_seconds, "total_seconds": perf_counter() - start}

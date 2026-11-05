@@ -1,0 +1,6 @@
+stratum,cases,zero_loss,proper_regions,zero_loss_percent
+All,32,22,26,68.75
+Full region,6,6,0,100.0
+Proper region,26,16,26,61.53846153846154
+B=8,16,6,16,37.5
+B=16,16,16,10,100.0

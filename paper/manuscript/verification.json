@@ -7,7 +7,7 @@
   "original_cad_matrix_bytes_preserved": true,
   "cad_data_pixels_preserved_with_annotations": true,
   "algorithm_pseudocode": true,
-  "analysis_supplement_pages": 3,
+  "analysis_supplement_pages": 4,
   "geometry_cases": 480,
   "epsilon_zero_positive_tight": [
     22,
@@ -26,23 +26,22 @@
     "/DDIEWW+CMMI10",
     "/DZGKAF+NimbusRomNo9L-ReguItal",
     "/FKPJSN+CMR7",
-    "/FZDNHS+MSBM10",
+    "/FZDNHS+CMMI6",
     "/GJMHKB+MSAM10",
-    "/GQYLQL+CMR8",
+    "/GQYLQL+NimbusMonL-Regu",
     "/IHAIZV+NimbusRomNo9L-Regu",
     "/IXFAWU+NimbusRomNo9L-Medi",
     "/JAGKKY+CMSY7",
-    "/KPXLOM+CMMI8",
+    "/KPXLOM+MSBM10",
     "/LPOGEQ+CMSY9",
     "/NITCSQ+MSAM7",
     "/NOMARO+CMBX10",
     "/PVTTLK+CMEX10",
     "/TQTHRL+CMMI9",
     "/UBBQTN+CMR6",
-    "/UTACNV+CMMI6",
+    "/UTACNV+CMMI8",
     "/VDVGTR+CMMI7",
-    "/WXMALW+CMSY8",
-    "/XKCNTN+NimbusMonL-Regu",
+    "/WXMALW+CMR8",
     "/YEUUOC+CMR9"
   ],
   "main_cases": 480,
@@ -64,8 +63,8 @@
   "ownership_case_is_runtime_benchmark": false,
   "capacity_guard_example_verified": true,
   "artifact_sha256": {
-    "main.tex": "210961ea09e1b0c6ca563b95c6fb8aaa4be033b6f077bebb9e1582ab706f8f7a",
-    "BARR_CSCWD2027_draft.pdf": "c6e1b31003a102cb816d467d115ed828b2822a1165b2f4afe853e6c4bc9a9ea1"
+    "main.tex": "15d3286a21f84b270abdfd3217978ce1b6588d0690dd50845e7fd420e4a503f1",
+    "BARR_CSCWD2027_draft.pdf": "7705ed35a6572f8d5c7adfe5489412d354a83eba2d241736bd5588e102f1c468"
   },
   "visual_review_matches_pdf": true,
   "limits": "Does not establish originality, model realism or acceptance."

@@ -1,0 +1,12 @@
+{
+  "core_proofs_verbatim_preserved": true,
+  "old_proof_count": 3,
+  "current_proof_count": 4,
+  "all_generated_table_numeric_rows_unchanged": true,
+  "cost_display_moved_inline_without_changing_formula": true,
+  "new_corollary": "max(new unconstrained minimum, transferred restricted bound), no epsilon deduction if K=V",
+  "two_figures_preserved": true,
+  "fonts_and_margins_unchanged": true,
+  "old_source_sha256": "210961ea09e1b0c6ca563b95c6fb8aaa4be033b6f077bebb9e1582ab706f8f7a",
+  "new_source_sha256": "15d3286a21f84b270abdfd3217978ce1b6588d0690dd50845e7fd420e4a503f1"
+}

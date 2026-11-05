@@ -15,7 +15,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Localized cost changes can require responsibility transfers under a hard handoff budget. We derive Budget Anchored Region Reduction (BARR), a safe exterior-fixing rule from perturbation support, positive handoff costs and a certified old-plan gap $\eps$. Reverting all unanchored modification components together incurs this gap once. The restricted optimum preserves the full budgeted value at $\eps=0$ and loses at most $\eps$ otherwise; at least one suitable solution is retained. Boundary absorption transfers restricted solver bounds to the full problem. Matched CPU experiments show conditional benefits: on 512-vertex modular graphs, median paired speed is 3.17 on queries requiring constrained solving but 1.01 over all queries. Dense graphs can retain the whole model, and hard cores can remain unresolved.
+Localized cost changes can require responsibility transfers under a hard handoff budget. We derive Budget Anchored Region Reduction (BARR), a safe exterior-fixing rule from perturbation support, positive handoff costs and a certified old-plan gap $\eps$. Reverting all unanchored modification components together incurs this gap once. The restricted optimum preserves the full budgeted value at $\eps=0$ and loses at most $\eps$ otherwise; at least one suitable solution is retained. Boundary absorption transfers restricted solver bounds to the full problem. Matched CPU experiments show conditional benefits: on 512-vertex modular graphs, median paired speed is 3.17 on queries not resolved by the shared cut shortcut but 1.01 over all queries. Dense graphs can retain the whole model, and hard cores can remain unresolved.
 \end{abstract}
 \begin{IEEEkeywords}
 collaborative design, responsibility allocation, budgeted repair, region reduction, optimality certificate
@@ -24,7 +24,7 @@ collaborative design, responsibility allocation, budgeted repair, region reducti
 \section{Introduction}
 Local cost changes motivate collaborative responsibility transfers, while documentation, onboarding and interface handoffs impose a hard change budget.
 
-We study a restricted responsibility layer: each work package has two eligible teams; unary costs price stewardship and pairwise costs price interfaces crossing teams. A concrete proposed use is selecting a primary maintenance contact among already listed alternative code owners. GitHub permits alternative team owners and accepts any owner's approval for its code-owner requirement~\cite{githubowners}. Fluent UI publicly lists the same two teams for several packages~\cite{fluentuiowners}. This supports an eligibility setting, not measured skill or spare capacity. We give a check that proves static capacities redundant throughout the handoff budget; otherwise the method cannot certify capacity feasibility. Start times, active load balance and scheduling remain outside the model.
+We study primary maintenance-contact selection between two eligible teams; unary costs price stewardship and pairwise costs price cross-team interfaces. GitHub permits alternative team owners and accepts any owner's approval for its code-owner requirement~\cite{githubowners}. Fluent UI publicly lists the same two teams for several packages~\cite{fluentuiowners}. Eligibility declarations do not measure skill or spare capacity. Our static-slack check certifies capacity redundancy throughout the budget ball; active balance and scheduling remain outside scope.
 
 Graph cuts minimize unconstrained binary attractive energies~\cite{kolmogorov2004graphcuts}, but their returned optimum may exceed the change budget. Distance alone cannot justify fixing distant labels: a suboptimal old plan may have valuable repairs anywhere.
 
@@ -34,9 +34,9 @@ Our structural reduction uses changed unary factors as anchors. The old gap boun
 \end{equation}
 where $\opt_B$ is the full budgeted optimum and $\opt_K$ fixes exterior labels to the old plan. At $\eps=0$, at least one suitable optimum is preserved, not necessarily every tied optimum.
 
-Public ownership records ground the responsibility role; CAD co-edit graphs~\cite{gopsill2019dsm,gopsill2019data} test design structures with synthetic assignments/costs. Neither is an industrial transfer trial.
+Ownership records ground the role; CAD co-edit graphs~\cite{gopsill2019dsm,gopsill2019data} test structures with synthetic costs. Neither is an industrial trial.
 
-The contribution is one theoretical chain: joint exterior fixing and an additive old-gap certificate. Its implementation uses weighted Dijkstra, boundary absorption and an unchanged CP-SAT backend. Matched experiments then test when reduction pays and how tight the certificate is; these implementation tools are not separate innovations. Code, sources, outcomes and supplementary analyses: \url{https://github.com/elexlebron-spec/cscwd-11}.
+The contribution is one theoretical chain: exterior fixing with an additive old-gap certificate. Dijkstra, boundary absorption and CP-SAT implement it; matched experiments test conditional speed and certificate tightness. Code, sources, outcomes and supplementary analyses: \url{https://github.com/elexlebron-spec/cscwd-11}.
 
 \section{Related Work}
 CSCWD allocation topics include personnel sharing~\cite{zhang2025sharing}, cooperation/conflict~\cite{liu2025time}, and qualified, capacity-limited divisible workloads~\cite{hannan2026divisible}. Our model addresses a narrower responsibility layer; it does not enforce or outperform those different resource models.
@@ -44,7 +44,7 @@ CSCWD allocation topics include personnel sharing~\cite{zhang2025sharing}, coope
 Table~\ref{tab:related} identifies the needed information. A budget neighborhood bounds allowed moves but does not identify safely fixed exterior labels. Fixed-objective screening certifies that minimization; here the hard budget, perturbation support and old gap must be used jointly. The cited formulations do not directly state this guarantee. Their extensions may need separate analysis.
 
 \begin{table*}[t]
-\caption{Closest formulations and the additional inference studied here. A missing assumption means it is not required by the cited formulation; it is not a claim of impossibility.}\label{tab:related}
+\caption{Closest formulations. Missing assumptions are not required in the cited formulation, rather than impossible extensions.}\label{tab:related}
 \centering\footnotesize\setlength{\tabcolsep}{2pt}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{.17\textwidth}>{\raggedright\arraybackslash}p{.18\textwidth}>{\raggedright\arraybackslash}p{.16\textwidth}>{\raggedright\arraybackslash}p{.17\textwidth}>{\raggedright\arraybackslash}p{.28\textwidth}@{}}
 \toprule
@@ -100,6 +100,8 @@ Let $z$ equal $x$ on $T$ and $x^0$ elsewhere. No edge joins $T$ to $S\setminus T
 The inequality follows from~\eqref{eq:oldgap}. Restoring vertices removes positive resource terms. Applying the old-gap bound once to the union $T$ incurs one $\eps$, rather than one per component.
 \end{IEEEproof}
 
+Union reversion uses fixed interactions, separation of changed components and a valid old gap. Nonnegative weights enable our exact binary graph-cut implementation.
+
 \subsection{A Budget-Defined Activity Region}
 Charge every vertex on a path $P:a\leadsto v$, including both endpoints. Define
 \begin{equation}
@@ -121,7 +123,7 @@ For unit costs, $K_B$ is the at-most-$(B-1)$-hop neighborhood of $A$ when $B\geq
 \end{equation}
 A path's cost is at least $r_{\min}$ times its number of vertices, implying $K_B\subseteq H_B$. Fixing the exterior of $H_B$ is also safe, but can retain unnecessary vertices under heterogeneous costs. We use it as a mechanism ablation, not a separate contribution.
 
-For a path $a[3]-b[2]-c[1]$ (brackets give node costs), anchor $A=\{a\}$ and $B=5$ give distances $3,5,6$ and $K_B=\{a,b\}$. Both endpoints consume budget, unlike an unweighted hop rule.
+On path $a[3]-b[2]-c[1]$ with node costs in brackets, $A=\{a\}$ and $B=5$ give distances $3,5,6$ and $K_B=\{a,b\}$.
 
 \subsection{Boundary Absorption and Certificates}
 For each crossing edge $ij$, $i\in K=K_B$, $j\notin K$, absorb its interaction into the retained unary:
@@ -144,10 +146,22 @@ If a restricted solver returns $L_K\leq\opt_K\leq U_K$, including $C$, its feasi
 \begin{IEEEproof}
 Reconstruction preserves resource usage and, by~\eqref{eq:boundary}, energy. Feasibility supplies the upper bound, and Theorem~\ref{thm:region} gives $\opt_B\geq\opt_K-\eps\geq L_K-\eps$.
 \end{IEEEproof}
-A restricted exact solve is globally exact when its transferred bounds close. With $\eps>0$, restricted optimality alone gives an additive certificate.
+\begin{corollary}[Merged lower bound]\label{cor:merged}
+Let $v=\min_x E_1(x)$. With $L_K,U_K$ including $C$, return $[L_{\rm final},U_K]$, where
+\begin{equation}
+ L_{\rm final}=\begin{cases}
+ \max\{v,L_K\},&K_B=V,\\
+ \max\{v,L_K-\eps\},&K_B\subsetneq V.
+ \end{cases}\label{eq:merged}
+\end{equation}
+\end{corollary}
+\begin{IEEEproof}
+$v\le\opt_B$; if $K_B=V$, $\opt_K=\opt_B$. Otherwise apply Corollary~\ref{cor:interval}.
+\end{IEEEproof}
+Closed returned bounds certify global optimality; restricted optimality alone need not.
 
 \subsection{Algorithm and Cost}
-Algorithm~\ref{alg:barr} connects the proof to the query pipeline. A budget-feasible new cut proves optimality and ends both matched pipelines. Otherwise BARR pays for the old certificate, region and boundary construction. Optional capacity checking precedes the cut; failure requires a full capacity model. It is disabled in base benchmarks and charged when enabled.
+Algorithm~\ref{alg:barr} connects the proof to the query pipeline. A budget-feasible new cut proves optimality and ends both matched pipelines. Otherwise BARR pays for the old certificate, region and boundary construction. Optional capacity checking precedes the cut and terminates on failure. It is disabled in base benchmarks and charged when enabled.
 
 \smallskip\noindent\begin{minipage}{\columnwidth}
 \small\hrule\medskip
@@ -155,23 +169,19 @@ Algorithm~\ref{alg:barr} connects the proof to the query pipeline. A budget-feas
 \textbf{Algorithm 1: Certified BARR query}\par
 \textit{Input:} $E_0,E_1,x^0,r,B$; fixed attractive graph, local unary changes, $r_i>0$; optional loads/capacities.\par
 \begin{tabular}{@{}r p{.91\columnwidth}@{}}
-1 & If capacities supplied, compute $W_t(B)$; reject regional capacity guarantee if $C_t-L_t^0<W_t(B)$ for either team.\\
-2 & $(v,\bar x)\gets\mathrm{Cut}(E_1)$; if $R(\bar x,x^0)\le B$, return $\bar x,[v,v]$.\\
+1 & If capacities supplied, compute $W_t(B)$; if any $C_t-L_t^0<W_t(B)$, return \texttt{CAPACITY\_NOT\_CERTIFIED}.\\
+2 & $(v,\bar x)\gets\mathrm{Cut}(E_1)$; if $R(\bar x,x^0)\le B$, return $\bar x,v,[v,v]$.\\
 3 & $m_0\gets\min_x E_0(x)$ by cut; $\eps\gets E_0(x^0)-m_0$.\\
-4 & $A\gets\{i:c_i^0\ne c_i^1\}$; run node-weighted Dijkstra with $d(a)=r_a$, relax $d(j)\gets\min\{d(j),d(i)+r_j\}$.\\
+4 & $A\gets\{i:c_i^0\ne c_i^1\}$; node-weighted Dijkstra: $d(a)=r_a$, relax $d(j)\gets\min\{d(j),d(i)+r_j\}$.\\
 5 & $K\gets\{i:d(i)\le B\}$; fix exterior to $x^0$ and absorb crossing factors to obtain $(E_K,C)$.\\
-6 & $(x_K,[\ell,u])\gets\mathrm{BudgetSolve}(E_K,r_K,x_K^0,B)$, with feasible $x_K$ and valid bounds.\\
-7 & Reconstruct $x$ with exterior $x^0$; set $L_K=\ell+C$, $U_K=u+C$ and return $x,[L_K-\eps,U_K]$.\\
+6 & $(x_K,[\ell,u])\gets\mathrm{BudgetSolve}(E_K,r_K,x_K^0,B)$, with valid lower bound $\ell$.\\
+7 & If no feasible incumbent at timeout, set $x_K\gets x_K^0$, $u\gets E_K(x_K^0)$; otherwise $u=E_K(x_K)$.\\
+8 & Reconstruct $x$; set $L_K=\ell+C$, $U_K=u+C$, $L_{\rm final}$ by~\eqref{eq:merged}. Return $x,U_K,[L_{\rm final},U_K]$.\\
 \end{tabular}
 \medskip\hrule
 \end{minipage}\smallskip
 
-With an old certificate, support/region/boundary construction costs $O((n+m)\log n)$ time and $O(n+m)$ memory. Cold non-shortcut queries also pay for both cuts. With cut/retained-solve costs $T_{\rm cut}$ and $T_{\rm solve}$, total time is
-\begin{align}
-&T_{\rm cut}(E_1)+T_{\rm cut}(E_0)\nonumber\\
-&\qquad+O((n+m)\log n)+T_{\rm solve}(K,B).
-\end{align}
-The backend can remain exponential; no polynomial-time budget algorithm or polynomial kernel follows. Low graph diameter can make $K_B=V$, leaving overhead without reducing the model.
+With an old certificate, support/region/boundary construction costs $O((n+m)\log n)$ time and $O(n+m)$ memory. Cold non-shortcut queries also pay for both cuts. With cut/solve costs $T_{\rm cut},T_{\rm solve}$, total time is $T_{\rm cut}(E_1)+T_{\rm cut}(E_0)+O((n+m)\log n)+T_{\rm solve}(K,B)$. The backend can remain exponential; no polynomial-time budget algorithm or polynomial kernel follows. Low graph diameter can make $K_B=V$, leaving overhead without reducing the model.
 
 Our CP-SAT formulation uses binary $x_i$ and edge variables $y_{ij}=|x_i-x_j|$, objective~\eqref{eq:energy}, and one linear budget constraint. Full and reduced graphs use the same formulation, settings, and old-plan hints. 
 
@@ -192,17 +202,17 @@ If $C_t-L_t^0\ge W_t(B)$ for both teams, every budget-feasible repair respects c
 \subsection{Protocol and Earlier Mechanism Tests}
 Experiments use one arm64 MacBook Pro, Python 3.12.14, OR-Tools 9.15.6755 and one CP-SAT worker. FullCP/BARRCP share formulation, old-plan hint and new-cut shortcut. Timing includes cuts, preprocessing, model/solver construction, solving and reconstruction; BARR recomputes its old certificate. Common imports/warm-up and old-plan generation are excluded. Targets are soft. Inputs, configuration/source hashes, labels, bounds and all failures/incomplete solves are retained.
 
-The main study crosses $n=128,512$, modular/grid/small-world graphs, coupling 2/12, one/four anchors, budgets 8/16 and ten seeds: 480 combinations. Old plans are exact cuts and handoff costs are one. All generated cases remain; full generators and freeze history are in Supplement S3.
+The main study has 480 combinations: $n=128,512$, three graph families, coupling 2/12, one/four anchors, $B=8,16$ and ten seeds. Old plans are exact cuts; handoffs cost one. All cases remain (generators/freeze history: Supplement S4).
 
-Each method/case has three alternating-order timings; their median precedes paired ratios. Intervals resample $(n,\mathrm{family},\mathrm{seed})$ clusters 2,000 times, retaining factor levels/repeats together. The whole grid was not prospectively registered. The shared shortcut determines CP-required status independently of timing.
+Per-case medians of three alternating timings precede paired ratios. Intervals resample $(n,\mathrm{family},\mathrm{seed})$ clusters 2,000 times with factors/repeats together; the whole grid was not prospectively registered. N denotes queries not resolved by the shared cut shortcut.
 
-All 2,880 calls prove equal optima: 318/480 queries require CP, while 314 budgets strictly increase the optimum (a rejected cut can have a feasible tie). Greedy is suboptimal on 55/480. Table~\ref{tab:main} asks: how often is CP needed, how much model remains, and does search saved exceed preprocessing? At 512 modular vertices, only 30/80 need CP; median retained labels/constructed Booleans are 25.9/24.8\%. Full/BARR medians are 74.9/23.3 ms, with 1.72 ms BARR preprocessing. Paired speed is 3.17, interval $[2.86,3.86]$, but 1.01 overall. Grid speeds are 1.88, $[1.54,2.15]$, and 1.37. \href{https://github.com/elexlebron-spec/cscwd-11/blob/main/paper/supplementary/BARR_Analysis_Supplement.pdf}{Supplementary Fig.~S1} shows geometry--speed associations, not a single-factor causal effect.
+All 2,880 calls prove equal optima: 318/480 queries are not shortcut-resolved, while 314 budgets strictly increase the optimum (a rejected cut can have a feasible tie). Greedy is suboptimal on 55/480. Table~\ref{tab:main} asks: how often does the shortcut fail, how much model remains, and does search saved exceed preprocessing? At 512 modular vertices, only 30/80 are non-shortcut; median retained labels/constructed Booleans are 25.9/24.8\%. Full/BARR medians are 74.9/23.3 ms, with 1.72 ms BARR preprocessing. Paired speed is 3.17, interval $[2.86,3.86]$, but 1.01 overall. Grid speeds are 1.88, $[1.54,2.15]$, and 1.37. \href{https://github.com/elexlebron-spec/cscwd-11/blob/main/paper/supplementary/BARR_Analysis_Supplement.pdf}{Supplementary Fig.~S1} shows geometry--speed associations, not a single-factor causal effect.
 
 \begin{table}[t]
-\caption{Main study. $K/M$: CP-required median retained labels/constructed Booleans (\%, before presolve); $M=(|K|+|E[K]|)/(n+m)$. Time: CP-required Full/BARR marginal medians (ms). Speed: median paired ratios, CP-required/all, not the ratio of the time medians.}\label{tab:main}
+\caption{Main study: model size, absolute time and paired speed.}\label{tab:main}
 \centering\footnotesize\setlength{\tabcolsep}{2pt}
 \begin{tabular}{@{}lrrrr@{}}
-\toprule Family, $n$ & CP/all & $K/M$\% & F/R ms & Speed CP/all\\\midrule
+\toprule Family, $n$ & N/all & $K/M$\% & F/R ms & Speed N/all\\\midrule
 % BEGIN GENERATED MAIN ROWS
 Grid, 128 & 69/80 & 98.4/98.3 & 34.5/30.4 & 1.00/1.00 \\
 Grid, 512 & 54/80 & 53.7/52.4 & 131.0/64.6 & 1.88/1.37 \\
@@ -214,13 +224,15 @@ Small-world, 512 & 64/80 & 100.0/100.0 & 354.7/355.6 & 0.99/0.99 \\
 \bottomrule\end{tabular}
 \end{table}
 
+Table~\ref{tab:main} gives N-query median retained labels/Booleans ($K/M$, \%), $M=(|K|+|E[K]|)/(n+m)$ before presolve, and marginal Full/BARR time medians. Speed uses paired ratios, N/all. Over all 80 modular-512 cases, sums of per-case median times are 3.634/1.540 s (ratio 2.36); all strata/components appear in Supplement S1--S2.
+
 A separate 240-combination, 512-vertex ablation uses $r_i$ uniform in $\{1,2,3\}$ and seeds 200--209. FullCP, safe-hop HopCP, and BARRCP rotate through three timing positions; both regional methods pay for certification. All 2,160 calls prove the same global optima. Table~\ref{tab:ablation} shows that weighted geometry helps grids and modules but scarcely reduces small-world graphs. Grid HopCP/BARRCP speed has interval $[2.41,2.75]$, modular $[1.47,1.68]$; repetitions are not independent cases.
 
 \begin{table}[t]
-\caption{Weighted ablation. Region columns: CP-required median percentages. Speed: HopCP/BARRCP.}\label{tab:ablation}
+\caption{Weighted ablation. Region columns: non-shortcut median percentages. Speed: HopCP/BARRCP.}\label{tab:ablation}
 \centering\footnotesize
 \begin{tabular}{@{}lrrrrr@{}}
-\toprule Family & CP/all & $H_B$\% & $K_B$\% & Speed CP & Speed all\\\midrule
+\toprule Family & N/all & $H_B$\% & $K_B$\% & Speed N & Speed all\\\midrule
 % BEGIN GENERATED ABLATION ROWS
 Grid & 56/80 & 56.7 & 20.0 & 2.59 & 2.13 \\
 Modular & 40/80 & 22.0 & 9.8 & 1.56 & 1.03 \\
@@ -229,7 +241,7 @@ Small-world & 66/80 & 100.0 & 99.5 & 1.01 & 1.01 \\
 \bottomrule\end{tabular}
 \end{table}
 
-For 32 inexact old plans on 128-vertex grids/modules, one/three low-cost non-anchor flips give old gaps 24--105 (median 58), including interactions. Both full and restricted optima are proved. For $\Delta=\opt_K-\opt_B$, 22 cases (68.75\%) have zero loss, ten have positive loss (maximum 67), and three attain $\Delta=\eps$. The ratio $\Delta/\eps$ has median 0, IQR $[0,0.334]$ and range $[0,1]$ (\href{https://github.com/elexlebron-spec/cscwd-11/blob/main/paper/supplementary/BARR_Analysis_Supplement.pdf}{Supplementary Fig.~S2}). It measures tightness; acceptability also needs absolute $\Delta$. Unequal-quality outputs are excluded from speed comparisons. Finite checks cover 20 tests and 1,200 enumerated combinations (650 zero-gap, 550 positive-gap).
+For 32 inexact old plans on 128-vertex grids/modules, one/three low-cost non-anchor flips give old gaps 24--105 (median 58), including interactions. Both full and restricted optima are proved. For $\Delta=\opt_K-\opt_B$, 16/26 genuinely reduced cases have zero loss; six retain the full graph and necessarily lose nothing (22/32 zero overall). Ten have positive loss (maximum 67); three attain $\Delta=\eps$. The ratio $\Delta/\eps$ has median 0, IQR $[0,0.334]$ and range $[0,1]$ (\href{https://github.com/elexlebron-spec/cscwd-11/blob/main/paper/supplementary/BARR_Analysis_Supplement.pdf}{Supplementary Fig.~S2}). This is descriptive tightness, not acceptability or self-certification: zero loss uses the proved full reference. Unequal-quality outputs are excluded from speed comparisons. Checks include 24 tests and 1,200 earlier enumerations.
 
 \subsection{Source-Grounded Responsibility Case}
 Fluent UI commit \texttt{941ed35}~\cite{fluentuiowners} lists exactly teams \texttt{cxe-prg} and \texttt{teams-prg} for eight package scopes; we map 0/1 to these teams globally. Their manifests induce 12 runtime-dependency edges, retaining isolates (Fig.~\ref{fig:ownership}). Build/configuration exceptions and outside packages are excluded. We propose primary-contact routing over these alternatives, without changing permissions or modeling review queues. Declarations are observed; live access, expertise, primary routing, costs and reserved effort are unverified.
@@ -245,25 +257,25 @@ All eight anchors, increases 4/12 and budgets 1--4 yield 64 repairs. Both guarde
 
 \subsection{Public CAD Structure Audit}
 \begin{figure*}[t]
-\centering\includegraphics[width=\textwidth]{images/public_graphs_v10.png}
-\caption{Twelve-hour CAD co-edit matrices from public logs~\cite{gopsill2019data}, ordered by subsystem/file ID. Top labels show CP-required counts and their median retained vertex fraction, matching Table~\ref{tab:routes}. Color is an association proxy, not measured handoff effort or physical interfaces. Isolates remain; ownership/costs are synthetic.}\label{fig:public}
+\centering\includegraphics[width=\textwidth]{images/public_graphs_v11.png}
+\caption{Twelve-hour CAD co-edit matrices from public logs~\cite{gopsill2019data}, ordered by subsystem/file ID. Top labels show N-query counts and their median retained vertex fraction, matching Table~\ref{tab:routes}. Color is an association proxy, not measured handoff effort or physical interfaces. Isolates remain; ownership/costs are synthetic.}\label{fig:public}
 \end{figure*}
 The Bath logs~\cite{gopsill2019data,gopsill2019dsm} record three vehicle-design projects, not interchangeable teams. Retaining files with at least five distinct edit times yields 226/231/168 nodes. Each edit counts other files once until the next same-file edit or $h=1,12$ hours; averaged directional frequencies are thresholded at $1/4$ and rounded after scaling by eight. Isolates remain. Edge counts are 2726/8152, 535/693 and 199/481: co-edit proxies, not physical interfaces (Fig.~\ref{fig:public}). Synthetic preferences/costs, one/four anchors, $B=8,16$ and three seeds define 72 cases frozen before outcomes (full generator supplied). All CP pairs prove equal values, but 66 use the shared shortcut (14 without changes). Qualification and slack are unobserved. This shows structure compatibility, not operational acceleration or how frequently reduction helps.
 
 
 
 \subsection{Lagrangian Route and Larger/Harder Inputs}
-LRRepair is a classical comparator, not a named optimizer reproduction. Rational cuts of $E_1+\lambda R$ give bounds $q(\lambda)-\lambda B$, rounded upward for integer objectives. Budget restoration and feasible single-flip descent supply incumbents, with the old plan as fallback. Dual search gets at most 65\% of the target, recovery the rest (details in Supplement S3). Finite search need not optimize the dual; recovery has no approximation guarantee.
+LRRepair is a classical comparator, not a named optimizer reproduction. Rational cuts of $E_1+\lambda R$ give bounds $q(\lambda)-\lambda B$, rounded upward for integer objectives. Budget restoration and feasible single-flip descent supply incumbents, with the old plan as fallback. Dual search gets at most 65\% of the target, recovery the rest (details in Supplement S4). Finite search need not optimize the dual; recovery has no approximation guarantee.
 
-The three-route stage reuses all 120 large and 20 core inputs plus 72 public cases (636 calls). Scale factors are $n=1024,2048$, three families, one/four anchors, $B=16,64$, coupling 12, perturbation scale 64, heterogeneous costs and five seeds, frozen after 32 exploratory cases. Cores have $q=64,128$ vertices plus a dominated tail to reach $n$: $q$ controls search difficulty, tail growth tests preprocessing. Full recipes and exact old-plan construction are in Supplement S3.
+The three-route stage reuses all 120 large and 20 core inputs plus 72 public cases (636 calls). Scale inputs cross $n=1024,2048$, three families, heterogeneous costs and five seeds, frozen after 32 exploratory cases (full factors: Supplement S4). Cores of $q=64,128$ plus dominated tails separate search difficulty from preprocessing size; old plans are provably optimal.
 
 Targets are three seconds for scale/public and five for cores, with rotating method order and one timing each. These descriptive comparisons reuse earlier inputs; they are not additional independent instances or pooled with triple-timing intervals. Table~\ref{tab:routes} retains every censored call and reports quality alongside time.
 
 \begin{table*}[t]
-\caption{Three-route comparison: F/R/L = FullCP/BARRCP/LRRepair. Time: all-case median seconds; Cert: closed bounds; gap: maximum returned absolute bound gap, including incomplete calls. $K$: CP-required median region percentage (--: all shortcut). Faster incumbents need not have equal quality.}\label{tab:routes}
+\caption{Three-route comparison: F/R/L = FullCP/BARRCP/LRRepair. Time: all-case median seconds; Cert: closed bounds; gap: maximum returned absolute bound gap, including incomplete calls. $K$: non-shortcut median region percentage (--: all shortcut). Faster incumbents need not have equal quality.}\label{tab:routes}
 \centering\footnotesize
 \begin{tabular}{@{}lrrrrrr@{}}
-\toprule Input & $n$ & CP/all & $K$\% & Cert F/R/L & Time F/R/L (s) & Max gap F/R/L\\\midrule
+\toprule Input & $n$ & N/all & $K$\% & Cert F/R/L & Time F/R/L (s) & Max gap F/R/L\\\midrule
 % BEGIN GENERATED ROUTE ROWS
 Grid & 1024 & 20/20 & 70.5 & 20/20/11 & 0.189/0.115/0.081 & 0/0/7 \\
 Grid & 2048 & 16/20 & 50.4 & 20/20/15 & 0.289/0.067/0.187 & 0/0/3 \\
@@ -285,13 +297,13 @@ CAD C, 12 h & 168 & 1/12 & 43.5 & 12/12/12 & 0.0003/0.0003/0.0005 & 0/0/0 \\
 \bottomrule\end{tabular}
 \end{table*}
 
-At 2,048 vertices, 14/20 modular cases require CP; their median paired speed is 7.30, with all-case medians 0.148/0.016 s. On 64-cores at that size both CP routes certify 5/5, with paired speed 3.24. LRRepair's median is 0.173 s but maximum actual loss is 12 against proved optima, with no certificates. Its maximum loss is 26 on eight proved 128-core references. BARRCP certifies 4/5 per size in this single stage; Table~\ref{tab:repeat} checks repeated queries, not a stable success probability. Earlier stages remain in Supplement S3.
+At 2,048 vertices, 14/20 modular cases are non-shortcut; their median paired speed is 7.30, with all-case medians 0.148/0.016 s. On 64-cores at that size both CP routes certify 5/5, with paired speed 3.24. LRRepair's median is 0.173 s but maximum actual loss is 12 against proved optima, with no certificates. Its maximum loss is 26 on eight proved 128-core references. BARRCP certifies 4/5 per size in this single stage; Table~\ref{tab:repeat} checks repeated queries, not a stable success probability. Earlier stages remain in Supplement S4.
 
 LRRepair matches 71/72 public optima, certifies 69/72 and loses at most one. It matches every proved grid optimum, with some dual bounds open. On four censored 2,048-vertex small-world cases it improves both CP incumbents by up to 417; its maximum gap is 8 versus 418 for CP, and reduction remains ineffective. Cut recovery can favor fast feasible repair, BARR exact certification on suitable structures; neither dominates time, quality and bound closure.
 
 
 \subsection{Repeatability of Difficult Core Queries}
-All 20 saved cores have ten repeats per CP route (400 calls): five-second soft target, one worker, fixed solver seeds, shuffled cases and alternating methods. Continuous monotonic time and clock/pause checks (0.1 s threshold) pass for all calls in two execution segments; saved calls are not rerun. No concurrent benchmark/build was launched. Separate suspend diagnostics and interruption history are in Supplement S3.
+All 20 saved cores have ten repeats per CP route (400 calls): five-second soft target, one worker, fixed solver seeds, shuffled cases and alternating methods. Continuous monotonic time and clock/pause checks (0.1 s threshold) pass for all calls in two execution segments; saved calls are not rerun. No concurrent benchmark/build was launched. Separate suspend diagnostics and interruption history are in Supplement S4.
 
 \begin{table*}[t]
 \caption{Five fixed inputs/row, ten repeats/method (F/R = FullCP/BARRCP). Closed counts: /50; ranges: per-input /10. Times: all-query median [Q1,Q3], including incomplete calls, not uncensored time-to-optimum. Rel.~IQR: median across inputs of (Q3--Q1)/median time (\%). Repeats are not 50 independent inputs.}\label{tab:repeat}
@@ -310,10 +322,10 @@ All 20 saved cores have ten repeats per CP route (400 calls): five-second soft t
 Table~\ref{tab:repeat} retains all incomplete queries. Small dispersion at the cap reflects censoring, not reliable time-to-optimum. Uncontrolled background load/power and fixed-seed single-laptop repeats preclude cross-session reliability claims. Closure uses each call's own interval. We give no unresolved-core speed ratio or independent-trial interval; all per-case outcomes and timing components are supplied.
 
 \section{Discussion and Limitations}
-Useful speed needs a rejected cut, a smaller retained model and search savings beyond preprocessing. Dense graphs can retain everything; the backend may remain exponential. Each new event needs recertification: a previous budgeted optimum need not be old-unconstrained optimal. Ownership roles are sourced, but costs/capacities are hypothetical; the guard needs real loads/reservations. CAD co-edits establish neither eligibility nor human efficiency. Active capacities, scheduling and multiple teams need new feasibility arguments. No industrial trial or peak-memory study is provided; single-laptop timings/repeats do not establish cross-machine stability. Tighter certificates and reversion-closed feasible sets remain open.
+Useful speed needs a rejected cut, a smaller retained model and search savings beyond preprocessing. Dense graphs can retain everything; the backend may remain exponential. Each new event needs recertification: a previous budgeted optimum need not be old-unconstrained optimal. Ownership roles are sourced, but costs/capacities are hypothetical; the guard needs real loads/reservations. CAD co-edits establish neither eligibility nor human efficiency. Active capacities, scheduling and multiple teams need new feasibility arguments. No industrial trial or peak-memory study is provided; single-laptop timings/repeats do not establish cross-machine stability. Sequential repair and reversion-closed feasible sets remain open.
 
 \section{Conclusion}
-Union reversion, weighted paths and boundary absorption yield a certified region reduction for localized binary responsibility repair. Matched experiments support conditional benefits on modular/grid structures. Public ownership records ground a proposed use, while a capacity check makes its static-slack requirement testable. Operational gains and active-capacity extensions remain unestablished.
+Union reversion yields certified region reduction for localized binary responsibility repair, with conditional modular/grid benefits. Public ownership records ground a proposed use, and a capacity check tests static slack. Operational gains and active-capacity extensions remain unestablished.
 
 \begin{thebibliography}{15}
 \bibitem{githubowners} GitHub, ``About code owners,'' GitHub Docs. [Online]. Available: \url{https://docs.github.com/articles/about-code-owners}. Accessed: Oct. 30, 2026.

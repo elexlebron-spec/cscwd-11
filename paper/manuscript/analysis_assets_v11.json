@@ -1,0 +1,20 @@
+{
+  "original_image_sha256": "afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5",
+  "annotated_image_sha256": "decb1586f5f878d00c4b3f52e1c5dd7b2dfbe09034524a12a51ea7b27e61765c",
+  "original_pixels_preserved_below_56px_annotation": true,
+  "window_hours": 12,
+  "annotations": {
+    "A": "N 0/12  |  median K --",
+    "B": "N 3/12  |  median K 66.2%",
+    "C": "N 1/12  |  median K 43.5%"
+  },
+  "region_statistic": "N denotes queries not resolved by the shared cut shortcut; median retained vertex percentage undefined if N=0",
+  "analysis_summary_sha256": "9a2d330c7b834207982b31f0251ec54139a8bf324482095885e1ee8b27f121f6",
+  "plots": {
+    "region_speed_v11.pdf": "0e3adc61b34261b70c4cc8ee87e85c8580265b77425b290e4af5ec334ba3e56f",
+    "region_speed_v11.png": "3ba33e668615c7ee05d64647056be3ab988b6f0ae7a994fca708968290f867c5",
+    "epsilon_tightness_v11.pdf": "70508f25d94c7b6d0b52c782bcdb382be2447c4fb3f6d8011396d705f7ccc583",
+    "epsilon_tightness_v11.png": "5488433b43eeaf122d1330fc85debe4fa573a82d4651409421ab5628652fef24"
+  },
+  "builder_sha256": "beb14a801ed9f0396c0e4c77ff0441004c38eb98b18a59b720fd534237603982"
+}

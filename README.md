@@ -11,6 +11,23 @@ Research code, manuscript and saved experiments for **Budget Anchored Region Red
 
 The author information above was supplied by the author. No department, academic title, ORCID, coauthor or publication DOI has been added.
 
+## Current revision: v11 (5 November 2026)
+
+The six-page body retains both figures, five tables and 15 references. Algorithm 1 explicitly terminates on failed capacity certification and supplies the old restricted plan when no solver incumbent exists. A new corollary merges the new unconstrained lower bound with the regional one; retaining the full graph incurs no epsilon deduction. Both current CP and reference wrappers implement this rule. [Change log and reproduction](REVISION_V11.md).
+
+The [four-page supplement](paper/supplementary/BARR_Analysis_Supplement.pdf) covers geometry, cumulative fixed-cohort times, paired FullCP/BARRCP components and epsilon stratification. All six family/size cohorts are included: modular-512 sums of per-case median times are 3.634/1.540 seconds (ratio 2.360), while its median paired ratio remains 1.009. These are different saved-timing summaries.
+
+Of 26 proper epsilon regions, 16 have zero actual loss; six further cases retain the full graph. Actual zero loss uses proved full references. Offline re-certification of 6,208 saved CP calls strengthens 18 bounds and newly closes six full-region epsilon cases, leaving all 26 proper-region intervals open. Original records and timings are untouched; [derived analyses](results/certificate_analysis_v11) retain old and new intervals separately. Twenty-four tests pass, with 120 added enumerated case/budget combinations against both backends. No difficult timing rerun was performed.
+
+```sh
+.venv/bin/python scripts/analyze_certificates_v11.py --out results/certificate_analysis_recheck_new
+.venv/bin/python scripts/build_analysis_assets_v11.py
+python scripts/build_analysis_supplement_v11.py
+.venv/bin/python scripts/check_paper.py
+```
+
+Use a nonexistent analysis output directory; matplotlib uses the project runtime and reportlab is in the supplement build requirements. Figure S1 now places shortcuts in a separate band, distinct from retained full graphs. N means queries not resolved by the shared cut shortcut. Historical revision notes below describe the corresponding earlier release.
+
 ## Paper and method
 
 - [Authored paper PDF](paper/BARR_CSCWD2027_ZhiranWang.pdf)
@@ -77,11 +94,11 @@ The [current six-page paper](paper/BARR_CSCWD2027_ZhiranWang.pdf) contains both 
 
 An optional [one-page CAD structure companion](paper/supplementary/BARR_CAD_Supplement.pdf) includes the original matrix and six graph rows. It complements the body figure. To rebuild it, install the optional `paper/supplementary/requirements-build.txt` and run `python scripts/build_cad_supplement_v9.py`. The builder checks frozen graph hashes/counts and never runs a solver.
 
-## v10: organize around the certified reduction
+## Historical v10: organize around the certified reduction
 
 The current six-page paper keeps five tables, two body figures and 15 references, with a complete Algorithm 1 and globally consistent team labels. The original proof/display equations are preserved. Table II adds pre-presolve Boolean-model fractions and absolute query times; the CAD matrix keeps its original pixels plus twelve-hour CP/region annotations.
 
-The [three-page analysis supplement](paper/supplementary/BARR_Analysis_Supplement.pdf) supplies geometry-speed plots, epsilon-loss plots/distributions, internal-edge/model fractions, timing components and detailed protocol/stage history. It is the current S1--S3 companion; the one-page v9 CAD companion is historical. [Revision priorities and reproduction](REVISION_V10.md) explain what stays in the body and what moves to the supplement.
+The v10 three-page analysis supplement (see repository history) supplies geometry-speed plots, epsilon-loss plots/distributions, internal-edge/model fractions, timing components and detailed protocol/stage history. It was the v10 S1--S3 companion; the one-page v9 CAD companion is historical. [Revision priorities and reproduction](REVISION_V10.md) explain what stays in the body and what moves to the supplement.
 
 The main cohort has 318/480 CP-required queries and 162 shortcuts, all at matched certified optima. Among the 32 inexact-old-plan cases, 22 have zero loss, 10 positive loss and three attain the epsilon bound. New derived tables/CSVs and source hashes are in `results/certificate_analysis_v10`; they are not new independent experiments. Repair solvers and previous frozen result files are unchanged. Effective-anchor refinement and sequential-update experiments remain deferred.
 

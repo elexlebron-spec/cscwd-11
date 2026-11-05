@@ -16,8 +16,15 @@ The original v5 three-panel CAD matrix is restored at full text width as Figure 
 
 An optional one-page companion is at `../supplementary/BARR_CAD_Supplement.pdf`; it includes the same figure plus structure counts for all six public graphs. It does not replace the body figure. Build it with `python -m pip install -r paper/supplementary/requirements-build.txt` and `python scripts/build_cad_supplement_v9.py` from the repository root. The builder reads frozen inputs and never runs solvers.
 
-## Current v10: a single certified-reduction chain
+## Historical v10: a single certified-reduction chain
 
 The six-page body keeps five tables, two figures and 15 references, with Algorithm 1, explicit global team labels and a weighted-path example. Table II adds constructed model fractions and absolute times; the CAD matrix retains all original pixels below a new result annotation strip. The original proof/display equations and all ablation/route/repeat numeric rows are preserved. Process history and detailed generators move to Supplement S3.
 
 The current analysis companion is `../supplementary/BARR_Analysis_Supplement.pdf`: S1 geometry versus paired query time, S2 epsilon tightness, S3 protocols/history. These sections refer to this companion, not the older one-page CAD document. The new CSVs and source hashes are in results/certificate_analysis_v10. No timed CP query or repair solver changed. See REVISION_V10.md for prioritization and reproducibility commands.
+
+
+## Current v11: termination and merged certificates
+
+Algorithm 1 returns CAPACITY_NOT_CERTIFIED on a failed capacity guard (CapacityNotCertified exception in Python), or the reconstructed old plan if the retained solver has no incumbent. The returned objective equals the plan energy. Corollary 2 combines the new cut lower bound with the transferred restricted bound; a full retained region pays no epsilon. The original three proofs and all generated numeric table rows are preserved, with one merged-bound corollary added. The complexity sum is written inline. Fonts, margins, both figures and the six-page limit are unchanged.
+
+The current four-page analysis companion contains S1 geometry and cumulative timing, S2 paired stage accounting, S3 epsilon strata/derived certificates and S4 protocol history. New CSVs are in results/certificate_analysis_v11. Frozen records/source snapshots remain unchanged; new certificates are derived separately. The earlier S1--S3 description above applies only to v10. See REVISION_V11.md.

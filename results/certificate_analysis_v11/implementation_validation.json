@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "tests_passed": 24,
+  "new_enumerated_instance_budget_combinations": 120,
+  "backends_compared": [
+    "matched CP-SAT",
+    "standard-library reference BnB"
+  ],
+  "unknown_no_incumbent_test": "mocked CP-SAT UNKNOWN, old-plan energy and exterior constant verified",
+  "frozen_source_hashes_match": true,
+  "frozen_files_hashed": 1135,
+  "no_timed_CP_rerun": true,
+  "code_sha256": {
+    "barr/cpsat.py": "99bfbb0c617e64b365838a6f0e7c56eea022dafd9454d984cd2a400bbd4175a2",
+    "barr/core.py": "3ec3e3927aad931222f2be681d002e2ff0f5a172b92a1fe84c35422ab8ecfd54",
+    "tests/test_final_certificate.py": "445b3a198a9c7cf850280e909c1fd321a5558d376532c195ab9368c01cbd90b0"
+  }
+}

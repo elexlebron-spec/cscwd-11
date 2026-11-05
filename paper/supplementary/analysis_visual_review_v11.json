@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "pdf_sha256": "2baa8af829b123cea41aad49c7b5711e02a1cd6eed14c9196b32982db1670a84",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "method": "All pages rendered at 1800px and visually inspected; identical page PNG hashes carried forward after final short edits.",
+  "findings": "No overlap, clipping, missing glyphs or orphan paragraph fragments. Labels, tables and references legible.",
+  "page_png_sha256": {
+    "1": "413d69352c0a3bedd7eb194db743318641cf0f13d890d0d5821ae2ae617769bb",
+    "2": "aef34a4cf6d80921749c1fd097e486b0a64df95151fa723277be32374b973505",
+    "3": "102e7c8181530a8aa8d90cfe0d951e8764aa9e8787c3f29510558dadf81c3b66",
+    "4": "9b0fb1198bd97de1e39ba6e9b3e8d3f49ee8fc8c1d39eb52965aa00c2e92e674"
+  }
+}

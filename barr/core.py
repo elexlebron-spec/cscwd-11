@@ -295,6 +295,7 @@ def solve_repair(old: Problem, new: Problem, budget: int, seconds=10.0, regional
     start = perf_counter()
     anchors = tuple(i for i in range(old.n) if old.unary[i] != new.unary[i])
     old_opt, _ = mincut(old)
+    new_opt, _ = mincut(new)
     epsilon = old.energy(old.x0) - old_opt
     region = anchored_region(new, anchors, budget) if regional else tuple(range(new.n))
     reduced, constant, ids = restrict(new, region)
@@ -305,13 +306,14 @@ def solve_repair(old: Problem, new: Problem, budget: int, seconds=10.0, regional
         x[i] = result["x"][k]
     upper = result["upper"] + constant
     lower_reduced = result["lower"] + constant
-    lower_global = lower_reduced - (epsilon if regional else 0)
+    lower_global = max(new_opt, lower_reduced - (epsilon if regional and len(ids) < new.n else 0))
     assert new.energy(x) == upper and new.resource(x) <= budget
     return {**result, "x": tuple(x), "upper": upper, "lower": lower_global,
             "lower_reduced": lower_reduced, "gap_abs": upper - lower_global,
             "status": ("optimal" if upper == lower_global else
                        "epsilon_certified" if result["status"] == "optimal" and regional else "timeout"),
             "old_epsilon": epsilon, "region_n": len(ids), "original_n": new.n,
+            "unconstrained_value": new_opt,
             "anchors": anchors, "recourse_used": new.resource(x),
             "preprocess_seconds": prep, "optimization_seconds": result["seconds"],
             "total_seconds": perf_counter() - start}
