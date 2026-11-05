@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "inputs": {
+    "paper/manuscript/images/public_graphs_v5.png": "afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5",
+    "data/bath_00621/provenance_v5.json": "513e83c1ab76f74b901933caeaaa18726577cd6ed56541179554c6840104fa9c",
+    "results/public_comparison_v5/summary.json": "35466fa94a3e2bf3a1532e14cfef07177814abd309014a849ecd971e0e01eacf",
+    "data/bath_00621/graphs/A_1h.json": "448e6afd44d84ed3e22fb81aaa34aeef69b4bcbe798e976afb400514f87babbf",
+    "data/bath_00621/graphs/A_12h.json": "26caf1c28c7ebb6b5d58cfff0c0526a2d1e2051b8e5c4ab0a44c56a53a564cc6",
+    "data/bath_00621/graphs/B_1h.json": "0717a6267c8a98ff491c38eabefeeb96876d890608842406f4d20e197f07a066",
+    "data/bath_00621/graphs/B_12h.json": "e94e89a642bc50445473c7fbd5bfe374f16b74d51b53c152ce7fc42204d6576a",
+    "data/bath_00621/graphs/C_1h.json": "aad620a24755cefe8ad0d37c6ead3414a6c22793c5e39e12659a244e46e4ebf5",
+    "data/bath_00621/graphs/C_12h.json": "8492ad64916e1cb312c0652b0a009f4cd20a09f91819f25a2f1ed6ea7b3b971e"
+  },
+  "builder_sha256": "aafd7b0f4bd4ac9bfc5848cf682a05a4347cb072e82260bd50b3a04f82b6b1d4",
+  "figure_is_unchanged_original": true,
+  "original_figure_sha256": "afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5",
+  "graph_rows_verified": 6,
+  "public_cases": 72,
+  "shared_shortcuts": 66,
+  "output_sha256": "9677086c7cd041ac636ee519b04023f8d7d1ca8c3711525ba026213074599298",
+  "reportlab_version": "4.4.9"
+}

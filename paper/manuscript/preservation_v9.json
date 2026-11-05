@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "main_pages": 6,
+  "figures": 2,
+  "cad_figure_page": 5,
+  "cad_figure_number": 2,
+  "baseline_source_sha256": "4ced63038410540c7289e8ba7c012de30edce84e7c5b94ed4084941a0af4c01f",
+  "source_sha256": "571df09adc1a22f4e42d975a939140c56db3fb8416b153a4daa2a71b5a7518b1",
+  "all_display_math_unchanged": true,
+  "all_five_tables_and_captions_unchanged": true,
+  "central_proof_unchanged": true,
+  "capacity_subsection_unchanged": true,
+  "repeat_section_unchanged": true,
+  "references_unchanged": true,
+  "numeric_token_multiset_unchanged": true,
+  "preamble_author_fonts_margins_unchanged": true,
+  "original_matrix_sha256": "afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5",
+  "scope": "Restore original matrix at full text width; shorten introductory/positioning prose, protocol wording, ownership-scope paragraph and route-result interpretation. No solver or raw-result changes."
+}

@@ -15,6 +15,10 @@ assert all(float(p.mediabox.width)==612 and float(p.mediabox.height)==792 for p 
 keys=set(re.findall(r'\\bibitem\{([^}]+)\}',source))
 cited={k for group in re.findall(r'\\cite\{([^}]+)\}',source) for k in group.split(',')}
 assert cited==keys and len(keys)==15
+assert len(re.findall(r'\\begin\{figure\*?\}',source))==2
+assert r'\label{fig:ownership}' in source and r'\label{fig:public}' in source
+assert r'\includegraphics[width=\textwidth]{images/public_graphs_v5.png}' in source
+assert hashlib.sha256((paper/'images/public_graphs_v5.png').read_bytes()).hexdigest()=='afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5'
 labels=re.findall(r'\\label\{([^}]+)\}',source)
 assert len(labels)==len(set(labels))
 assert set(re.findall(r'\\ref\{([^}]+)\}',source))<=set(labels)
@@ -58,6 +62,7 @@ pdf_hash=hashlib.sha256(pdf.read_bytes()).hexdigest()
 assert review['pdf_sha256']==pdf_hash
 assert review['reviewed_pages']==list(range(1,len(reader.pages)+1))
 report={'pages':len(reader.pages),'page_size':'US Letter','bibliography_items':len(keys),
+        'body_figures':2,'original_cad_matrix_in_body':True,'original_cad_matrix_bytes_preserved':True,
         'citations_and_references_resolve':True,'generated_table_rows_match':True,
         'no_overfull_or_undefined_reference_warnings':True if logpath.exists() else None,
         'compile_log_available':logpath.exists(),'all_pdf_fonts_embedded':True,

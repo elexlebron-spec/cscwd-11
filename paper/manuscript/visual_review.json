@@ -1,5 +1,6 @@
 {
-  "pdf_sha256": "d23e242f05afd3c0f44c9ae5a1c828ec7fe385b72b1c854ebd1331f7a95eec63",
+  "date": "2026-11-05",
+  "pdf_sha256": "3cc4c21cdb45e88cfa7d3ab5187ca8b1bf89e829a21988bd8caff9ccbc2a6219",
   "reviewed_pages": [
     1,
     2,
@@ -8,15 +9,14 @@
     5,
     6
   ],
-  "method": "Rendered at 1600 px. Pages 1 and 6 re-inspected after final revision; pages 2-5 byte-identical PNGs to inspected render.",
-  "date": "2026-10-30",
-  "findings": "No clipping, overlap, missing glyphs or unreadable labels. Six pages, five tables, one vector figure.",
+  "method": "Rendered every page at 1600 px and inspected all six pages.",
+  "findings": "No clipping, overlapping tables or missing glyphs. Original matrix at full text width on page 5, ownership figure on page 4; five tables and 15 references.",
   "page_png_sha256": {
-    "1": "d2bc7a462313fc80196b4c3a6e69dd77a7979869f73bcafea60b0ed08d282892",
-    "2": "37eb9cd9d3e53a23ba298be8a36137a57f98ac9078b14b535cb9c6f031517550",
-    "3": "70334381baa618da00fdfc7f6ee8847849e0cc5ecdc8645e95b342ee2529c13a",
-    "4": "37c0459ec9470dcbe045e90bbfe01ea551a8e77d89f5710484b0ba842837762c",
-    "5": "ee4d446fc7058ae682b6da193ad3ed4cabfb40ee88c850e591ea486e6b2380ff",
-    "6": "0936a4ff7cd5cd366831649484a5aabddfbe67f37b7540844f804ddbba426b69"
+    "1": "94e440db8cc74c23799666d63db8cddd1a7f6139294af7ebbd7ff1171070cbc4",
+    "2": "4aa3352bb43f22fe759d80bb74d95e22907357e26d7530633aa773cbd886419d",
+    "3": "f5c229e2bbddcc629d9720b2e0d2ae157055441db0dd2343fb386b2b47750b6a",
+    "4": "ed77afe7cd9422ce4fda8d8da01bb64627233da194d455c843099c6de63144c0",
+    "5": "44c26c240de799175b8f94a5bd60bc43e026f2d7bfccba8dd5aaecbeec0fbe8c",
+    "6": "9a5d4278c98417d035e244c0457143b31fdc0e60956367a3e8d663a994e4d6e4"
   }
 }

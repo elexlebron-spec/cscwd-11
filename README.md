@@ -68,3 +68,11 @@ The cost-4 diagnostic has 64/64 shared shortcuts. The later exploratory cost-1 i
 ```
 
 Use new output directories. The paper remains six pages, now with 15 references and a sourced portfolio figure. Its original union-reversion, region and boundary/interval proof is unchanged. Twenty tests pass, including exhaustive capacity-load checks on 100 seven-node inputs. This improves the applicability explanation; it does not establish universal gains, full literature originality or acceptance.
+
+## v9: the original CAD matrix is back in the body
+
+The [current six-page paper](paper/BARR_CSCWD2027_ZhiranWang.pdf) contains both figures: the ownership case on page 4 and the original three-panel CAD matrix at full text width on page 5 (Figure 2). The original PNG bytes are preserved. Shorter introductory and explanatory wording makes room for the matrix; no font-size, margin or template adjustment is used.
+
+[Preservation checks](paper/manuscript/preservation_v9.json) confirm identical displayed equations, core proof, capacity subsection, all five tables including captions, all references, the repeatability section and the original numeric tokens. The 20 fixed hard inputs, ten repeats per CP method and 400 completed calls remain. No algorithm or saved raw experiment changed.
+
+An optional [one-page CAD structure companion](paper/supplementary/BARR_CAD_Supplement.pdf) includes the original matrix and six graph rows. It complements the body figure. To rebuild it, install the optional `paper/supplementary/requirements-build.txt` and run `python scripts/build_cad_supplement_v9.py`. The builder checks frozen graph hashes/counts and never runs a solver.
