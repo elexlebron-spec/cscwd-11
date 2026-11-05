@@ -10,8 +10,14 @@ From the repository root, `python scripts/check_paper.py` validates page count, 
 
 The paper is an unsubmitted research draft. Successful compilation and finite tests do not establish originality or venue acceptance. Model limits and reproduction details appear in the paper, THEORY.md and EXPERIMENT_PROTOCOL.md. This publicly identified repository is not an anonymous review link.
 
-## v9: both figures in the six-page body
+## Historical v9: both figures in the six-page body
 
 The original v5 three-panel CAD matrix is restored at full text width as Figure 2 (page 5), alongside the ownership case as Figure 1. The PNG bytes are unchanged. Introductory and explanatory prose is shorter; all displayed equations, the central proof, capacity subsection, tables IV/V including captions and values, all references and the numeric tokens of the original source are preserved. Fonts, margins and the IEEEtran layout settings are unchanged.
 
 An optional one-page companion is at `../supplementary/BARR_CAD_Supplement.pdf`; it includes the same figure plus structure counts for all six public graphs. It does not replace the body figure. Build it with `python -m pip install -r paper/supplementary/requirements-build.txt` and `python scripts/build_cad_supplement_v9.py` from the repository root. The builder reads frozen inputs and never runs solvers.
+
+## Current v10: a single certified-reduction chain
+
+The six-page body keeps five tables, two figures and 15 references, with Algorithm 1, explicit global team labels and a weighted-path example. Table II adds constructed model fractions and absolute times; the CAD matrix retains all original pixels below a new result annotation strip. The original proof/display equations and all ablation/route/repeat numeric rows are preserved. Process history and detailed generators move to Supplement S3.
+
+The current analysis companion is `../supplementary/BARR_Analysis_Supplement.pdf`: S1 geometry versus paired query time, S2 epsilon tightness, S3 protocols/history. These sections refer to this companion, not the older one-page CAD document. The new CSVs and source hashes are in results/certificate_analysis_v10. No timed CP query or repair solver changed. See REVISION_V10.md for prioritization and reproducibility commands.

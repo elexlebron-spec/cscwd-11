@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "core_proof_environments_unchanged": {
+    "lemma": true,
+    "theorem": true,
+    "corollary": true,
+    "IEEEproof": true
+  },
+  "capacity_subsection_unchanged": true,
+  "display_math_unchanged": true,
+  "references_unchanged": true,
+  "raw_ablated_route_repeat_rows_unchanged": true,
+  "new_content": "Algorithm, global-team labels, model-size/time table, epsilon tightness summary, CAD result annotations; geometry/tightness figures and full protocol/history in 3-page supplement.",
+  "solver_changes": false,
+  "deferred": "effective anchors and sequential experiments",
+  "body_pdf_sha256": "c6e1b31003a102cb816d467d115ed828b2822a1165b2f4afe853e6c4bc9a9ea1",
+  "supplement_pdf_sha256": "17d0f31e0d98e0c43a50350421280f50cb425d63559fc9da2f1771ca67a1bbeb"
+}

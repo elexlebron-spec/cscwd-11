@@ -76,3 +76,20 @@ The [current six-page paper](paper/BARR_CSCWD2027_ZhiranWang.pdf) contains both 
 [Preservation checks](paper/manuscript/preservation_v9.json) confirm identical displayed equations, core proof, capacity subsection, all five tables including captions, all references, the repeatability section and the original numeric tokens. The 20 fixed hard inputs, ten repeats per CP method and 400 completed calls remain. No algorithm or saved raw experiment changed.
 
 An optional [one-page CAD structure companion](paper/supplementary/BARR_CAD_Supplement.pdf) includes the original matrix and six graph rows. It complements the body figure. To rebuild it, install the optional `paper/supplementary/requirements-build.txt` and run `python scripts/build_cad_supplement_v9.py`. The builder checks frozen graph hashes/counts and never runs a solver.
+
+## v10: organize around the certified reduction
+
+The current six-page paper keeps five tables, two body figures and 15 references, with a complete Algorithm 1 and globally consistent team labels. The original proof/display equations are preserved. Table II adds pre-presolve Boolean-model fractions and absolute query times; the CAD matrix keeps its original pixels plus twelve-hour CP/region annotations.
+
+The [three-page analysis supplement](paper/supplementary/BARR_Analysis_Supplement.pdf) supplies geometry-speed plots, epsilon-loss plots/distributions, internal-edge/model fractions, timing components and detailed protocol/stage history. It is the current S1--S3 companion; the one-page v9 CAD companion is historical. [Revision priorities and reproduction](REVISION_V10.md) explain what stays in the body and what moves to the supplement.
+
+The main cohort has 318/480 CP-required queries and 162 shortcuts, all at matched certified optima. Among the 32 inexact-old-plan cases, 22 have zero loss, 10 positive loss and three attain the epsilon bound. New derived tables/CSVs and source hashes are in `results/certificate_analysis_v10`; they are not new independent experiments. Repair solvers and previous frozen result files are unchanged. Effective-anchor refinement and sequential-update experiments remain deferred.
+
+```sh
+.venv/bin/python scripts/analyze_certificates_v10.py --out results/certificate_analysis_recheck
+.venv/bin/python scripts/build_analysis_assets_v10.py
+python scripts/build_analysis_supplement_v10.py
+.venv/bin/python scripts/check_paper.py
+```
+
+The fresh audit uses a new output folder; plot/document builders use the checked-in frozen v10 analysis. Plotting needs the project matplotlib runtime, and the document builder uses `paper/supplementary/requirements-build.txt`. All incomplete scale/core calls remain in Tables IV/V. Neither causal node-count effects nor time-to-equal-target-quality is inferred from endpoint objectives and total times.

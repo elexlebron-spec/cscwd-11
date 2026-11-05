@@ -17,8 +17,20 @@ cited={k for group in re.findall(r'\\cite\{([^}]+)\}',source) for k in group.spl
 assert cited==keys and len(keys)==15
 assert len(re.findall(r'\\begin\{figure\*?\}',source))==2
 assert r'\label{fig:ownership}' in source and r'\label{fig:public}' in source
-assert r'\includegraphics[width=\textwidth]{images/public_graphs_v5.png}' in source
+assert r'\includegraphics[width=\textwidth]{images/public_graphs_v10.png}' in source
 assert hashlib.sha256((paper/'images/public_graphs_v5.png').read_bytes()).hexdigest()=='afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5'
+from PIL import Image
+original=Image.open(paper/'images/public_graphs_v5.png').convert('RGB')
+annotated=Image.open(paper/'images/public_graphs_v10.png').convert('RGB')
+assert annotated.crop((0,56,original.width,original.height+56)).tobytes()==original.tobytes()
+assert r'\label{alg:barr}' in source and r'[L_K-\eps,U_K]' in source
+analysis=json.loads((root/'results/certificate_analysis_v10/summary.json').read_text())
+assert (analysis['main_cases'],analysis['main_cp_required'],analysis['main_shortcuts'])==(480,318,162)
+assert (analysis['epsilon']['zero_loss'],analysis['epsilon']['positive_loss'],analysis['epsilon']['tight'])==(22,10,3)
+assert analysis['epsilon']['zero_loss_percent']==68.75
+assert (paper/'main_rows.tex').read_bytes()==(root/'results/certificate_analysis_v10/main_rows_v10.tex').read_bytes()
+supp_pdf=root/'paper/supplementary/BARR_Analysis_Supplement.pdf'
+assert len(PdfReader(supp_pdf).pages)==3
 labels=re.findall(r'\\label\{([^}]+)\}',source)
 assert len(labels)==len(set(labels))
 assert set(re.findall(r'\\ref\{([^}]+)\}',source))<=set(labels)
@@ -63,6 +75,8 @@ assert review['pdf_sha256']==pdf_hash
 assert review['reviewed_pages']==list(range(1,len(reader.pages)+1))
 report={'pages':len(reader.pages),'page_size':'US Letter','bibliography_items':len(keys),
         'body_figures':2,'original_cad_matrix_in_body':True,'original_cad_matrix_bytes_preserved':True,
+        'cad_data_pixels_preserved_with_annotations':True,'algorithm_pseudocode':True,
+        'analysis_supplement_pages':3,'geometry_cases':480,'epsilon_zero_positive_tight':[22,10,3],
         'citations_and_references_resolve':True,'generated_table_rows_match':True,
         'no_overfull_or_undefined_reference_warnings':True if logpath.exists() else None,
         'compile_log_available':logpath.exists(),'all_pdf_fonts_embedded':True,

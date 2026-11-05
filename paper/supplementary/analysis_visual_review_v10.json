@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "pdf_sha256": "17d0f31e0d98e0c43a50350421280f50cb425d63559fc9da2f1771ca67a1bbeb",
+  "reviewed_pages": [
+    1,
+    2,
+    3
+  ],
+  "method": "Rendered at 1800 px. All pages inspected; final plot title and y label corrected, final S1 re-inspected; S2/S3 PNGs identical to inspected renders.",
+  "findings": "Readable labels, no clipping, complete tables and source/protocol detail.",
+  "page_png_sha256": {
+    "1": "cae0eb0d770fa969ec6240e8501de9dd700a9527414cd09a19e2d55271c80405",
+    "2": "98a1287b8e0046500af7227bac913e735df284aec6f7d98290faad33f4bf2e0f",
+    "3": "89bd44e3ecaf21a19c4946c496c20c55153692e4e74742c9e1fd2e37065bdeca"
+  }
+}

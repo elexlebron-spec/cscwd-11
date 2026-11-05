@@ -1,0 +1,20 @@
+{
+  "original_image_sha256": "afbf685f66ee8e98b3df738c2b3bfed5830b61dd3a9dfadbbfc637e9198e7cd5",
+  "annotated_image_sha256": "e76d0cd0ba06463e123c70a1324408b76f5db3d386ae363a6222fc1d2fad1656",
+  "original_pixels_preserved_below_56px_annotation": true,
+  "window_hours": 12,
+  "annotations": {
+    "A": "CP 0/12  |  median K --",
+    "B": "CP 3/12  |  median K 66.2%",
+    "C": "CP 1/12  |  median K 43.5%"
+  },
+  "region_statistic": "CP-required median retained vertex percentage; undefined if no CP case",
+  "analysis_summary_sha256": "3aae5b4fb684ca1e6b6ee2a2a702fc220f67aae6dfc3c2668f6854e627b1edfe",
+  "plots": {
+    "region_speed_v10.pdf": "1478e17db3efcd6e99de1eb975d70a5ad779fe4a7187fdb33074a6c8d36b4d5b",
+    "region_speed_v10.png": "c7351e900afebd8953f2e03f985ee6faf4f6f55774fc362a127f835e16e05ff0",
+    "epsilon_tightness_v10.pdf": "70508f25d94c7b6d0b52c782bcdb382be2447c4fb3f6d8011396d705f7ccc583",
+    "epsilon_tightness_v10.png": "5488433b43eeaf122d1330fc85debe4fa573a82d4651409421ab5628652fef24"
+  },
+  "builder_sha256": "a37082dba9d5baf6c2f6cf7aa8fed2893a965e1fd31246941a1c5879ea092fb2"
+}
