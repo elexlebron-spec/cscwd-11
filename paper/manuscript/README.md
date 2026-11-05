@@ -23,8 +23,13 @@ The six-page body keeps five tables, two figures and 15 references, with Algorit
 The current analysis companion is `../supplementary/BARR_Analysis_Supplement.pdf`: S1 geometry versus paired query time, S2 epsilon tightness, S3 protocols/history. These sections refer to this companion, not the older one-page CAD document. The new CSVs and source hashes are in results/certificate_analysis_v10. No timed CP query or repair solver changed. See REVISION_V10.md for prioritization and reproducibility commands.
 
 
-## Current v11: termination and merged certificates
+## Historical v11: termination and merged certificates
 
 Algorithm 1 returns CAPACITY_NOT_CERTIFIED on a failed capacity guard (CapacityNotCertified exception in Python), or the reconstructed old plan if the retained solver has no incumbent. The returned objective equals the plan energy. Corollary 2 combines the new cut lower bound with the transferred restricted bound; a full retained region pays no epsilon. The original three proofs and all generated numeric table rows are preserved, with one merged-bound corollary added. The complexity sum is written inline. Fonts, margins, both figures and the six-page limit are unchanged.
 
 The current four-page analysis companion contains S1 geometry and cumulative timing, S2 paired stage accounting, S3 epsilon strata/derived certificates and S4 protocol history. New CSVs are in results/certificate_analysis_v11. Frozen records/source snapshots remain unchanged; new certificates are derived separately. The earlier S1--S3 description above applies only to v10. See REVISION_V11.md.
+
+
+## Current v12: final reporting polish
+
+The current main is six pages; the analysis supplement is four pages and is rebuilt by scripts/build_analysis_supplement_v12.py. Reporting now states 95% percentile bootstrap intervals, soft main/ablation/old-gap targets 1/1/2 s, zero-edge deletion before graph/regions, r=(1,1) in the capacity example, article e28, and speedup terminology. Equation (7) is aligned over two lines. Proofs, algorithm, table values, code and frozen outcomes are unchanged. The CAD matrix remains Figure 2 on page 5. See REVISION_V12.md.

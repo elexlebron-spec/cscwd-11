@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "pdf_sha256": "9584d8a97a74e92cc306410ab36f83ece6080d6d1b2abf9224890768ad3407e3",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "method": "All pages rendered at 1800px and visually inspected.",
+  "findings": "Six-page main / four-page supplement; no overlap, clipping or missing glyphs. Both body figures and all tables retained.",
+  "page_png_sha256": {
+    "1": "5d456fea6649e976af3f3fd61e78887aa6284412bf77899622ae6ffdd5d82164",
+    "2": "341c0b6c60637284d19c05d5b8965d6d3b8b24dee5cfbb50b9eb37998f7b15c0",
+    "3": "102e7c8181530a8aa8d90cfe0d951e8764aa9e8787c3f29510558dadf81c3b66",
+    "4": "be10a907e218c5da0e70f8b5180325964dba3c55abd0e540b2f37a05c71b42df"
+  }
+}

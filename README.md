@@ -11,7 +11,15 @@ Research code, manuscript and saved experiments for **Budget Anchored Region Red
 
 The author information above was supplied by the author. No department, academic title, ORCID, coauthor or publication DOI has been added.
 
-## Current revision: v11 (5 November 2026)
+## Current revision: v12, final reporting polish (5 November 2026)
+
+The six-page paper and four-page supplement now specify 95% percentile cluster bootstrap intervals and soft per-query targets of 1/1/2 seconds for the main/weighted/old-gap studies. Zero-weight edges are deleted before defining the graph, components and path regions, matching the implementation; the capacity counterexample states r=(1,1). Reference [4] adds article e28. Current prose uses speedup, with 3.17× and 1.01× at first use, and equation (7) is split across two lines.
+
+All four proof blocks, Algorithm 1, both figure assets, numerical table rows, production code and frozen experiments are unchanged. No timing rerun was performed. Both body figures remain, including the CAD matrix on page 5; font sizes and margins are unchanged. The manuscript has entered final submission preparation. Further work should address a substantive error or a new author-requested research scope. [Closeout record](REVISION_V12.md).
+
+Rebuild the current companion with `python scripts/build_analysis_supplement_v12.py`; it reads the frozen v11 analysis. Run `.venv/bin/python scripts/check_paper.py` for artifact consistency. The author has not submitted the paper; no PDF eXpress certification was performed in this task.
+
+## Historical revision: v11 (5 November 2026)
 
 The six-page body retains both figures, five tables and 15 references. Algorithm 1 explicitly terminates on failed capacity certification and supplies the old restricted plan when no solver incumbent exists. A new corollary merges the new unconstrained lower bound with the regional one; retaining the full graph incurs no epsilon deduction. Both current CP and reference wrappers implement this rule. [Change log and reproduction](REVISION_V11.md).
 

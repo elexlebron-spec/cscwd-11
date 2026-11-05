@@ -1,0 +1,23 @@
+{
+  "old_source_sha256": "15d3286a21f84b270abdfd3217978ce1b6588d0690dd50845e7fd420e4a503f1",
+  "new_source_sha256": "261354789ebc88ee904b82f9510d317da2d232931529fcf1955abc8395eceab0",
+  "all_four_proof_blocks_verbatim_preserved": true,
+  "algorithm_block_verbatim_preserved": true,
+  "all_generated_table_numeric_rows_unchanged": true,
+  "original_figures_unchanged": true,
+  "equation_7_reformatted_only": true,
+  "font_sizes_and_margins_unchanged": true,
+  "no_solver_code_change_or_timing_rerun": true,
+  "new_reporting_checks": [
+    "95% percentile cluster bootstrap",
+    "1/1/2-second query targets",
+    "delete zero edges before graph/regions",
+    "capacity example r=(1,1)",
+    "e28 article number",
+    "speedup terminology and first-use times symbol"
+  ],
+  "sources": [
+    "https://researchportal.bath.ac.uk/en/publications/the-emergent-structures-in-digital-engineering-work-what-can-we-l/",
+    "https://cscwd2027.dailyeliteevents.com.au/submission.html"
+  ]
+}
